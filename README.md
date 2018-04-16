@@ -1,6 +1,5 @@
-mytpin电商项目源码 V2.1 
+GeekLimits CMS Beta
 
-智能分销系统后台搭建
 
 
 Software Open Source License By 
@@ -8,5 +7,5 @@ Software Open Source License By
 JSON、EChart、JQuery、Mybatis、Java
 
 
-GeekLimites@John Zhang
+GeekLimits@John Zhang
 
