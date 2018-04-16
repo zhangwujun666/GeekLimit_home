@@ -120,5 +120,11 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	@RequestMapping(value="/page/laptop.html")
+	public ModelAndView laptop(){
+	    String temp = null;
+		return new ModelAndView("page/laptop");
+    }
+
 	
 }

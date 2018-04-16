@@ -30,7 +30,7 @@ hr {
 .logo_img{
   width: 250px;
 }
-.sticky-navigation { opacity: 0; }
+.sticky-navigation { opacity: 1; }
 .navbar-default {
   background: #fff;
   border: none;
