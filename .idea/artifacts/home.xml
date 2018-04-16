@@ -4,13 +4,13 @@
     <root id="archive" name="home.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="GeekLimite_home" />
+          <element id="module-output" name="GeekLimit_home" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="GeekLimite_home/web/Web" />
+      <element id="javaee-facet-resources" facet="GeekLimit_home/web/Web" />
     </root>
   </artifact>
 </component>
