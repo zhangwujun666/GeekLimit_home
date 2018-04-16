@@ -2,238 +2,348 @@
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>茗优特品</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/shoujisc.css">
-    <link rel="stylesheet" href="css/search.css">
-    <%--<script type="text/javascript" src="js/jquery.js"></script>--%>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
-    <script type="text/javascript" src="js/woxiangyao.js"></script>
-    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
-    <script type="text/javascript" src="js/foot.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/showTip.css">
-    <script type="text/javascript" src="js/showTip.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!-- SITE TITLE -->
+    <title>GeekLimits</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/google_font.css">
+    <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/custom.js"></script>
 </head>
-
-<body id="wrap">
-
+<body data-spy="scroll" data-target="#rock-navigation">
 
 
+<!-- START NAVIGATION -->
+<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
+    <div class="container">
 
-<div class="sy-info1" style="border-bottom:4px solid #E6E6E6; background-image: url(images/head.jpg); background-size: 100%; background-repeat: no-repeat; height: 230px;">
-    <div style="width: 100%; text-align: center;">
-        <img src="images/head_logo.png" style="width: 160px; margin: 0 auto; ">
-    </div>
-
-    <div class="quanbu-top">
-        <input id="goods_name" name="keyword" class="hd_keyword"
-               placeholder="       请输入商品名称" style="width: 95%;font-size: 14px" onclick="window.location.href='secList.html'">
-        <a href="areaList.html" class="qb-tleft f-l">
-            <!-- <img src="images/sjsc-14.png" style="width: 19px;height: 25px;"> --></a>
-        <%-- <c:forEach items="${userList}" var="userList"><a href="areaList.html"><font color="#ABD13E" size="3px">&nbsp;&nbsp;${userList.area_name}</font></a></c:forEach> --%>
-
-        <div class="qb-tright f-r">
-            <a href="secList.html"> <img src="images/sjsc-13_button.png"> </a>
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+                <img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">
+            </a>
         </div>
-        <div style="clear:both;"></div>
+        <nav class="collapse navbar-collapse" id="rock-navigation">
+            <ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
+                <li><a href="#home" class="smoothScroll">首页</a></li>
+                <li><a href="#resume" class="smoothScroll">崭新套路</a></li>
+                <li><a href="#portfolio" class="smoothScroll">最近测评</a></li>
+                <li><a href="#work" class="smoothScroll">主要版块</a></li>
+                <li><a href="#about" class="smoothScroll">一日一技</a></li>
+                <li><a href="#contact" class="smoothScroll">来找咱们</a></li>
+            </ul>
+        </nav>
+
     </div>
-
-    <ul class="info-img">
-        <li>
-            <a href="secGoodsList.html?is_recommend=1" class="img-1" ><img  src="images/b1.png" style="width:42px;height: 42px"> </a>
-            <a href="secGoodsList.html?is_recommend=1" class="img-txt">每周精选</a>
-        </li>
-
-        <c:forEach items="${maneMap}" var="maneMap" varStatus="map">
-            <li>
-                <a href="category.html?ctg_id=${maneMap.ctg_id}" class="img-1" > <img  src="images/b${map.index+2}.png" style="width:42px;height: 42px"></a>
-                <a href="category.html?ctg_id=23" class="img-txt">${maneMap.ctg_name}</a>
-            </li>
-        </c:forEach>
-        <%--<li>--%>
-            <%--<a href="menuList.html" class="img-1" ><img  src="images/b5.png" style="width:42px;height: 42px"></a>--%>
-            <%--<a href="menuList.html" class="img-txt">蔬菜会员</a>--%>
-        <%--</li>--%>
-    </ul>
-
 </div>
-
-<div class="banner1" id="ban1">
-    <ul class="sy-ul">
-        <c:forEach items="${banList}" var="list">
-            <li><a href="${list.url}"><img src="${list.ban_img }"></a></li>
-        </c:forEach>
-    </ul>
-    <ol class="sy-ol">
-    </ol>
-</div>
-
-<div class="ssjg" >
-    <ul class="ssjg-ul2" style="padding-top:0;">
-        <c:forEach items="${advList}" var="advList">
-            <li class="li" style="border-bottom:4px solid #E6E6E6;">
-                <div class="ssjg-tu">
-                    <a href="${advList.url}"><img src="${advList.ban_img}" class="img2"></a>
-                </div>
-                <dl class="ssjg-dl1">
-
-                    <div style="clear:both;"></div>
-                </dl>
-            </li>
-        </c:forEach>
-        <div style="clear:both;"></div>
-    </ul>
-</div>
-
-
-<ul>
-    <c:forEach items="${ctgList}" var="ctgList" varStatus="s" begin="0" end="0">
-        <c:set value="goodsList${s.index}" var="gl"></c:set>
-        <li style="width: 50%; float: left; border-right: #9f9f9f;">
-            <ul style="margin-left: 10px; ">
-                <img src="images/headText1.png" style="height: 40px; ">
-                <span style="font-size: 9px; color: #a7a7a7;">送给你的不是礼物 而是一个美好的世界</span>
-                <div style="height: 10px;"></div>
-                <ul class="ssjg-ul1" style="padding-top:0;">
-                    <c:forEach items="${map[gl]}" var="glist" begin="0" end="1">
-                        <li>
-                            <div class="ssjg-tu">
-                                <a href="goodsListById.html?goods_id=${glist.goods_id}"><img src="${glist.goods_img}"></a>
-                            </div>
-                        </li>
-                    </c:forEach>
-                    <div style="clear:both;"></div>
-                </ul>
-            </ul>
-        </li>
-    </c:forEach>
-    <c:forEach items="${ctgList}" var="ctgList" varStatus="s" begin="1" end="1">
-        <c:set value="goodsList${s.index}" var="gl"></c:set>
-        <li style="width: 50%; float: left; border-right: #9f9f9f; ">
-            <ul style="margin-left: 5px">
-                <img src="images/headText2.png" style="height: 40px; ">
-                <span style="font-size: 9px; color: #a7a7a7;">礼轻情意重</span>
-                <div style="height: 10px;"></div>
-                <ul class="ssjg-ul1" style="padding-top:0;">
-                    <c:forEach items="${map[gl]}" var="glist" begin="0" end="1">
-                        <li>
-                            <div class="ssjg-tu">
-                                <a href="goodsListById.html?goods_id=${glist.goods_id}"><img src="${glist.goods_img}"></a>
-                            </div>
-                        </li>
-                    </c:forEach>
-                    <div style="clear:both;"></div>
-                </ul>
-            </ul>
-        </li>
-    </c:forEach>
-</ul>
-<div class="ssjg">
-    <ul class="ssjg-tit1">
-        <li style="margin-left: 1%"><a href="JavaScript:;">热门推荐</a></li>
-        <li style="text-align: right;"><a href="secGoodsList.html?is_recommend=1" >更多→</a></li>
-        <div style="clear:both;"></div>
-    </ul>
-
-    <ul class="ssjg-ul1" style="padding-top:0;">
-        <c:forEach items="${hotGoodsList}" var="goodsList">
-            <li>
-                <div class="ssjg-tu">
-                    <a href="goodsListById.html?goods_id=${goodsList.goods_id}"><img src="${goodsList.goods_img}"></a>
-                </div>
-                <h3><a href="goodsListById.html?goods_id=${goodsList.goods_id}">${goodsList.goods_name}</a></h3>
-                <p class="ssjg-p2" style="font-size: 11px;padding-left: 5px"><span>${goodsList.goods_spe}</span></p>
-                <dl class="ssjg-dl1">
-                    <dt>
-                            <%-- <p class="ssjg-p2" style="font-size: 9px;"><span>${goodsList.goods_spe}</span></p> --%>
-                        <p class="ssjg-p1" style="margin-top:10px;"><span>￥${goodsList.goods_price}</span></p>
-                    </dt>
-                    <dd><a href="javascript:;" onclick="add('${goodsList.goods_id}','${goodsList.goods_name}','${goodsList.goods_img}','${goodsList.goods_spe}','${goodsList.goods_price}','${goodsList.card_id}')"><img src="images/sjsc-09.gif" style="width: 25px;height: 25px"></a></dd>
-                    <div style="clear:both;"></div>
-                </dl>
-            </li>
-        </c:forEach>
-        <div style="clear:both;"></div>
-    </ul>
-</div>
-<c:forEach items="${ctgList}" var="ctgList" varStatus="s" begin="2" end="5">
-    <div class="ssjg" style="padding-bottom:0;">
-        <ul class="ssjg-tit1">
-            <li style="margin-left: 1%"><a href="JavaScript:;">${ctgList.ctg_name }</a></li>
-            <li style="text-align: right;"><a href="category.html?ctg_id=${ctgList.ctg_id}" >更多</a></li>
-            <div style="clear:both;"></div>
-        </ul>
-        <ul class="ssjg-ul1" style="padding-top:0;">
-            <c:set value="goodsList${s.index}" var="gl"></c:set>
-
-            <c:forEach items="${map[gl]}" var="glist" begin="0" end="5">
-                <li>
-                    <div class="ssjg-tu">
-                        <a href="goodsListById.html?goods_id=${glist.goods_id}"><img src="${glist.goods_img}"></a>
+<!-- END NAVIGATION -->
+<!-- START 首页 -->
+            <section id="home" class="templatemo-home" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-1"></div>
+                        <div class="col-md-8 col-sm-10">
+                            <%--<h1 style="color: white;" class="tm-home-title"><strong>GeekLimits</strong></h1>--%>
+                            <h2 class="tm-home-subtitle">可能是最精致，最细节，最客观，最适合大学生的笔记本信息枢纽</h2>
+                            <p>一个神奇的网站 <strong>可以GET很多崭新的技能</strong> 以及！ <strong>一些果粉念念不忘的讯息 </strong> 和这里的伙计们说说自己的特殊属性 <strong>分享</strong> 还有！ <strong>学点东西XD </strong>新技能，新知识。</p> <br ><p> Thank you :D</p>
+                            <a href="#resume" class="btn btn-default smoothScroll tm-view-more-btn">下面开始划重点！</a>
+                        </div>
+                        <div class="col-md-2 col-sm-1"></div>
                     </div>
-                    <h3><a href="goodsListById.html?goods_id=${glist.goods_id}">${glist.goods_name}</a></h3>
-                    <p class="ssjg-p2" style="font-size: 11px;padding-left: 5px"><span>${glist.goods_spe}</span></p>
-                    <dl class="ssjg-dl1">
-                        <dt>
-                                <%-- <p class="ssjg-p2" style="font-size: 9px"><span>${glist.goods_spe}</span></p> --%>
-                            <p class="ssjg-p1" style="margin-top:10px"><span>￥${glist.goods_price}</span></p>
-                        </dt>
-                        <dd><a href="javascript:;" onclick="add('${glist.goods_id}','${glist.goods_name}','${glist.goods_img}','${glist.goods_spe}','${glist.goods_price}','${goodsList.card_id}')"><img src="images/sjsc-09.gif" style="width: 25px;height: 25px"></a></dd>
-                        <div style="clear:both;"></div>
-                    </dl>
-                </li>
-            </c:forEach>
-            <div style="clear:both;"></div>
-        </ul>
-    </div>
-</c:forEach>
+                </div>
+                <div id="device"></div>
 
-        <div class="" style="text-align: center; color: #999; font-size: 12px;">
-            <div style="height: 20px;"></div>
-            <span>©茗优特品 版权所有</span>
-            <div style="height: 10px;"></div>
-            <div style="font-size: 14px;">
-                <span>宁波宏鹏科技 提供云计算服务</span>
-            </div>
-        </div>
-<div class="sy-ft">
+                </div> <!--! end of #container -->
+            </section>
+            <!-- END 首页 -->
 
-</div>
+            <!-- START 崭新套路 -->
+            <section id="resume" class="tm-padding-top-bottom-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <h2 class="title">号外号外！</h2>
+                            <p><span class="tm-info-label">最新</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">每日早报</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">专业评测</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">EDC们</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Apple</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <h2  class="title"><strong>本周全场最佳</strong>"笔电"</h2>
+                            <p>小米宣和佛山灯厂合作，意在提升自家笔记本照明能力。</p>
+                            <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">Xiaomi GamingLaptop <small class="progress-percent-small">90%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">MacBook Pro <small class="progress-percent-small">80%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END 崭新套路 -->
 
-<!--返回顶部-->
-<div class="sy-fanhui">
-    <a href="JavaScript:;"><img src="images/sjsc29.gif"></a>
-</div>
-<script type="text/javascript">
+            <!-- START 最近测评 -->
+            <section id="portfolio" class="tm-portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 wow bounce">
+                            <div class="title">
+                                <h2 class="tm-portfolio-title">最新测评 <strong></strong></h2>
+                            </div>
 
-    function add(goods_id,goods_name,goods_img,goods_spe,goods_price,card_id){
-        $.ajax({
-            url:'cartInsert.html',
-            type:'post',
-            data:'goods_id='+goods_id+'&goods_name='+encodeURI(goods_name)+'&goods_img='+goods_img+'&goods_price='+goods_price+'&goods_num=1'+'&goods_spe='+goods_spe+'&card_id='+card_id,
-            success:function(rs){
-                var data = eval('('+rs+')');
-                if(data.rs_code==1){
-                    $('#cart_num').text(data.cart_num);
-                    showTip("已加入购物车！");
-                }
-                else if(data.rs_code==1005){
-                    showTip("登录已失效，重新登录中，请稍后...");
-                    setTimeout('window.location.href=history.go(-1)',2000);
-                }
-                else{
-                    showTip("加入购物车失败！");
-                }
+                            <!-- START ISO SECTION -->
+                            <div class="iso-section">
+                                <ul class="filter-wrapper clearfix">
+                                    <li><a href="#" class="opc-main-bg selected" data-filter="*">全部</a></li>
+                                    <li><a href="#" class="opc-main-bg" data-filter=".html">常规笔记本</a></li>
+                                    <li><a href="#" class="opc-main-bg" data-filter=".photoshop">游戏笔记本</a></li>
+                                    <li><a href="#" class="opc-main-bg" data-filter=".wordpress">工作站</a></li>
+                                    <li><a href="#" class="opc-main-bg" data-filter=".mobile">超级本</a></li>
+                                </ul>
+                                <div class="iso-box-section">
+                                    <div class="iso-box-wrapper col4-iso-box">
+                                        <div class="iso-box html photoshop wordpress mobile col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img1.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box html wordpress mobile col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img2.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img3.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box html mobile col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img4.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img5.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box html photoshop col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img6.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box photoshop col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img7.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
+                                            <div class="portfolio-thumb">
+                                                <img src="images/portfolio-img8.jpg" class="fluid-img" alt="portfolio img">
+                                                <div class="portfolio-overlay">
+                                                    <h3 class="portfolio-item-title">品牌</h3>
+                                                    <p>型号</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END 最近测评 -->
 
-            }
-        })
-    }
+            <!-- START 主要版块 -->
+            <section id="work" class="tm-padding-top-bottom-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-11">
+                            <h2 class="title">咱们的主要的<strong>关注领域 </strong></h2>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="work-wrapper">
+                                <i class="fa fa-laptop"></i>
+                                <h3 class="text-uppercase tm-work-h3">"笔电"们</h3>
+                                <hr>
+                                <p>极有参考价值的导购信息</p><p> 当然，精准以及清晰的数对比是解决购纠结的最好帮手！</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="work-wrapper">
+                                <i class="fa fa-apple"></i>
+                                <h3 class="text-uppercase tm-work-h3">Mac</h3>
+                                <hr>
+                                <p>iMac . MacBook . MacBook Pro</p><p>买Mac的伙计们，如果你还有梦想的话，请务必猛击这里，谢谢！</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="work-wrapper">
+                                <i class="fa fa-wrench"></i>
+                                <h3 class="text-uppercase tm-work-h3">新技能</h3>
+                                <hr>
+                                <p>不论学习还是工作，新技能总是让我们充满安全感</p><p>生产力是远远不够的，远远不够的！</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END 主要版块 -->
 
-</script>
-<jsp:include page="footer1.jsp"></jsp:include>
+            <!-- START 一日一技 -->
+            <section id="about" class="tm-about" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7" style="margin-left: 0%; color: white;">
+                            <div class="title">
+                                <h2 style="color: #e0e0e0">一日一技 <strong>；）</strong></h2>
+                                <h1 class="tm-red-text">学到的，才是自己的</h1>
+                            </div>
+                            <p>今日我为大家介绍一个简单又别致的小菜----纸包鸡，家里的小朋友一定很喜欢。材料很简单，我们只需要一个鸡包，我们将鸡包底部的纸撕下来。。。慢慢的撕，就会得到一张鸡包纸，然后将鸡包纸反转，这一味纸包鸡就完成了，很容易是吧？多谢大家收看！  </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END 一日一技 -->
+
+            <!-- START 来找咱们 -->
+            <section id="social" class="tm-social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.3s">
+                            <div class="media facebook">
+                                <a href="#">
+                                    <div class="media-object pull-left">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading tm-social-title">传送门</h4>
+                                        <h3>Facebook</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.6s">
+                            <div class="media twitter">
+                                <a href="#">
+                                    <div class="media-object pull-left">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading tm-social-title">传送门</h4>
+                                        <h3>Twitter</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.9s">
+                            <div class="media pinterest">
+                                <a href="#">
+                                    <div class="media-object pull-left">
+                                        <i class="fa fa-pinterest"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading tm-social-title">传送门</h4>
+                                        <h3>Pinterest</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END 来找咱们 -->
+            <!-- START 首页意见 -->
+            <section id="contact" class="tm-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="title">首页意见 <strong> ：）</strong></h2>
+                            <hr>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-10 col-sm-10">
+                            <form action="#" method="post">
+                                <div class="col-md-6 col-sm-6">
+                                    <input class="form-control" type="text" placeholder="昵称">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <input class="form-control" type="email" placeholder="Email">
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <input class="form-control" type="text" placeholder="哪里不对？">
+                                    <textarea class="form-control" placeholder="为什么不对呢？" rows="6"></textarea>
+                                </div>
+                                <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+                                    <input class="form-control" type="submit" value="猛击传送">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>Copyright &copy; 2018 GeekLimits.inc. <a href="www.GeekLimits.com" target="_blank" title="GeekLimits.inc">GeekLimits</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- END 首页意见 -->
+
 </body>
 </html>
