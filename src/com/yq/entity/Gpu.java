@@ -1,6 +1,7 @@
 package com.yq.entity;
 
 public class Gpu extends Page{
+    Integer id;
     String model;
     String architecture;
     String shaders;
@@ -18,6 +19,14 @@ public class Gpu extends Page{
     String perf_cloud;
     String perf_fire;
     String perf_p;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getModel() {
         return model;

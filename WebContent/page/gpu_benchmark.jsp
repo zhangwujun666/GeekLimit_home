@@ -62,7 +62,7 @@
     <script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
 
-    <title>意见反馈</title>
+    <title>显卡数据库</title>
 </head>
 <body>
 
@@ -99,81 +99,95 @@
 <br>
 <%--<div class="text-c">--%>
 
-    <%--<input type="text" value="${goods_name}"--%>
-           <%--id="goods_name"  class="input-text"--%>
-           <%--style="width: 55%;" placeholder="请输入商品名称">--%>
+<%--<input type="text" value="${goods_name}"--%>
+<%--id="goods_name"  class="input-text"--%>
+<%--style="width: 55%;" placeholder="请输入商品名称">--%>
 
-    <%--<button type="button" onclick="search()"--%>
-            <%--class="btn btn-success radius" id="b1" name="">--%>
-        <%--<i class="Hui-iconfont">&#xe665;</i> 查询--%>
-    <%--</button>--%>
+<%--<button type="button" onclick="search()"--%>
+<%--class="btn btn-success radius" id="b1" name="">--%>
+<%--<i class="Hui-iconfont">&#xe665;</i> 查询--%>
+<%--</button>--%>
 
 
-    <%--<script type="text/javascript">--%>
-        <%--function search() {--%>
-            <%--var goods_name =$('#goods_name').val();--%>
-            <%--window.location.href = 'goodsList.html?status=1&goods_name=' + encodeURIComponent(encodeURIComponent(goods_name));--%>
-        <%--}--%>
-    <%--</script>--%>
+<%--<script type="text/javascript">--%>
+<%--function search() {--%>
+<%--var goods_name =$('#goods_name').val();--%>
+<%--window.location.href = 'goodsList.html?status=1&goods_name=' + encodeURIComponent(encodeURIComponent(goods_name));--%>
+<%--}--%>
+<%--</script>--%>
 <%--</div>--%>
 <div class="pd-20">
     <%--<div class="cl pd-5 bg-1 bk-gray mt-20">--%>
-			<%--<span class="l"> <a href="goodsAddjsp.html"--%>
-                                <%--class="btn btn-primary radius"> <i class="Hui-iconfont">&#xe600;</i>--%>
-					<%--添加记录--%>
-			<%--</a></span>--%>
+    <%--<span class="l"> <a href="goodsAddjsp.html"--%>
+    <%--class="btn btn-primary radius"> <i class="Hui-iconfont">&#xe600;</i>--%>
+    <%--添加记录--%>
+    <%--</a></span>--%>
     <%--</div>--%>
-        <div style="height: 50px;"></div>
+    <div style="height: 50px;"></div>
+
+
     <div class="mt-20">
-        <table
-                class="table table-border table-bordered table-hover table-bg table-sort">
+        <div id="table-head">
+        <table class="table table-border table-bordered table-hover table-bg table-sort" >
+            <colgroup>
+            </colgroup>
             <thead>
-            <tr class="text-c">
-                <th width="25px"><input type="checkbox" name="" value=""></th>
-                <th width="30px">ID</th>
-                <th width="20%">名称</th>
-                <th width="20%">缩略图</th>
-                <th width="15%">价格</th>
-                <th width="10%">发布日期</th>
-                <th width="10%">数据分析</th>
-                <th width="20%">操作</th>
-            </tr>
+                <tr id="bar_head">
+                    <th width="25px"><input type="checkbox" name="" value=""></th>
+                    <th width="20px">ID</th>
+                    <th width="20%">型号</th>
+                    <th width="10%">核心架构</th>
+                    <th width="10%">像素/纹理<br>填充率</th>
+                    <th width="10%">核心速率(MHz)</th>
+                    <th width="10%">着色器速率(Mhz)</th>
+                    <th width="5%">超频(MHz)</th>
+                    <th width="5%">显存容量(MB)</th>
+                    <th width="5%">显存位宽(Bit)</th>
+                    <th width="5%">显存类型</th>
+                    <th width="10%">DX API</th>
+                    <th width="10%">OpenGL</th>
+                    <th width="10%">制程<br>(nm)</th>
+                    <th width="10%">性能指标(相对绝对性能)</th>
+                    <th width="10%">3DMark Ice Storm GPU</th>
+                    <th width="10%">3DMark Cloud Gate GPU</th>
+                    <th width="10%">3DMark Fire Strike Graphics</th>
+                    <th width="10%">3DMark11 P GPU</th>
+                    <th width="5%">操作</th>
+                </tr>
             </thead>
+        <%--<div style="height: 35px;"></div>--%>
             <tbody>
-            <c:forEach items="${goods}" var="list" varStatus="s">
-                <tr class="text-c">
+            <c:forEach items="${gpu}" var="list" varStatus="s">
+                <tr id="table_data">
                     <td><input type="checkbox" value="1" name=""></td>
-                    <td>${s.count}</td>
-                    <td>${list.goods_name}</td>
-                    <td><img alt="" src="${list.goods_img}" width="50" height="50"> </td>
-                    <td>${list.goods_price}</td>
-                    <td>${list.add_time}</td>
-                        <%--<td><a style="color: #FF0000" href="goodsCount.html?goods_id=${list.goods_id}">查看数据分析</a></td>--%>
-                    <td><input style="height: 30px; color: #FF0000;"
-                               type="button" id="analyse" onclick="analyse(${list.goods_id})" value="  查看数据分析  "></td>
+                    <td>${list.id}</td>
+                    <td><a href="javascript:;" onclick="" style="color: #0a6999;">${list.model}</a></td>
+                    <td>${list.architecture}</td>
+                    <td>${list.shaders}</td>
+                    <td>${list.core_speed}</td>
+                    <td>${list.shader_speed}</td>
+                    <td>${list.boost}</td>
+                    <td>${list.memory_speed}</td>
+                    <td>${list.memory_bus}</td>
+                    <td>${list.memory_type}</td>
+                    <td>${list.directx}</td>
+                    <td>${list.opengl}</td>
+                    <td>${list.process}</td>
+                    <td>${list.perf_rating}</td>
+                    <td>${list.perf_ice}</td>
+                    <td>${list.perf_cloud}</td>
+                    <td>${list.perf_fire}</td>
+                    <td>${list.perf_p}</td>
                     <td>
-
-                        <c:if test="${list.type==1}">
-                            <a href="javascript:;" onclick="updateType('${list.goods_id}','2')">设置为会员折扣商品</a>&nbsp;&nbsp;</c:if>
-                        <c:if test="${list.type==2}">
-                            <a href="javascript:;" onclick="updateType('${list.goods_id}','1')" style="color: red">取消为会员折扣商品</a>&nbsp;&nbsp;</c:if>
-
-
-                        <a href="goodsListById.html?goods_id=${list.goods_id}">编辑</a>&nbsp;&nbsp;
-
-
-                        <c:if test="${list.is_recommend!=1}">
-                            <a href="javascript:;" onclick="is_recommend('${list.goods_id}','1')">首页推荐</a></c:if>
-                        <c:if test="${list.is_recommend==1}">
-                            <a href="javascript:;" onclick="is_recommend('${list.goods_id}','0')">取消推荐</a></c:if>
-                        &nbsp;&nbsp;
-                        <a href="javascript:;" onclick="del('${list.goods_id}')">删除</a>
+                        <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
                     </td>
                 </tr>
             </c:forEach>
-
             </tbody>
         </table>
+        </div>
+
+
         <div class="panel-foot text-center">
             <ul class="pagination">
                 <li><a href="javascript:;">共${total}条</a></li>
@@ -205,6 +219,7 @@
     </div>
 </div>
 <script type="text/javascript">
+
     function del(goods_id){
         var  b = confirm('确定删除？');
         if(!b){

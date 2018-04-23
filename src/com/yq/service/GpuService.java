@@ -15,15 +15,15 @@ public class GpuService {
 	@Autowired
 	private GpuDao gpuDao;
 	
-	public int insert(Map<String,String> map ){
-		return gpuDao.insert(map);
-	}
-	
-	public int update(Map<String,String> map ){
-		return gpuDao.update(map);
-	}
+//	public int insert(Map<String,String> map ){
+//		return gpuDao.insert(map);
+//	}
+//
+//	public int update(Map<String,String> map ){
+//		return gpuDao.update(map);
+//	}
 
-	public List<UserSetting> list(){
+	public List<Gpu> list(){
 		return gpuDao.list();
 	}
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yq.dao.UserSettingDao">
+<mapper namespace="com.yq.dao.GpuDao">
     <!--<insert id="insert" parameterType="java.util.Map">-->
 	<!--insert tb_user_setting(share_point,order_point,money_point,one_start,one_end,two_start,two_end,three_start,three_end,four_start,four_end,fiv_start,five_end)-->
 	<!--values-->
@@ -33,8 +33,7 @@
         <!--five_sale=#{five_sale}-->
     <!--</update>-->
 
-    <select id="list" resultType="com.yq.entity.UserSetting">
-        select *
-        from tb_user_setting
+    <select id="list" resultType="com.yq.entity.Gpu">
+        select * from tb_gpu_benchmark
     </select>
 </mapper>
