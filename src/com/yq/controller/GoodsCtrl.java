@@ -130,7 +130,8 @@ public class GoodsCtrl extends StringUtil {
 	}
 
 	@RequestMapping(value = "/main/goodsList.html")
-	public ModelAndView list(Integer status,@RequestParam(defaultValue = "") String goods_name,
+	public ModelAndView list(Integer status,
+            @RequestParam(defaultValue = "") String goods_name,
 			@RequestParam(defaultValue = "0") Integer ctg_id,
 			@RequestParam(defaultValue = "1") Integer currentPage,
 			HttpServletRequest request) throws UnsupportedEncodingException {

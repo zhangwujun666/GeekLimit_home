@@ -88,10 +88,46 @@
                             <p><span class="tm-info-label">EDC们</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                             <p><span class="tm-info-label">Apple</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                             <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">最新</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">每日早报</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">专业评测</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">EDC们</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Apple</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">最新</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">每日早报</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">专业评测</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">EDC们</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Apple</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
+                            <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <h2  class="title"><strong>本周全场最佳</strong>"笔电"</h2>
                             <p>小米宣和佛山灯厂合作，意在提升自家笔记本照明能力。</p>
+                            <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">Xiaomi GamingLaptop <small class="progress-percent-small">90%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">MacBook Pro <small class="progress-percent-small">80%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">Xiaomi GamingLaptop <small class="progress-percent-small">90%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                            </div>
+                            <h4 class="tm-progress-label">MacBook Pro <small class="progress-percent-small">80%</small></h4>
+                            <div class="progress tm-progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
                             <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
                             <div class="progress tm-progress">
                                 <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>

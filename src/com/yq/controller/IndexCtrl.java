@@ -125,5 +125,7 @@ public class IndexCtrl extends StringUtil{
 		return new ModelAndView("page/laptop");
     }
 
+
+
 	
 }

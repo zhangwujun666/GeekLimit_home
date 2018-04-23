@@ -6,201 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="修复safari兼容性">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeekLimite_home.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/home.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/home.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/GpuDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/GpuDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/entity/Gpu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/service/GpuService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/index.jsp" afterPath="$PROJECT_DIR$/WebContent/page/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/controller/ButtonController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/controller/ClickTextController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/controller/ReplyController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/controller/WxSettingController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/AccessTokenMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/AccessTokenMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/ButtonMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/ButtonMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/ClickTextMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/ClickTextMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/WxSettingMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/dao/WxSettingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/AccessToken.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Articles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Button.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ClickButton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ClickText.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ComplexButton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Massages.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Menu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Music.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/News.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ReplyMusicMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ReplyTextMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ReplyTuwenMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/RequestTextMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/SNSUserInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/Token.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/ViewButton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinGroup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinMedia.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinOauth2Token.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinQRCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinUserInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WeixinUserList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/entity/WxSetting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/event/BaseEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/event/LocationEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/event/MenuEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/event/QRCodeEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/event/SubscribeEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/BaseMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/ImageMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/LinkMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/LocationMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/TextMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/VideoMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/req/VoiceMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/Article.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/BaseMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/Image.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/ImageMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/Music.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/MusicMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/NewsMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/TextMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/Video.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/VideoMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/Voice.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/message/resp/VoiceMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/action/MainServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/action/NotifyServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/action/TopayServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/http/HttpClientConnectionManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/http/HttpResponse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/http/MySSLSocketFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/http/TrustAnyTrustManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/util/GetWxOrderno.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/util/RequestHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/util/Sha1Util.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/pay/util/TenpayUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/service/AccessTokenService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/service/ButtonService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/service/ClickTextService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/service/WxSettingService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/AdvancedUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/CommonUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/MenuUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/MyX509TrustManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/ReplyMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/SHA1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/StringUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/WeixinGroupSend.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/weixin/util/WxUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/AddressCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/AreaCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/BannerCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/CartCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/CategoryCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/CountCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/CouponsCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/ExpressController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/FeightCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/FileCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/GoodsCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/IndexCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/MenuCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/OrderCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/SearchCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/StoreCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/UserCtrl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/controller/admin/AdminController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AddressDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AddressDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AdminDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AdminDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AreaDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/AreaDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/BannerDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/BannerDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CartDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CartDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CategoryDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CategoryDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CountDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CountDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CouponsDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/CouponsDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/ExpressMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/ExpressMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/FreightDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/FreightDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/GoodsDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/GoodsDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/MenuDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/MenuDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/OrderDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/OrderDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/SearchDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/SearchDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/ShareDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/ShareDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/UserDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/UserDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/UserSettingDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/dao/UserSettingDao.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Address.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Admin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Area.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Banner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Count.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Coupons.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Express.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Freight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Goods.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/GoodsJson.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/GoodsOther.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Menu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Order.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Page.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Search.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/Share.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/entity/UserSetting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/AddressService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/AdminService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/AreaService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/BannerService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/CartService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/CategoryService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/CountService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/CouponsService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/ExpressService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/FreightService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/GoodsService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/MenuService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/OrderService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/SearchService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/ShareService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/service/UserSettingService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/KdniaoTrackQueryAPI.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/LoginInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/MD5Util.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/PageUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/StringUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/WeiXinUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/userPointUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/com/yq/util/wxsign.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/log4j.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/classes/production/GeekLimite_home/rebel.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java" />
       <change beforePath="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/src/rebel.xml" afterPath="$PROJECT_DIR$/src/rebel.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/dao/GoodsDao.xml" afterPath="$PROJECT_DIR$/src/com/yq/dao/GoodsDao.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -214,75 +32,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_bak.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/index_bak.jsp">
+      <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="344" column="22" lean-forward="true" selection-start-line="313" selection-start-column="12" selection-end-line="344" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+            <state relative-caret-position="97">
+              <caret line="131" column="33" lean-forward="false" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#22490#29145#0#HTML" expanded="false" />
-                <element signature="e#29270#35925#0#HTML" expanded="false" />
-                <element signature="e#36050#42705#0#HTML" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/main/goods/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="279">
+              <caret line="102" column="65" lean-forward="false" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#a#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenchmarkCtrl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="52" column="88" lean-forward="false" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/main/goods/count.jsp">
+      <file leaf-file-name="GoodsCtrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="31" />
+            <state relative-caret-position="127">
+              <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
+      <file leaf-file-name="GoodsDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/dao/GoodsDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="207" column="3" lean-forward="false" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
+            <state relative-caret-position="334">
+              <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -291,22 +89,12 @@
       <file leaf-file-name="IndexCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
               <folding>
                 <element signature="e#3778#3779#0" expanded="true" />
                 <element signature="e#3826#3827#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templatemo-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1484">
-              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -328,6 +116,7 @@
       <find>Rs</find>
       <find>portfolio-img2.jpg</find>
       <find>Wheater Statistics</find>
+      <find>updateType</find>
     </findStrings>
     <replaceStrings>
       <replace>首页</replace>
@@ -353,12 +142,22 @@
         <option value="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
         <option value="$PROJECT_DIR$/WebContent/page/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/src/rebel.xml" />
-        <option value="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/main/goods/count.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/footer1.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/GpuDao.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/GpuDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/yq/entity/UserSetting.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/entity/Gpu.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/service/GpuService.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/GoodsDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java" />
+        <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
       </list>
     </option>
   </component>
@@ -375,7 +174,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1680" />
     <option name="height" value="976" />
@@ -395,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -417,6 +218,53 @@
             <path>
               <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yq" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeekLimits_home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeekLimits_home" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -435,8 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -452,7 +298,14 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/john/Desktop/GeekLimits/Web/GeekLimits_home/WebContent/page/index.jsp" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yq.service" />
+      <recent name="com.yq.entity" />
+      <recent name="com.yq.dao" />
+      <recent name="com.yq.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/yq/dao" />
       <recent name="$PROJECT_DIR$/WebContent/page" />
       <recent name="$PROJECT_DIR$/WebContent/page/js" />
       <recent name="$PROJECT_DIR$/WebContent/page/css" />
@@ -667,7 +520,8 @@
       <updated>1523844721279</updated>
       <workItem from="1523844723109" duration="1823000" />
       <workItem from="1523846589118" duration="5940000" />
-      <workItem from="1523856922138" duration="7666000" />
+      <workItem from="1523856922138" duration="10219000" />
+      <workItem from="1524297639820" duration="7716000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -683,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523855495964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加laptop排版">
+      <created>1523869207409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523869207410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15429000" />
+    <option name="totallyTimeSpent" value="25698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,43 +560,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="976" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="979" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31627908" sideWeight="0.504884" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42093024" sideWeight="0.507326" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21511628" sideWeight="0.492674" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24217844" sideWeight="0.492674" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27325583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16117217" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971917" sideWeight="0.50680274" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16300367" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971917" sideWeight="0.50680274" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,15 +609,85 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="拆分项目" />
     <MESSAGE value="修复safari兼容性" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复safari兼容性" />
+    <MESSAGE value="添加laptop排版" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加laptop排版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index_bak.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/main/goods/count.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="207" column="3" lean-forward="false" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding>
+            <element signature="e#3778#3779#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="34" lean-forward="true" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+          <folding>
+            <element signature="e#23810#23816#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/index_bak.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,7 +700,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#23810#23816#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -776,21 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22490#29145#0#HTML" expanded="false" />
-            <element signature="e#29270#35925#0#HTML" expanded="false" />
-            <element signature="e#36050#42705#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +769,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#23810#23816#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1265">
           <caret line="4" column="114773" lean-forward="false" selection-start-line="4" selection-start-column="114773" selection-end-line="4" selection-end-column="114773" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,30 +810,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="207" column="3" lean-forward="false" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rebel.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
-          <folding>
-            <element signature="e#3778#3779#0" expanded="true" />
-            <element signature="e#3826#3827#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,16 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1484">
+        <state relative-caret-position="510">
           <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/main/goods/count.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -951,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/WebContent/page/index_bak.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -974,8 +868,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="344" column="22" lean-forward="true" selection-start-line="313" selection-start-column="12" selection-end-line="344" selection-end-column="22" />
+        <state relative-caret-position="1695">
+          <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+          <folding>
+            <element signature="e#23810#23816#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="207" column="3" lean-forward="false" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/main/goods/count.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -991,22 +903,220 @@
     <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="70" lean-forward="true" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+          <caret line="30" column="70" lean-forward="false" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Gpu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22490#29145#0#HTML" expanded="false" />
-            <element signature="e#29270#35925#0#HTML" expanded="false" />
-            <element signature="e#36050#42705#0#HTML" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#800#801#0" expanded="false" />
+            <element signature="e#846#847#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#954#955#0" expanded="false" />
+            <element signature="e#1006#1007#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1124#1125#0" expanded="false" />
+            <element signature="e#1180#1181#0" expanded="false" />
+            <element signature="e#1228#1229#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1364#1365#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="false" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1579#1580#0" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
+            <element signature="e#1664#1665#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1780#1781#0" expanded="false" />
+            <element signature="e#1834#1835#0" expanded="false" />
+            <element signature="e#1880#1881#0" expanded="false" />
+            <element signature="e#1914#1915#0" expanded="false" />
+            <element signature="e#1944#1945#0" expanded="false" />
+            <element signature="e#1990#1991#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2061#2062#0" expanded="false" />
+            <element signature="e#2090#2091#0" expanded="false" />
+            <element signature="e#2134#2135#0" expanded="false" />
+            <element signature="e#2170#2171#0" expanded="false" />
+            <element signature="e#2204#2205#0" expanded="false" />
+            <element signature="e#2234#2235#0" expanded="false" />
+            <element signature="e#2280#2281#0" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2356#2357#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2444#2445#0" expanded="false" />
+            <element signature="e#2490#2491#0" expanded="false" />
+            <element signature="e#2525#2526#0" expanded="false" />
+            <element signature="e#2556#2557#0" expanded="false" />
+            <element signature="e#2604#2605#0" expanded="false" />
+            <element signature="e#2644#2645#0" expanded="false" />
+            <element signature="e#2681#2682#0" expanded="false" />
+            <element signature="e#2714#2715#0" expanded="false" />
+            <element signature="e#2766#2767#0" expanded="false" />
+            <element signature="e#2810#2811#0" expanded="false" />
+            <element signature="e#2846#2847#0" expanded="false" />
+            <element signature="e#2878#2879#0" expanded="false" />
+            <element signature="e#2928#2929#0" expanded="false" />
+            <element signature="e#2970#2971#0" expanded="false" />
+            <element signature="e#3003#3004#0" expanded="false" />
+            <element signature="e#3032#3033#0" expanded="false" />
+            <element signature="e#3076#3077#0" expanded="false" />
+            <element signature="e#3112#3113#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/UserSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/service/GpuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/GpuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <marker date="1524458534544" expanded="true" signature="742:1490" ph="UPDATE tb_user_setting... " />
+            <marker date="1524458534544" expanded="true" signature="1586:1623" ph="select * fro... tb_user_setting" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/GpuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/UserSettingDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="98" column="43" lean-forward="false" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+          <folding>
+            <element signature="e#3778#3779#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/GoodsJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/main/goods/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="102" column="65" lean-forward="false" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/GoodsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="131" column="33" lean-forward="false" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="52" column="88" lean-forward="false" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
