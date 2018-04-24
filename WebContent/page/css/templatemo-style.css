@@ -1,8 +1,8 @@
 
 body {
   background: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  /*font-family: 'Raleway', sans-serif;*/
+  /*font-size: 16px;*/
   color: #606060;
   position: relative;
 }
@@ -22,6 +22,10 @@ hr {
   font-size: 60px;
   padding-bottom: 40px;
   text-transform: uppercase;
+}
+
+#footer_logo{
+  width: 40px;
 }
 
 
@@ -402,6 +406,12 @@ hr {
   padding-top: 80px;
   padding-bottom: 40px;
 }
+.footer {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  width: 100%!important;
+}
 .form-control {
   background: transparent;
   border: 1px solid #666;
@@ -412,6 +422,12 @@ hr {
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
+#icons ul{
+  margin:0;
+  padding:0;
+  width: 12.5%;
+}
+
 .form-control:focus,
  .form-control:hover {
   background: #202020;

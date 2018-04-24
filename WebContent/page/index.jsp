@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/google_font.css">
     <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.nav.js"></script>
@@ -348,38 +348,41 @@
             <!-- END 来找咱们 -->
             <!-- START 首页意见 -->
             <section id="contact" class="tm-contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="title">首页意见 <strong> ：）</strong></h2>
-                            <hr>
-                        </div>
-                        <div class="col-md-1 col-sm-1"></div>
-                        <div class="col-md-10 col-sm-10">
-                            <form action="#" method="post">
-                                <div class="col-md-6 col-sm-6">
-                                    <input class="form-control" type="text" placeholder="昵称">
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <input class="form-control" type="email" placeholder="Email">
-                                </div>
-                                <div class="col-md-12 col-sm-12">
-                                    <input class="form-control" type="text" placeholder="哪里不对？">
-                                    <textarea class="form-control" placeholder="为什么不对呢？" rows="6"></textarea>
-                                </div>
-                                <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-                                    <input class="form-control" type="submit" value="猛击传送">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-1 col-sm-1"></div>
-                        <div class="col-md-12 col-sm-12">
-                            <p>Copyright &copy; 2018 GeekLimits.inc. <a href="www.GeekLimits.com" target="_blank" title="GeekLimits.inc">GeekLimits</a></p>
-                        </div>
-                    </div>
-                </div>
+                <%--<div class="container">--%>
+                    <%--<div class="row">--%>
+                        <%--<div class="col-md-12">--%>
+                            <%--<h2 class="title">首页意见 <strong> ：）</strong></h2>--%>
+                            <%--<hr>--%>
+                        <%--</div>--%>
+                        <%--<div class="col-md-1 col-sm-1"></div>--%>
+                        <%--<div class="col-md-10 col-sm-10">--%>
+                            <%--<form action="#" method="post">--%>
+                                <%--<div class="col-md-6 col-sm-6">--%>
+                                    <%--<input class="form-control" type="text" placeholder="昵称">--%>
+                                <%--</div>--%>
+                                <%--<div class="col-md-6 col-sm-6">--%>
+                                    <%--<input class="form-control" type="email" placeholder="Email">--%>
+                                <%--</div>--%>
+                                <%--<div class="col-md-12 col-sm-12">--%>
+                                    <%--<input class="form-control" type="text" placeholder="哪里不对？">--%>
+                                    <%--<textarea class="form-control" placeholder="为什么不对呢？" rows="6"></textarea>--%>
+                                <%--</div>--%>
+                                <%--<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">--%>
+                                    <%--<input class="form-control" type="submit" value="猛击传送">--%>
+                                <%--</div>--%>
+                            <%--</form>--%>
+                        <%--</div>--%>
+                        <%--<div class="col-md-1 col-sm-1"></div>--%>
+                        <%--<div class="col-md-12 col-sm-12">--%>
+                            <%--<p>Copyright &copy; 2018 GeekLimits.inc. <a href="www.GeekLimits.com" target="_blank" title="GeekLimits.inc">GeekLimits</a></p>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+
             </section>
+
 <!-- END 首页意见 -->
+<%@ include file="footer_home.jsp" %>
 
 
 </body>

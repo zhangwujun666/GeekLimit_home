@@ -351,6 +351,7 @@
             title: 'GPU详情',
             maxmin: true,
             shadeClose: true, //点击遮罩关闭层
+            scrollbar: false,
             area : ['1200px' , '700px'],
             content: '/page/gpuInfo.html'
         });

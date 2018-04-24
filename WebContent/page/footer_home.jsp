@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="css/templatemo-style.css">
 </head>
 <body>
 <!-- <div style="position:fixed;top:50px;right:0">
@@ -10,7 +11,7 @@
 <img src="images/qq.png" style="width:22px;height:60px">
 </a>
 </div> -->
-	<section id="contact" class="tm-contact">
+	<section id="contact" class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 col-sm-1"></div>
@@ -32,9 +33,43 @@
 					</form>
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
-				<div class="col-md-12 col-sm-12">
-					<p>Copyright &copy; 2018 GeekLimits.inc. <a href="www.GeekLimits.com" target="_blank" title="GeekLimits.inc">GeekLimits</a></p>
+				<div id="icons" style="margin-top: 40px;">
+					<div class="col-md-12 col-sm-12">
+						<h2>Geek-Links</h2>
+					</div>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
+					<ul style="float: left;">
+						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+					</ul>
 				</div>
+
+				<div class="col-md-12 col-sm-12" style=" top: 20px; float: left">
+					<a href="index.html"><img id="footer_logo" src="images/footer_logo.png"></a>
+					<p style="margin-top: 20px;">苏ICP备18019028号  Copyright &copy; 2018 GeekLimits.inc.  </p>
+				</div>
+				</div>
+
+
 			</div>
 		</div>
 	</section>

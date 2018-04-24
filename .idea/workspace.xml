@@ -7,136 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/gpu_images/gtx_1080.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/gpu_info.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/css/ellipsis-xbl.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/css/ui.jqgrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/Changes.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-bg1251.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-cat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-cn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-dk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-gl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-hr1250.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-kr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-mne.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-no.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-pt-br.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-sr-latin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-sr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-tw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/install.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/jquery-1.7.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/grid.addons.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/grid.postext.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/grid.setcolumns.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/jquery.contextmenu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/jquery.searchFilter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/jquery.tablednd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/searchFilter.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/ui.multiselect.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/plugins/ui.multiselect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/JsonXml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/css/ellipsis-xbl.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/css/ui.jqgrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/css/ui.multiselect.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.celledit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.custom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.filter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.formedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.grouping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.import.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.inlinedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.jqueryui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.loader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.subgrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.tbltogrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/grid.treegrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-bg1251.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-cat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-cn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-dk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-gl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-hr1250.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-kr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-mne.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-no.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-pt-br.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-sr-latin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-sr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-tw.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-ua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/i18n/grid.locale-vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/jqDnR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/jqModal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/src/jquery.fmatter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/images/footer_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/images/github_logo.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/style.css" afterPath="$PROJECT_DIR$/WebContent/page/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" afterPath="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" afterPath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/index.jsp" afterPath="$PROJECT_DIR$/WebContent/page/index.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -153,8 +31,8 @@
       <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+            <state relative-caret-position="431">
+              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -162,11 +40,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpu_info.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="381" column="22" lean-forward="false" selection-start-line="381" selection-start-column="22" selection-end-line="381" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#2;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#3;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#4;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#5;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#6;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#7;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templatemo-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gpu_info.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="809" column="0" lean-forward="true" selection-start-line="809" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
+            <state relative-caret-position="8930">
+              <caret line="789" column="22" lean-forward="false" selection-start-line="789" selection-start-column="22" selection-end-line="789" selection-end-column="22" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -196,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="372" column="4" lean-forward="true" selection-start-line="372" selection-start-column="4" selection-end-line="372" selection-end-column="4" />
+              <caret line="372" column="4" lean-forward="false" selection-start-line="372" selection-start-column="4" selection-end-line="372" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -205,8 +125,8 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="4" column="117285" lean-forward="false" selection-start-line="4" selection-start-column="117285" selection-end-line="4" selection-end-column="117285" />
+            <state relative-caret-position="673">
+              <caret line="4" column="117408" lean-forward="false" selection-start-line="4" selection-start-column="117408" selection-end-line="4" selection-end-column="117408" />
               <folding />
             </state>
           </provider>
@@ -226,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+              <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -235,42 +155,9 @@
       <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="39" column="74" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="74" />
+            <state relative-caret-position="680">
+              <caret line="824" column="0" lean-forward="false" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderCtrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/OrderCtrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="251" column="161" lean-forward="false" selection-start-line="251" selection-start-column="133" selection-end-line="251" selection-end-column="161" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GpuDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yq/dao/GpuDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GpuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yq/service/GpuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -312,6 +199,9 @@
       <find>msie</find>
       <find>&lt;td</find>
       <find>th</find>
+      <find>id=&quot;footer_logo1&quot;</find>
+      <find>.png.png</find>
+      <find>GitHub.com</find>
     </findStrings>
     <replaceStrings>
       <replace>首页</replace>
@@ -327,6 +217,9 @@
       <replace>index</replace>
       <replace>&lt;td width=&quot;&quot;</replace>
       <replace>td</replace>
+      <replace>`</replace>
+      <replace>.png</replace>
+      <replace>.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -341,14 +234,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rebel.xml" />
-        <option value="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
         <option value="$PROJECT_DIR$/WebContent/page/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/src/rebel.xml" />
         <option value="$PROJECT_DIR$/WebContent/main/goods/count.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/footer1.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/entity/UserSetting.java" />
@@ -362,10 +252,13 @@
         <option value="$PROJECT_DIR$/WebContent/page/css/layui.css" />
         <option value="$PROJECT_DIR$/WebContent/page/js/layui.js" />
         <option value="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
-        <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/WebContent/page/css/style.css" />
         <option value="$PROJECT_DIR$/WebContent/page/gpu_info.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
       </list>
     </option>
   </component>
@@ -522,11 +415,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebContent/page/images" />
       <recent name="$PROJECT_DIR$/WebContent/page/gpu_images" />
       <recent name="$PROJECT_DIR$/WebContent/page" />
       <recent name="$PROJECT_DIR$/WebContent/page/lib" />
       <recent name="$PROJECT_DIR$/WebContent/page/js" />
-      <recent name="$PROJECT_DIR$/src/com/yq/dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yq.service" />
@@ -750,7 +643,7 @@
       <workItem from="1523856922138" duration="10219000" />
       <workItem from="1524297639820" duration="8526000" />
       <workItem from="1524467023204" duration="11761000" />
-      <workItem from="1524490083732" duration="18740000" />
+      <workItem from="1524490083732" duration="26060000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -794,11 +687,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524533120538</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GPU详情排版">
+      <created>1524551208131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524551208131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57009000" />
+    <option name="totallyTimeSpent" value="64329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,7 +763,8 @@
     <MESSAGE value="添加GPU_benchmark排版" />
     <MESSAGE value="修改GPU_benchmark排版" />
     <MESSAGE value="添加layui插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加layui插件" />
+    <MESSAGE value="GPU详情排版" />
+    <option name="LAST_COMMIT_MESSAGE" value="GPU详情排版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,14 +773,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rebel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rebel.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -900,9 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#23810#23816#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,14 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-64">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -978,16 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
-          <folding>
-            <element signature="e#23810#23816#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="785">
@@ -1000,14 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1149,8 +1014,8 @@
         <state relative-caret-position="105">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1221,18 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="39" column="74" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="39" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <caret line="59" column="43" lean-forward="false" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1250,25 +1107,15 @@
         <state relative-caret-position="3030">
           <caret line="6" column="3756" lean-forward="true" selection-start-line="6" selection-start-column="3756" selection-end-line="6" selection-end-column="3756" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="4" column="117285" lean-forward="false" selection-start-line="4" selection-start-column="117285" selection-end-line="4" selection-end-column="117285" />
+        <state relative-caret-position="680">
+          <caret line="824" column="0" lean-forward="false" selection-start-line="824" selection-start-column="0" selection-end-line="824" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1276,15 +1123,15 @@
     <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="372" column="4" lean-forward="true" selection-start-line="372" selection-start-column="4" selection-end-line="372" selection-end-column="4" />
+          <caret line="372" column="4" lean-forward="false" selection-start-line="372" selection-start-column="4" selection-end-line="372" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="809" column="0" lean-forward="true" selection-start-line="809" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
+        <state relative-caret-position="8930">
+          <caret line="789" column="22" lean-forward="false" selection-start-line="789" selection-start-column="22" selection-end-line="789" selection-end-column="22" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1305,6 +1152,68 @@
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/jquery-1.7.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="381" column="22" lean-forward="false" selection-start-line="381" selection-start-column="22" selection-end-line="381" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="4" column="117408" lean-forward="false" selection-start-line="4" selection-start-column="117408" selection-end-line="4" selection-end-column="117408" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#3;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#4;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#5;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#6;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#7;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
