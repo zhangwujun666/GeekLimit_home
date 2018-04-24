@@ -14,6 +14,10 @@
 	<section id="contact" class="footer">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
+				<h1 class="title">首页意见 <strong>; )</strong></h1>
+				<%--<hr>--%>
+				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-10 col-sm-10">
 					<form action="#" method="post">
@@ -33,39 +37,40 @@
 					</form>
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
-				<div id="icons" style="margin-top: 40px;">
+				<div id="icons" style="margin-top: 50px;">
 					<div class="col-md-12 col-sm-12">
 						<h2>Geek-Links</h2>
 					</div>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="淘宝"><a href="http://www.taobao.com" target="_blank"><img  src="images/taobao_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="京东"><a href="http://www.jd.com" target="_blank"><img  src="images/jd_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="Apple"><a href="http://www.apple.com" target="_blank"><img  src="images/apple_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="CSDN"><a href="http://www.csdn.net" target="_blank"><img  src="images/csdn_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="开源中国"><a href="http://www.oschina.net" target="_blank"><img  src="images/openchina_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="GitHub"><a href="http://www.github.com" target="_blank"><img  src="images/github_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="阿里云"><a href="https://www.aliyun.com" target="_blank"><img  src="images/alicloud_logo.png"></a></span>
 					</ul>
 					<ul style="float: left;">
-						<a href="www.github.com"><img  src="images/github_logo.png"></a>
+						<span title="BiliBili"><a href="http://www.bilibili.com" target="_blank"><img  src="images/bilibili_logo.png"></a></span>
 					</ul>
 				</div>
 
-				<div class="col-md-12 col-sm-12" style=" top: 20px; float: left">
-					<a href="index.html"><img id="footer_logo" src="images/footer_logo.png"></a>
-					<p style="margin-top: 20px;">苏ICP备18019028号  Copyright &copy; 2018 GeekLimits.inc.  </p>
+				<div class="col-md-12 col-sm-12" style=" top: 40px; float: left">
+					<a style="margin-top: 20px;" href="index.html"><img id="footer_logo" src="images/footer_logo.png"></a>
+					<p style="margin-top: 20px;">Copyright &copy; 2018 GeekLimits.Inc. 保留所有权利。</p>
+					<p >苏ICP备18019028号</p>
 				</div>
 				</div>
 
