@@ -4,10 +4,13 @@ import com.yq.entity.*;
 import com.yq.service.*;
 import com.yq.util.PageUtil;
 import com.yq.util.StringUtil;
+import com.yq.util.wxsign;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -51,6 +54,18 @@ public class BenchmarkCtrl extends StringUtil{
 //		ml.addObject("gpu_name", gpu_name);
 		ml.setViewName("page/gpu_benchmark");
 		return ml;
+	}
+
+	@ResponseBody
+	@RequestMapping(value = "/page/gpuList.html")
+	public Object gpuList(HttpServletRequest request) throws UnsupportedEncodingException {
+		List<Gpu> list = gpuService.list();
+		Map map = new HashMap();
+		map.put("gpu", list);
+		JSONObject jsonObject = JSONObject.fromObject(map);
+		String result = jsonObject.toString();
+		return result;
+
 	}
 	
 }
