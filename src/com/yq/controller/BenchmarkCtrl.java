@@ -36,7 +36,7 @@ public class BenchmarkCtrl extends StringUtil{
 //	}
 
 
-	@RequestMapping(value = "/page/gpu_benchmark.html")
+	@RequestMapping(value = "/page/gpuBenchmark.html")
 	public ModelAndView gpuBenchmark(
 //							 @RequestParam(defaultValue = "") String gpu_name,
 //							 @RequestParam(defaultValue = "1") Integer currentPage,
@@ -48,6 +48,7 @@ public class BenchmarkCtrl extends StringUtil{
 //		PageUtil.pager(currentPage, pagesize_1, total, request);
 //		gpu.setPageSize(pagesize_1);
 //		gpu.setCurrentNum(PageUtil.currentNum(currentPage, pagesize_1));
+
 		List<Gpu> list = gpuService.list();
 		ModelAndView ml = new ModelAndView();
 		ml.addObject("gpu", list);
@@ -56,12 +57,27 @@ public class BenchmarkCtrl extends StringUtil{
 		return ml;
 	}
 
+	@RequestMapping(value = "/page/gpuInfo.html")
+	public ModelAndView gpuInfo(
+			HttpServletRequest request
+	) throws UnsupportedEncodingException {
+
+//		List<Gpu> list = gpuService.list();
+		ModelAndView ml = new ModelAndView();
+//		ml.addObject("gpu", list);
+		ml.setViewName("page/gpu_info");
+		return ml;
+	}
+
 	@ResponseBody
 	@RequestMapping(value = "/page/gpuList.html")
 	public Object gpuList(HttpServletRequest request) throws UnsupportedEncodingException {
 		List<Gpu> list = gpuService.list();
 		Map map = new HashMap();
-		map.put("gpu", list);
+		map.put("code", 0);
+		map.put("msg", "");
+		map.put("count", list.size());
+		map.put("data", list);
 		JSONObject jsonObject = JSONObject.fromObject(map);
 		String result = jsonObject.toString();
 		return result;
