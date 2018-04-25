@@ -72,32 +72,33 @@
 
 
 <%--==================================================================Nav Start==================================================================--%>
-<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
-    <div class="container">
+<%--<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">--%>
+    <%--<div class="container">--%>
 
-        <div class="navbar-header">
-            <button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">
-                <img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">
-            </a>
-        </div>
-        <nav class="collapse navbar-collapse" id="rock-navigation">
-            <ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
-                <li><a href="#home" class="smoothScroll">首页</a></li>
-                <li><a href="#resume" class="smoothScroll">崭新套路</a></li>
-                <li><a href="#portfolio" class="smoothScroll">最近测评</a></li>
-                <li><a href="#work" class="smoothScroll">主要版块</a></li>
-                <li><a href="#about" class="smoothScroll">一日一技</a></li>
-                <li><a href="#contact" class="smoothScrol">来找咱们</a></li>
-            </ul>
-        </nav>
+        <%--<div class="navbar-header">--%>
+            <%--<button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">--%>
+                <%--<span class="icon icon-bar"></span>--%>
+                <%--<span class="icon icon-bar"></span>--%>
+                <%--<span class="icon icon-bar"></span>--%>
+            <%--</button>--%>
+            <%--<a href="#" class="navbar-brand">--%>
+                <%--<img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">--%>
+            <%--</a>--%>
+        <%--</div>--%>
+        <%--<nav class="collapse navbar-collapse" id="rock-navigation">--%>
+            <%--<ul class="nav navbar-nav navbar-right main-navigation text-uppercase">--%>
+                <%--<li><a href="#home" class="smoothScroll">首页</a></li>--%>
+                <%--<li><a href="#resume" class="smoothScroll">崭新套路</a></li>--%>
+                <%--<li><a href="#portfolio" class="smoothScroll">最近测评</a></li>--%>
+                <%--<li><a href="#work" class="smoothScroll">主要版块</a></li>--%>
+                <%--<li><a href="#about" class="smoothScroll">一日一技</a></li>--%>
+                <%--<li><a href="#contact" class="smoothScrol">来找咱们</a></li>--%>
+            <%--</ul>--%>
+        <%--</nav>--%>
 
-    </div>
-</div>
+    <%--</div>--%>
+<%--</div>--%>
+<%@ include file="nav_bar.jsp" %>
 <%--==================================================================Nav End==================================================================--%>
 
 <br>

@@ -11,7 +11,7 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <%--<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>--%>
     <script src="js/jquery1.min.js"></script>
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 
 
 
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.nav.js"></script>
@@ -80,33 +80,34 @@
 <body>
 
 <%--Nav Start--%>
-<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
-    <div class="container">
+<%--<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">--%>
+    <%--<div class="container">--%>
 
-        <div class="navbar-header">
-            <button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">
-                <img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">
-            </a>
-        </div>
-        <nav class="collapse navbar-collapse" id="rock-navigation">
-            <ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
-                <li><a href="#home" class="smoothScroll">首页</a></li>
-                <li><a href="#resume" class="smoothScroll">崭新套路</a></li>
-                <li><a href="#portfolio" class="smoothScroll">最近测评</a></li>
-                <li><a href="#work" class="smoothScroll">主要版块</a></li>
-                <li><a href="#about" class="smoothScroll">一日一技</a></li>
-                <li><a href="#contact" class="smoothScrol">来找咱们</a></li>
-            </ul>
-        </nav>
+        <%--<div class="navbar-header">--%>
+            <%--<button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">--%>
+                <%--<span class="icon icon-bar"></span>--%>
+                <%--<span class="icon icon-bar"></span>--%>
+                <%--<span class="icon icon-bar"></span>--%>
+            <%--</button>--%>
+            <%--<a href="#" class="navbar-brand">--%>
+                <%--<img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">--%>
+            <%--</a>--%>
+        <%--</div>--%>
+        <%--<nav class="collapse navbar-collapse" id="rock-navigation">--%>
+            <%--<ul class="nav navbar-nav navbar-right main-navigation text-uppercase">--%>
+                <%--<li><a href="#home" class="smoothScroll">首页</a></li>--%>
+                <%--<li><a href="#resume" class="smoothScroll">崭新套路</a></li>--%>
+                <%--<li><a href="#portfolio" class="smoothScroll">最近测评</a></li>--%>
+                <%--<li><a href="#work" class="smoothScroll">主要版块</a></li>--%>
+                <%--<li><a href="#about" class="smoothScroll">一日一技</a></li>--%>
+                <%--<li><a href="#contact" class="smoothScrol">来找咱们</a></li>--%>
+            <%--</ul>--%>
+        <%--</nav>--%>
 
-    </div>
-</div>
-</div>
+    <%--</div>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%@ include file="nav_bar.jsp" %>
 <%--Nav End--%>
 <div style="height: 50px;"></div>
 <div class="mens">
