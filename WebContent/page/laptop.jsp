@@ -103,34 +103,7 @@
 <body>
 
 <%--Nav Start--%>
-<%--<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">--%>
-    <%--<div class="container">--%>
-
-        <%--<div class="navbar-header">--%>
-            <%--<button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">--%>
-                <%--<span class="icon icon-bar"></span>--%>
-                <%--<span class="icon icon-bar"></span>--%>
-                <%--<span class="icon icon-bar"></span>--%>
-            <%--</button>--%>
-            <%--<a href="#" class="navbar-brand">--%>
-                <%--<img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">--%>
-            <%--</a>--%>
-        <%--</div>--%>
-        <%--<nav class="collapse navbar-collapse" id="rock-navigation">--%>
-            <%--<ul class="nav navbar-nav navbar-right main-navigation text-uppercase">--%>
-                <%--<li><a href="#home" class="smoothScroll">首页</a></li>--%>
-                <%--<li><a href="#resume" class="smoothScroll">崭新套路</a></li>--%>
-                <%--<li><a href="#portfolio" class="smoothScroll">最近测评</a></li>--%>
-                <%--<li><a href="#work" class="smoothScroll">主要版块</a></li>--%>
-                <%--<li><a href="#about" class="smoothScroll">一日一技</a></li>--%>
-                <%--<li><a href="#contact" class="smoothScrol">来找咱们</a></li>--%>
-            <%--</ul>--%>
-        <%--</nav>--%>
-
-    <%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%@ include file="nav_bar.jsp" %>
+    <%@ include file="nav_bar.jsp" %>
 <%--Nav End--%>
 <div style="height: 50px;"></div>
 <div class="mens">
@@ -163,8 +136,12 @@
                         <%--<input type="submit" value="buy" title="">--%>
                         <%--</form>--%>
                     </div>
-                    <span class="m_link"><a href="#">登陆以查看更多</a> </span>
-                    <p class="m_text2">它纤薄如刃，轻盈如羽，却又比以往速度更快、性能更强大。它为你展现的，是迄今最明亮、最多彩的 Mac 笔记本显示屏。它更配备了触控栏，一个内置于键盘的玻璃面多点触控条，让你能在需要时快速取用各种工具。MacBook Pro 是对我们突破性理念的一场出色演绎，而它，也正期待着演绎你的奇思妙想。</p>
+                    <a target="_blank" href="https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-16317952843.14.4be46560yuxrUL&id=553798414534&scene=taobao_shop&skuId=3404927977368"><img src="images/taobao_logo.png">¥ 22288.00 @天猫</a>
+                    <br><a target="_blank" href="https://item.jd.com/4335117.html"><img src="images/jd_logo.png">¥ 21688.00 @京东</a>
+                    <br><a target="_blank" href="https://www.amazon.cn/dp/B076GX2CYM/ref=sr_1_6?ie=UTF8&qid=1524733596&sr=8-6&keywords=macbook%2Bpro&th=1"><img src="images/github_logo.png">¥ 19,299.00 @Amazon</a>
+
+                    <%--<span class="m_link"><a href="#">登陆以查看更多</a> </span>--%>
+
                 </div>
                 <div class="clear"></div>
 
@@ -460,7 +437,7 @@
 
 
             <div class="rsingle span_1_of_single">
-                <h5 class="m_1">种类</h5>
+                <h5 class="m_1">当月热销榜</h5>
                 <%--<select class="dropdown" tabindex="8" data-settings='{"wrapperClass":"metro"}'>--%>
                 <%--<option value="1">种类1</option>--%>
                 <%--<option value="2">种类1</option>--%>
@@ -469,13 +446,17 @@
                 <%--</select>--%>
 
                 <ul class="kids">
-                    <li><a href="#">种类1</a></li>
-                    <li><a href="#">种类2</a></li>
-                    <li><a href="#">种类3</a></li>
-                    <li><a href="#">种类4</a></li>
-                    <li><a href="#">种类5</a></li>
-                    <li><a href="#">种类6</a></li>
-                    <li><a href="#">种类7</a></li>
+                    <li><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></li>
+                    <li><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">Microsoft Surfer Laptop Pro</a><p>$1000,000</p></td></tr></table></li>
+                    <li><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">Alienware 15</a><p>$1000,000</p></td></tr></table></li>
+                    <li><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">Dell XPS 13</a><p>$1000,000</p></td></tr></table></li>
+                    <li><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">DEll XPS 15</a><p>$1000,000</p></td></tr></table></li>
+                    <%--<li><img src="images/github_logo.png"><a href="#">Microsoft Surfer Laptop Pro </a></li>--%>
+                    <%--<li><img src="images/github_logo.png"><a href="#">Alienware 15</a></li>--%>
+                    <%--<li><img src="images/github_logo.png"><a href="#">Dell XPS 13</a></li>--%>
+                    <%--<li><img src="images/github_logo.png"><a href="#">DEll XPS 15</a></li>--%>
+                    <%--<li><img src="images/github_logo.png"><a href="#">Lenovo Carbon X1</a></li>--%>
+                    <%--<li><img src="images/github_logo.png"><a href="#">HUAWEI Mate X1</a></li>--%>
                 </ul>
                 <section  class="sky-form">
                     <h4>价格区间</h4>
