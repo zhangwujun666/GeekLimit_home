@@ -21,6 +21,7 @@
     <link href="../main/css/table.css" rel="stylesheet" type="text/css" />
     <%--<link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />--%>
     <%--<link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet">--%>
+    <link rel="stylesheet" href="lib/layer_mobile/need/layer.css">
 
 
 
@@ -37,6 +38,7 @@
     <script type="text/javascript" src="../main/lib/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="../main/lib/layer/1.9.3/layer.js"></script>
     <script type="text/javascript" src="../main/lib/laypage/1.2/laypage.js"></script>
+    <%--<script type="text/javascript" src="lib/layer_mobile/layer.js"></script>--%>
     <script type="text/javascript" src="../main/lib/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
@@ -786,6 +788,13 @@
             area : ['1000px' , '850px'],
             content: '/page/laptopVideo.html?id='+id
         });
+        // layer.open({
+        //     type: 1
+        //     ,content: '可传入任何内容，支持html。一般用于手机页面中'
+        //     ,anim: 'up'
+        //     ,style: 'position:fixed; bottom:0; left:0; width: 100%; height: 200px; padding:10px 0; border:none;'
+        //     ,content: '/page/laptopVideo.html?id='+id
+        // });
     }
 </script>
 <%@ include file="footer_home.jsp" %>
