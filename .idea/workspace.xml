@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/main/css/table.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/laptop_video.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/VideoDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/VideoDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/entity/Video.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/service/VideoService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/style.css" afterPath="$PROJECT_DIR$/WebContent/page/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/laptop.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="441" column="63" lean-forward="false" selection-start-line="441" selection-start-column="63" selection-end-line="441" selection-end-column="63" />
+            <state relative-caret-position="339">
+              <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="285">
               <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
@@ -280,8 +270,8 @@
         <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop_video.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/css/style.css" />
+        <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
       </list>
     </option>
   </component>
@@ -674,7 +664,7 @@
       <workItem from="1523856922138" duration="10219000" />
       <workItem from="1524297639820" duration="8526000" />
       <workItem from="1524467023204" duration="11761000" />
-      <workItem from="1524490083732" duration="56038000" />
+      <workItem from="1524490083732" duration="56427000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -746,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524658163387</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="laptop info add radar and video plugin">
+      <created>1524732739279</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1524732739279</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94307000" />
+    <option name="totallyTimeSpent" value="94696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,7 +816,8 @@
     <MESSAGE value="footer fix" />
     <MESSAGE value="footer add details" />
     <MESSAGE value="navbar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar fix" />
+    <MESSAGE value="laptop info add radar and video plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="laptop info add radar and video plugin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1286,10 +1284,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="441" column="63" lean-forward="false" selection-start-line="441" selection-start-column="63" selection-end-line="441" selection-end-column="63" />
+        <state relative-caret-position="339">
+          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1324,14 +1330,6 @@
             <element signature="n#style#0;n#hr#0;n#div#17;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -95,7 +95,7 @@
     </script>
 
     <style>
-        iframe{
+        #videos iframe{
             pointer-events: none;
         }
     </style>
