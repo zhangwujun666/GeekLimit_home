@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/layer_mobile/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/lib/layer_mobile/need/layer.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
+      <change beforePath="$PROJECT_DIR$/build.properties" afterPath="$PROJECT_DIR$/build_bak.properties" />
+      <change beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build_bak.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -83,6 +82,26 @@
                 <element signature="n#style#0;n#hr#0;n#div#17;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_bak.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build_bak.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2102">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2425">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -249,6 +268,7 @@
         <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/WebContent/page/css/style.css" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
+        <option value="$PROJECT_DIR$/build.xml" />
       </list>
     </option>
   </component>
@@ -446,11 +466,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15597783" />
     <property name="project.structure.side.proportion" value="0.12400455" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/john/Desktop/GeekLimits/Web/GeekLimits_home/WebContent/page/index.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -682,7 +705,7 @@
       <workItem from="1523856922138" duration="10219000" />
       <workItem from="1524297639820" duration="8526000" />
       <workItem from="1524467023204" duration="11761000" />
-      <workItem from="1524490083732" duration="60690000" />
+      <workItem from="1524490083732" duration="61127000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -775,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524736357689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="remove unsupported layer-mobile plugin">
+      <created>1524737940264</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1524737940264</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98959000" />
+    <option name="totallyTimeSpent" value="99396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,7 +881,8 @@
     <MESSAGE value="laptop info add radar and video plugin" />
     <MESSAGE value="fix video plugin" />
     <MESSAGE value="fix link css" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix link css" />
+    <MESSAGE value="remove unsupported layer-mobile plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unsupported layer-mobile plugin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,22 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="207" column="3" lean-forward="false" selection-start-line="207" selection-start-column="3" selection-end-line="207" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/main/goods/count.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1356,6 +1371,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build_bak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2425">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1402,7 +1433,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.12400455" />
               </list>
             </option>
           </splitter-proportions>
@@ -1410,11 +1441,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JRebel|GeekLimit_home</last-edited>
+          <last-edited>GeekLimit_home</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.12400455" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
