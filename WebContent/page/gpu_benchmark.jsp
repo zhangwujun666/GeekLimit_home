@@ -34,9 +34,6 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/google_font.css">
-    <link href="../main/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-    <link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
-    <link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 
     <link rel="stylesheet" href="lib/layui/css/layui.css">

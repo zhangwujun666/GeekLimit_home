@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/google_font.css">
+    <link href="../main/css/table.css" rel="stylesheet" type="text/css" />
+    <%--<link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet">--%>
 
 
 
@@ -37,7 +40,21 @@
     <script type="text/javascript" src="../main/lib/My97DatePicker/WdatePicker.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
-    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <%--<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>--%>
+
+    <%--echart--%>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+    <%--echart--%>
+
+
 
     <!-- start menu -->
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
@@ -76,6 +93,12 @@
             $('#img1,#img2,#img3,#img4').zoome({showZoomState:true,magnifierSize:[250,250]});
         });
     </script>
+
+    <style>
+        iframe{
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -146,9 +169,9 @@
                 <div class="clear"></div>
 
 
-
+<%--==================================================================banner==================================================================--%>
                 <div class="clients">
-                    <h3 class="m_3">一身才华，一触，即发。</h3>
+
                     <ul id="flexiselDemo3">
                         <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 600</p></li>
                         <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 850</p></li>
@@ -204,6 +227,152 @@
                     </script>
                     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
                 </div>
+<%--==================================================================banner==================================================================--%>
+
+
+
+<%--==================================================================radar chart==================================================================--%>
+            <div id="radar" style="height:300px; width: 50%; float: left;"></div>
+            <%--chart comments--%>
+                <div id="comments" style="height:300px; width: 50%; float: left; border: 1px solid #a0a0a0;">
+                    <section  class="sky-form" >
+                        <h4 style="margin-top: 0px; font-size: 25px;">评分说明</h4>
+                        <div class=" row1 scroll-pane" style="height: 240px; width: 100%; padding: 10px;">
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>便携性很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>性能很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>屏幕很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>外观很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>体验很一般</label>
+                            </div>
+
+                            <%--<div class="col col-4">--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1070</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1060</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050Ti</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 560</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 550</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 460</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 455</label>--%>
+                                <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 450</label>--%>
+                            <%--</div>--%>
+                        </div>
+                    </section>
+                </div>
+            <%--chart comments--%>
+<%--==================================================================radar chart==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+<%--==================================================================table start==================================================================--%>
+                <div id="data">
+                    <div style="height: 20px;"></div>
+                    <div id="laptop_table" style="width: 100%; float: left;">
+                        <table class="table table-border table-bordered table-hover table-bg table-sort" >
+                            <thead >
+                            <%--<tr id="bar_head">--%>
+                            <%--<th width="25px"><input type="checkbox" name="" value=""></th>--%>
+                            <%--<th width="20px">ID</th>--%>
+                            <tr >
+                                <th style="width: 33%;">型号</th>
+                                <td style="color: #0a6999;">GTX1080Ti</td>
+                            </tr>
+                            <tr>
+                                <th >核心架构</th>
+                                <td>Pascal</td>
+                            </tr>
+                            <tr>
+                                <th >像素/纹理填充率</th>
+                                <td>3584</td>
+                            </tr>
+                            <tr>
+                                <th >核心速率(MHz)</th>
+                                <td>1481</td>
+                            </tr>
+                            <tr>
+                                <th >着色器速率(Mhz)</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th >超频(MHz)</th>
+                                <td>1600</td>
+                            </tr>
+                            <tr>
+                                <th >显存容量(MB)</th>
+                                <td>11000</td>
+                            </tr>
+                            <tr>
+                                <th >显存位宽(Bit)</th>
+                                <td>352</td>
+                            </tr>
+                            <tr>
+                                <th >显存类型</th>
+                                <td>GDDR5X</td>
+                            </tr>
+                            <tr>
+                                <th >DX API</th>
+                                <td>12_1</td>
+                            </tr>
+                            <tr>
+                                <th >OpenGL</th>
+                                <td>4.5 / Vulka</td>
+                            </tr>
+                            <tr>
+                                <th >制程(nm)</th>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <th >性能指标(相对绝对性能)</th>
+                                <td>76.3</td>
+                            </tr>
+                            <tr>
+                                <th >3DMark Ice Storm GPU</th>
+                                <td>3717002</td>
+                            </tr>
+                            <tr>
+                                <th >3DMark Cloud Gate GPU</th>
+                                <td>1551433</td>
+                            </tr>
+                            <tr>
+                                <th >3DMark Fire Strike Graphics</th>
+                                <td>2758217</td>
+                            </tr>
+                            <tr>
+                                <th >3DMark11 P GPU</th>
+                                <td>3790315</td>
+                            </tr>
+                            </thead>
+                            <%--<div style="height: 35px;"></div>--%>
+                            <%--<tbody>--%>
+                            <%--&lt;%&ndash;<c:forEach items="${gpu}" var="list" varStatus="s">&ndash;%&gt;--%>
+                            <%--<tr id="table_data">--%>
+                            <%--&lt;%&ndash;<td><input type="checkbox" value="1" name=""></td>&ndash;%&gt;--%>
+                            <%--&lt;%&ndash;<td>${list.id}</td>&ndash;%&gt;--%>
+                            <%--</tr>--%>
+                            <%--&lt;%&ndash;</c:forEach>&ndash;%&gt;--%>
+                            <%--</tbody>--%>
+                        </table>
+                    </div>
+                </div>
+<%--==================================================================table end==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+<%--==================================================================content start==================================================================--%>
+                <h3 class="m_3">一身才华，一触，即发。</h3>
                 <div class="toogle">
                     <h3 class="m_3">触控栏和触控 ID</h3>
                     <p class="m_text">触控栏取代了以往键盘最上方的功能键，为你带来更多能、更实用的功能2。它会根据你当前的操作自动显示不同的样子，呈现给你相关的工具，比如系统控制键里的音量和亮度、互动操作中的调整和内容浏览工具、智能输入功能中的表情符号和文本输入预测等等，这些都是你早就运用自如的。此外，触控 ID 功能也已登陆 Mac，让你可以在转瞬之间完成登录等各种操作。</p>
@@ -212,13 +381,84 @@
                     <h3 class="m_3">图像性能卓绝，令人眼界大开。</h3>
                     <p class="m_text">15 英寸 MacBook Pro 均配备性能强大的 Radeon Pro 独立图形处理器。这一图形处理器采用先进的 14 纳米制程工艺，处理能力和能效表现都非常出色。顶配机型现在标配 4GB GDDR5 显存，这让专业任务处理，比如在 Final Cut Pro X 中进行 3D 字幕渲染，能有实时、流畅的表现。 13 英寸机型均搭载强大的集成图形处理器，配有 64MB 的嵌入式动态随机存储器 (eDRAM)，可加快图形处理任务的速度。因此，你将节省更多时间专注于你的大作，这才是重中之重。</p>
                 </div>
-
-                <%--eChart Start--%>
+<%--==================================================================content end==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+<%--==================================================================bar Start==================================================================--%>
                 <div id="main" style="height:400px;"></div>
-                <div id="main1" style="height:400px;"></div>
-                <div id="main2" style="height:400px;"></div>
-                <%--eChart End--%>
-            </div>
+                <%--<div id="main1" style="height:400px;"></div>--%>
+                <%--<div id="main2" style="height:400px;"></div>--%>
+<%--==================================================================bar End==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+<%--==================================================================wiki Start==================================================================--%>
+                <%--chart comments--%>
+                <div id="comments" style="height:300px; width: 100%; float: left; border: 1px solid #a0a0a0;">
+                    <section  class="sky-form" >
+                        <h4 style="margin-top: 0px; font-size: 25px;">网媒热评</h4>
+                        <div class=" row1 scroll-pane" style="height: 240px; width: 100%; padding: 10px;">
+                            <div class="col col-4">
+                                <p>ZOL</p><label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>便携性很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <p>ZOL</p><label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>性能很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <p>ZOL</p><label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>屏幕很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <p>ZOL</p><label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>外观很一般</label>
+                            </div>
+                            <div class="col col-4">
+                                <p>ZOL</p><label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>体验很一般</label>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <%--chart comments--%>
+<%--==================================================================wiki End==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+<%--==================================================================video End==================================================================--%>
+                <div id="videos" style="height:300px; width: 100%; float: left; ">
+
+                    <div class="video" onclick="video('1')">
+                        <iframe class="bilibili" src="//player.bilibili.com/player.html?aid=6852089&cid=11163887&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                        <a style="float: left" ><p class="video-label">全新MacBook Pro官方介绍视频</p></a>
+                    </div>
+                    <div class="mydiv2" style="position:absolute;z-index:-1; background-color:red;opacity:.50;"></div>
+                    <div class="video" onclick="video('2')">
+                        <iframe class="bilibili" src="//player.bilibili.com/player.html?aid=12497141&cid=20565536&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                        <a style="float: left" ><p class="video-label">2017 MacBook pro 15寸高配游戏性能简单测试</p></a>
+                    </div>
+                    <div class="mydiv2" style="position:absolute;z-index:90;"></div>
+                    <div class="video" onclick="video('3')">
+                        <iframe  class="bilibili" src="//player.bilibili.com/player.html?aid=11667517&cid=19275761&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                        <a style="float: left" ><p class="video-label">2017 MacBook Pro笔记本如何选择</p></a>
+                    </div>
+                    <div class="mydiv2" style="position:absolute;z-index:90;"></div>
+                </div>
+<%--==================================================================video End==================================================================--%>
+                <%--divide line--%>
+                <div class="toogle" style="width: 100%; float: left;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+                <%--divide line--%>
+            </div><%--main end--%>
+        <%--</div>--%>
+
+
+
             <div class="rsingle span_1_of_single">
                 <h5 class="m_1">种类</h5>
                 <%--<select class="dropdown" tabindex="8" data-settings='{"wrapperClass":"metro"}'>--%>
@@ -343,486 +583,230 @@
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
-    </div>
+
 </div>
 
 <div style="display:none"></div>
 
 
+<script type="text/javascript">
+    var weatherIcons = {
+        'Sunny': './data/asset/img/weather/sunny_128.png',
+        'Cloudy': './data/asset/img/weather/cloudy_128.png',
+        'Showers': './data/asset/img/weather/showers_128.png'
+    };
 
-        <%--eChart--%>
-        <script type="text/javascript">
+    var seriesLabel = {
+        normal: {
+            show: true,
+            textBorderColor: '#333',
+            textBorderWidth: 2
+        }
+    }
+    var myChart = echarts.init(document.getElementById('main'));
 
-            require.config({
-                paths: {
-                    echarts: 'http://echarts.baidu.com/build/dist'
-                }
-            });
-            require(
-                [
-                    'echarts',
-                    'echarts/chart/line',
-                    'echarts/chart/bar'   // 按需加载所需图表，如需动态类型切换功能，别忘了同时加载相应图表
-                ],
-                function (ec) {
+    var radar = echarts.init(document.getElementById('radar'));
 
-                    // var url = location.search;
-                    // var i = url.indexOf("=");
-                    // var goods_id = url.substring(i+1);
-                    // var goods_id = '105';
-                    // $.ajax({
-                    //     url:'countData.html',
-                    //     type:'post',
-                    //     async:'true',
-                    //     data:'goods_id='+ goods_id,
-                    // success:function(rs){
-                    //     var temp = JSON.parse(rs);
-                    //     var res = temp.countData;
-                    //     var views = new Array();
-                    //     var counts = new Array();
-                    //     for(var i = 0; i < res.length; i++){
-                    //         views.push(res[i]['views']);
-                    //         counts.push(res[i]['count']);
-                    //     }
-                    // var dataViews=JSON.stringify(views);
-                    // document.getElementById("views").value= dataViews;
-                    // var dataCounts=JSON.stringify(counts);
-                    // document.getElementById("count").value= dataCounts;
-                    var weatherIcons = {
-                        'Sunny': './data/asset/img/weather/sunny_128.png',
-                        'Cloudy': './data/asset/img/weather/cloudy_128.png',
-                        'Showers': './data/asset/img/weather/showers_128.png'
-                    };
 
-                    var seriesLabel = {
-                        normal: {
-                            show: true,
-                            textBorderColor: '#333',
-                            textBorderWidth: 2
+
+    // myChart.hideLoading();
+    // ==========================eChart1==========================
+    myChart.setOption({
+        title: {
+            text: ''
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        legend: {
+            data: ['City Alpha', 'City Beta', 'City Gamma']
+        },
+        grid: {
+            left: 100
+        },
+        toolbox: {
+            show: false,
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'value',
+            name: 'Days',
+            axisLabel: {
+                formatter: '{value}'
+            }
+        },
+        yAxis: {
+            type: 'category',
+            inverse: true,
+            data: ['Sunny', 'Cloudy', 'Showers'],
+            axisLabel: {
+                formatter: function (value) {
+                    return '{' + value + '| }\n{value|' + value + '}';
+                },
+                margin: 20,
+                rich: {
+                    value: {
+                        lineHeight: 30,
+                        align: 'center'
+                    },
+                    Sunny: {
+                        height: 40,
+                        align: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Sunny
+                        }
+                    },
+                    Cloudy: {
+                        height: 40,
+                        align: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Cloudy
+                        }
+                    },
+                    Showers: {
+                        height: 40,
+                        align: 'center',
+                        backgroundColor: {
+                            image: weatherIcons.Showers
                         }
                     }
-                    var myChart = ec.init(document.getElementById('main'));
-
-                    var myChart1 = ec.init(document.getElementById('main1'));
-
-                    var myChart2 = ec.init(document.getElementById('main2'));
-
-
-
-                    // myChart.hideLoading();
-                    // ==========================eChart1==========================
-                    myChart.setOption({
-                        title: {
-                            text: ''
-                        },
-                        tooltip: {
-                            trigger: 'axis',
-                            axisPointer: {
-                                type: 'shadow'
-                            }
-                        },
-                        legend: {
-                            data: ['City Alpha', 'City Beta', 'City Gamma']
-                        },
-                        grid: {
-                            left: 100
-                        },
-                        toolbox: {
-                            show: true,
-                            feature: {
-                                saveAsImage: {}
-                            }
-                        },
-                        xAxis: {
-                            type: 'value',
-                            name: 'Days',
-                            axisLabel: {
-                                formatter: '{value}'
-                            }
-                        },
-                        yAxis: {
-                            type: 'category',
-                            inverse: true,
-                            data: ['Sunny', 'Cloudy', 'Showers'],
-                            axisLabel: {
-                                formatter: function (value) {
-                                    return '{' + value + '| }\n{value|' + value + '}';
-                                },
-                                margin: 20,
-                                rich: {
-                                    value: {
-                                        lineHeight: 30,
-                                        align: 'center'
-                                    },
-                                    Sunny: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Sunny
-                                        }
-                                    },
-                                    Cloudy: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Cloudy
-                                        }
-                                    },
-                                    Showers: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Showers
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        series: [
-                            {
-                                name: 'City Alpha',
-                                type: 'bar',
-                                data: [165, 170, 30],
-                                label: seriesLabel,
-                                markPoint: {
-                                    symbolSize: 1,
-                                    symbolOffset: [0, '50%'],
-                                    label: {
-                                        normal: {
-                                            formatter: '{a|{a}\n}{b|{b} }{c|{c}}',
-                                            backgroundColor: 'rgb(242,242,242)',
-                                            borderColor: '#aaa',
-                                            borderWidth: 1,
-                                            borderRadius: 4,
-                                            padding: [4, 10],
-                                            lineHeight: 26,
-                                            // shadowBlur: 5,
-                                            // shadowColor: '#000',
-                                            // shadowOffsetX: 0,
-                                            // shadowOffsetY: 1,
-                                            position: 'right',
-                                            distance: 20,
-                                            rich: {
-                                                a: {
-                                                    align: 'center',
-                                                    color: '#fff',
-                                                    fontSize: 18,
-                                                    textShadowBlur: 2,
-                                                    textShadowColor: '#000',
-                                                    textShadowOffsetX: 0,
-                                                    textShadowOffsetY: 1,
-                                                    textBorderColor: '#333',
-                                                    textBorderWidth: 2
-                                                },
-                                                b: {
-                                                    color: '#333'
-                                                },
-                                                c: {
-                                                    color: '#ff8811',
-                                                    textBorderColor: '#000',
-                                                    textBorderWidth: 1,
-                                                    fontSize: 22
-                                                }
-                                            }
-                                        }
-                                    },
-                                    data: [
-                                        {type: 'max', name: 'max days: '},
-                                        {type: 'min', name: 'min days: '}
-                                    ]
-                                }
-                            },
-                            {
-                                name: 'City Beta',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [150, 105, 110]
-                            },
-                            {
-                                name: 'City Gamma',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [220, 82, 63]
-                            }
-                        ]
-                    });
-                    // ==========================eChart2==========================
-                    myChart1.setOption({
-                        title: {
-                            text: ''
-                        },
-                        tooltip: {
-                            trigger: 'axis',
-                            axisPointer: {
-                                type: 'shadow'
-                            }
-                        },
-                        legend: {
-                            data: ['City Alpha', 'City Beta', 'City Gamma']
-                        },
-                        grid: {
-                            left: 100
-                        },
-                        toolbox: {
-                            show: true,
-                            feature: {
-                                saveAsImage: {}
-                            }
-                        },
-                        xAxis: {
-                            type: 'value',
-                            name: 'Days',
-                            axisLabel: {
-                                formatter: '{value}'
-                            }
-                        },
-                        yAxis: {
-                            type: 'category',
-                            inverse: true,
-                            data: ['Sunny', 'Cloudy', 'Showers'],
-                            axisLabel: {
-                                formatter: function (value) {
-                                    return '{' + value + '| }\n{value|' + value + '}';
-                                },
-                                margin: 20,
-                                rich: {
-                                    value: {
-                                        lineHeight: 30,
-                                        align: 'center'
-                                    },
-                                    Sunny: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Sunny
-                                        }
-                                    },
-                                    Cloudy: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Cloudy
-                                        }
-                                    },
-                                    Showers: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Showers
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        series: [
-                            {
-                                name: 'City Alpha',
-                                type: 'bar',
-                                data: [165, 170, 30],
-                                label: seriesLabel,
-                                markPoint: {
-                                    symbolSize: 1,
-                                    symbolOffset: [0, '50%'],
-                                    label: {
-                                        normal: {
-                                            formatter: '{a|{a}\n}{b|{b} }{c|{c}}',
-                                            backgroundColor: 'rgb(242,242,242)',
-                                            borderColor: '#aaa',
-                                            borderWidth: 1,
-                                            borderRadius: 4,
-                                            padding: [4, 10],
-                                            lineHeight: 26,
-                                            // shadowBlur: 5,
-                                            // shadowColor: '#000',
-                                            // shadowOffsetX: 0,
-                                            // shadowOffsetY: 1,
-                                            position: 'right',
-                                            distance: 20,
-                                            rich: {
-                                                a: {
-                                                    align: 'center',
-                                                    color: '#fff',
-                                                    fontSize: 18,
-                                                    textShadowBlur: 2,
-                                                    textShadowColor: '#000',
-                                                    textShadowOffsetX: 0,
-                                                    textShadowOffsetY: 1,
-                                                    textBorderColor: '#333',
-                                                    textBorderWidth: 2
-                                                },
-                                                b: {
-                                                    color: '#333'
-                                                },
-                                                c: {
-                                                    color: '#ff8811',
-                                                    textBorderColor: '#000',
-                                                    textBorderWidth: 1,
-                                                    fontSize: 22
-                                                }
-                                            }
-                                        }
-                                    },
-                                    data: [
-                                        {type: 'max', name: 'max days: '},
-                                        {type: 'min', name: 'min days: '}
-                                    ]
-                                }
-                            },
-                            {
-                                name: 'City Beta',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [150, 105, 110]
-                            },
-                            {
-                                name: 'City Gamma',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [220, 82, 63]
-                            }
-                        ]
-                    });
-                    // ==========================eChart3==========================
-                    myChart2.setOption({
-                        title: {
-                            text: ''
-                        },
-                        tooltip: {
-                            trigger: 'axis',
-                            axisPointer: {
-                                type: 'shadow'
-                            }
-                        },
-                        legend: {
-                            data: ['City Alpha', 'City Beta', 'City Gamma']
-                        },
-                        grid: {
-                            left: 100
-                        },
-                        toolbox: {
-                            show: true,
-                            feature: {
-                                saveAsImage: {}
-                            }
-                        },
-                        xAxis: {
-                            type: 'value',
-                            name: 'Days',
-                            axisLabel: {
-                                formatter: '{value}'
-                            }
-                        },
-                        yAxis: {
-                            type: 'category',
-                            inverse: true,
-                            data: ['Sunny', 'Cloudy', 'Showers'],
-                            axisLabel: {
-                                formatter: function (value) {
-                                    return '{' + value + '| }\n{value|' + value + '}';
-                                },
-                                margin: 20,
-                                rich: {
-                                    value: {
-                                        lineHeight: 30,
-                                        align: 'center'
-                                    },
-                                    Sunny: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Sunny
-                                        }
-                                    },
-                                    Cloudy: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Cloudy
-                                        }
-                                    },
-                                    Showers: {
-                                        height: 40,
-                                        align: 'center',
-                                        backgroundColor: {
-                                            image: weatherIcons.Showers
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        series: [
-                            {
-                                name: 'City Alpha',
-                                type: 'bar',
-                                data: [165, 170, 30],
-                                label: seriesLabel,
-                                markPoint: {
-                                    symbolSize: 1,
-                                    symbolOffset: [0, '50%'],
-                                    label: {
-                                        normal: {
-                                            formatter: '{a|{a}\n}{b|{b} }{c|{c}}',
-                                            backgroundColor: 'rgb(242,242,242)',
-                                            borderColor: '#aaa',
-                                            borderWidth: 1,
-                                            borderRadius: 4,
-                                            padding: [4, 10],
-                                            lineHeight: 26,
-                                            // shadowBlur: 5,
-                                            // shadowColor: '#000',
-                                            // shadowOffsetX: 0,
-                                            // shadowOffsetY: 1,
-                                            position: 'right',
-                                            distance: 20,
-                                            rich: {
-                                                a: {
-                                                    align: 'center',
-                                                    color: '#fff',
-                                                    fontSize: 18,
-                                                    textShadowBlur: 2,
-                                                    textShadowColor: '#000',
-                                                    textShadowOffsetX: 0,
-                                                    textShadowOffsetY: 1,
-                                                    textBorderColor: '#333',
-                                                    textBorderWidth: 2
-                                                },
-                                                b: {
-                                                    color: '#333'
-                                                },
-                                                c: {
-                                                    color: '#ff8811',
-                                                    textBorderColor: '#000',
-                                                    textBorderWidth: 1,
-                                                    fontSize: 22
-                                                }
-                                            }
-                                        }
-                                    },
-                                    data: [
-                                        {type: 'max', name: 'max days: '},
-                                        {type: 'min', name: 'min days: '}
-                                    ]
-                                }
-                            },
-                            {
-                                name: 'City Beta',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [150, 105, 110]
-                            },
-                            {
-                                name: 'City Gamma',
-                                type: 'bar',
-                                label: seriesLabel,
-                                data: [220, 82, 63]
-                            }
-                        ]
-                    });
-                    // }
-                    // })
                 }
-            );
-        </script>
+            }
+        },
+        series: [
+            {
+                name: 'City Alpha',
+                type: 'bar',
+                data: [165, 170, 30],
+                label: seriesLabel,
+                markPoint: {
+                    symbolSize: 1,
+                    symbolOffset: [0, '50%'],
+                    label: {
+                        normal: {
+                            formatter: '{a|{a}\n}{b|{b} }{c|{c}}',
+                            backgroundColor: 'rgb(242,242,242)',
+                            borderColor: '#aaa',
+                            borderWidth: 1,
+                            borderRadius: 4,
+                            padding: [4, 10],
+                            lineHeight: 26,
+                            // shadowBlur: 5,
+                            // shadowColor: '#000',
+                            // shadowOffsetX: 0,
+                            // shadowOffsetY: 1,
+                            position: 'right',
+                            distance: 20,
+                            rich: {
+                                a: {
+                                    align: 'center',
+                                    color: '#fff',
+                                    fontSize: 18,
+                                    textShadowBlur: 2,
+                                    textShadowColor: '#000',
+                                    textShadowOffsetX: 0,
+                                    textShadowOffsetY: 1,
+                                    textBorderColor: '#333',
+                                    textBorderWidth: 2
+                                },
+                                b: {
+                                    color: '#333'
+                                },
+                                c: {
+                                    color: '#ff8811',
+                                    textBorderColor: '#000',
+                                    textBorderWidth: 1,
+                                    fontSize: 22
+                                }
+                            }
+                        }
+                    },
+                    data: [
+                        {type: 'max', name: 'max days: '},
+                        {type: 'min', name: 'min days: '}
+                    ]
+                }
+            },
+            {
+                name: 'City Beta',
+                type: 'bar',
+                label: seriesLabel,
+                data: [150, 105, 110]
+            },
+            {
+                name: 'City Gamma',
+                type: 'bar',
+                label: seriesLabel,
+                data: [220, 82, 63]
+            }
+        ]
+    });
+    // =====================radar=====================
+    radar.setOption({
+        // title: {
+        //     text: '多雷达图'
+        // },
+        tooltip: {
+            trigger: 'axis'
+        },
+        // legend: {
+        //     x: 'center',
+        //     data:['某软件']
+        // },
+        radar: [
+            {
+                indicator: [
+                    {text: '品牌', max: 100},
+                    {text: '内容', max: 100},
+                    {text: '可用性', max: 100},
+                    {text: '功能', max: 100},
+                    {text: '功能1', max: 100}
+                ],
+                // center: ['30%','30%'],
+                radius: 100
+            },
+        ],
+        series: [
+            {
+                type: 'radar',
+                tooltip: {
+                    trigger: 'item'
+                },
+                itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                data: [
+                    {
+                        value: [60,73,85,40,50],
+                        name: '某软件'
+                    }
+                ]
+            },
+
+
+        ]
+    });
+    // =====================radar=====================
+
+</script>
+
+<script type="text/javascript">
+
+    function video(id) {
+        layer.open({
+            type: 2,
+            title: '视频详情',
+            maxmin: true,
+            shadeClose: true, //点击遮罩关闭层
+            scrollbar: false,
+            area : ['1000px' , '850px'],
+            content: '/page/laptopVideo.html?id='+id
+        });
+    }
+</script>
 <%@ include file="footer_home.jsp" %>
 
 </body>
