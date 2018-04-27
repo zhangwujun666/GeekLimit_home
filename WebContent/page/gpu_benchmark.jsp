@@ -136,7 +136,7 @@
             <thead >
                 <tr id="bar_head">
                     <th width="25px"><input type="checkbox" name="" value=""></th>
-                    <th width="20px">ID</th>
+                    <th width="20px">排名</th>
                     <th width="20%">型号(点击查看详情)</th>
                     <th width="10%">核心架构</th>
                     <th width="10%">像素/纹理<br>填充率</th>
@@ -164,22 +164,22 @@
                     <td><input type="checkbox" value="1" name=""></td>
                     <td>${list.id}</td>
                     <td><a href="javascript:;" onclick="analyse(105)" style="color: #0a6999;">${list.model}</a></td>
-                    <td>${list.architecture}</td>
-                    <td>${list.shaders}</td>
-                    <td>${list.core_speed}</td>
-                    <td>${list.shader_speed}</td>
-                    <td>${list.boost}</td>
-                    <td>${list.memory_speed}</td>
-                    <td>${list.memory_bus}</td>
-                    <td>${list.memory_type}</td>
-                    <td>${list.directx}</td>
-                    <td>${list.opengl}</td>
-                    <td>${list.process}</td>
-                    <td>${list.perf_rating}</td>
-                    <td>${list.perf_ice}</td>
-                    <td>${list.perf_cloud}</td>
-                    <td>${list.perf_fire}</td>
-                    <td>${list.perf_p}</td>
+                    <td title="核心架构">${list.architecture}</td>
+                    <td title="像素/纹理填充率">${list.shaders}</td>
+                    <td title="核心速率(MHz)">${list.core_speed}</td>
+                    <td title="着色器速率(Mhz)">${list.shader_speed}</td>
+                    <td title="超频(MHz)">${list.boost}</td>
+                    <td title="显存容量(MB)">${list.memory_speed}</td>
+                    <td title="显存位宽(Bit)">${list.memory_bus}</td>
+                    <td title="显存类型">${list.memory_type}</td>
+                    <td title="DX API">${list.directx}</td>
+                    <td title="OpenGL">${list.opengl}</td>
+                    <td title="制程(nm)">${list.process}</td>
+                    <td title="性能指标(相对绝对性能)">${list.perf_rating}</td>
+                    <td title="3DMark Ice Storm GPU">${list.perf_ice}</td>
+                    <td title="3DMark Cloud Gate GPU">${list.perf_cloud}</td>
+                    <td title="3DMark Fire Strike Graphics">${list.perf_fire}</td>
+                    <td title="3DMark11 P GPU">${list.perf_p}</td>
                     <td>
                         <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
                     </td>

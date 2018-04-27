@@ -6,15 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="update ant">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/CpuDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/CpuDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/entity/Cpu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/service/CpuService.java" />
+    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="538">
+              <caret line="169" column="45" lean-forward="false" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpu_benchmark.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cpu_benchmark.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1218">
-              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state relative-caret-position="785">
+              <caret line="183" column="50" lean-forward="false" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -279,8 +274,8 @@
         <option value="$PROJECT_DIR$/src/com/yq/controller/BenchmarkCtrl.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/CpuDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/entity/Cpu.java" />
-        <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
       </list>
     </option>
   </component>
@@ -710,7 +705,7 @@
       <workItem from="1523856922138" duration="10219000" />
       <workItem from="1524297639820" duration="8526000" />
       <workItem from="1524467023204" duration="11761000" />
-      <workItem from="1524490083732" duration="65111000" />
+      <workItem from="1524490083732" duration="65737000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -817,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524738953303</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add cpu list&amp;detail">
+      <created>1524807854747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1524807854747</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103380000" />
+    <option name="totallyTimeSpent" value="104006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +897,8 @@
     <MESSAGE value="fix link css" />
     <MESSAGE value="remove unsupported layer-mobile plugin" />
     <MESSAGE value="update ant" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ant" />
+    <MESSAGE value="add cpu list&amp;detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cpu list&amp;detail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1450,18 +1453,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="785">
+          <caret line="183" column="50" lean-forward="false" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1218">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="538">
+          <caret line="169" column="45" lean-forward="false" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -165,23 +165,23 @@
                             <td><input type="checkbox" value="1" name=""></td>
                             <td>${list.id}</td>
                             <td><a href="javascript:;" onclick="detail(105)" style="color: #0a6999;">${list.model}</a></td>
-                            <td>${list.code_name}</td>
-                            <td>${list.cache}</td>
-                            <td>${list.tdp}</td>
-                            <td>${list.mhz_turbo}</td>
-                            <td>${list.core_thread}</td>
-                            <td>${list.process}</td>
-                            <td>${list.perf_rating}</td>
-                            <td>${list.mark_cpu}</td>
-                            <td>${list.cinbench_single}</td>
-                            <td>${list.cinbench_multi}</td>
-                            <td>${list.cinbench_single_medium}</td>
-                            <td>${list.cinbench_multi_medium}</td>
-                            <td>${list.cinbench_single_large}</td>
-                            <td>${list.cinbench_multi_large}</td>
-                            <td>${list.wprime}</td>
-                            <td>${list.x_pass_one}</td>
-                            <td>${list.x_pass_two}</td>
+                            <td title="核心代号">${list.code_name}</td>
+                            <td title="2级/3级缓存">${list.cache}</td>
+                            <td title="设计热功耗">${list.tdp}</td>
+                            <td title="核心速率/睿频(MHz)">${list.mhz_turbo}</td>
+                            <td title="核心数/线程数">${list.core_thread}</td>
+                            <td title="制程(nm)">${list.process}</td>
+                            <td title="性能指标(相对绝对性能)">${list.perf_rating}</td>
+                            <td title="3DMark06 CPU">${list.mark_cpu}</td>
+                            <td title="Cinebench R10 32Bit Single">${list.cinbench_single}</td>
+                            <td title="Cinebench R10 32Bit Multi">${list.cinbench_multi}</td>
+                            <td title="Cinebench R11.5 CPU Single 64Bit">${list.cinbench_single_medium}</td>
+                            <td title="Cinebench R11.5 64Bit">${list.cinbench_multi_medium}</td>
+                            <td title="Cinebench R15 CPU Single 64Bit">${list.cinbench_single_large}</td>
+                            <td title="Cinebench R15 CPU Multi 64Bit">${list.cinbench_multi_large}</td>
+                            <td title="wPrime 32(-)">${list.wprime}</td>
+                            <td title="x264 Pass 1">${list.x_pass_one}</td>
+                            <td title="x264 Pass 2">${list.x_pass_two}</td>
                             <td>
                                     <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
                             </td>
