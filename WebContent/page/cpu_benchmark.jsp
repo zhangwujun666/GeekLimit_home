@@ -59,7 +59,7 @@
     <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
 
-    <title>GeekLimits-GPU数据库</title>
+    <title>GeekLimits-CPU数据库</title>
 
 
 
@@ -128,66 +128,68 @@
     <div style="height: 50px;"></div>
 
 <%--==================================================================table==================================================================--%>
-    <div class="mt-20">
-        <div id="table-head">
-        <table class="table table-border table-bordered table-hover table-bg table-sort" >
-            <colgroup>
-            </colgroup>
-            <thead >
-                <tr id="bar_head">
-                    <th width="25px"><input type="checkbox" name="" value=""></th>
-                    <th width="20px">ID</th>
-                    <th width="20%">型号(点击查看详情)</th>
-                    <th width="10%">核心架构</th>
-                    <th width="10%">像素/纹理<br>填充率</th>
-                    <th width="10%">核心速率(MHz)</th>
-                    <th width="10%">着色器速率(Mhz)</th>
-                    <th width="5%">超频(MHz)</th>
-                    <th width="5%">显存容量(MB)</th>
-                    <th width="5%">显存位宽(Bit)</th>
-                    <th width="5%">显存类型</th>
-                    <th width="10%">DX API</th>
-                    <th width="10%">OpenGL</th>
-                    <th width="10%">制程<br>(nm)</th>
-                    <th width="10%">性能指标(相对绝对性能)</th>
-                    <th width="10%">3DMark Ice Storm GPU</th>
-                    <th width="10%">3DMark Cloud Gate GPU</th>
-                    <th width="10%">3DMark Fire Strike Graphics</th>
-                    <th width="10%">3DMark11 P GPU</th>
-                    <th width="5%">操作</th>
-                </tr>
-            </thead>
-        <%--<div style="height: 35px;"></div>--%>
-            <tbody>
-            <c:forEach items="${gpu}" var="list" varStatus="s">
-                <tr id="table_data">
-                    <td><input type="checkbox" value="1" name=""></td>
-                    <td>${list.id}</td>
-                    <td><a href="javascript:;" onclick="analyse(105)" style="color: #0a6999;">${list.model}</a></td>
-                    <td>${list.architecture}</td>
-                    <td>${list.shaders}</td>
-                    <td>${list.core_speed}</td>
-                    <td>${list.shader_speed}</td>
-                    <td>${list.boost}</td>
-                    <td>${list.memory_speed}</td>
-                    <td>${list.memory_bus}</td>
-                    <td>${list.memory_type}</td>
-                    <td>${list.directx}</td>
-                    <td>${list.opengl}</td>
-                    <td>${list.process}</td>
-                    <td>${list.perf_rating}</td>
-                    <td>${list.perf_ice}</td>
-                    <td>${list.perf_cloud}</td>
-                    <td>${list.perf_fire}</td>
-                    <td>${list.perf_p}</td>
-                    <td>
-                        <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
-                    </td>
-                </tr>
-            </c:forEach>
-            </tbody>
-        </table>
-    </div>
+        <div class="mt-20">
+            <div id="table-head">
+                <table class="table table-border table-bordered table-hover table-bg table-sort" >
+                    <colgroup>
+                    </colgroup>
+                    <thead >
+                    <tr id="bar_head">
+                        <th width="25px"><input type="checkbox" name="" value=""></th>
+                        <th width="20px">排名</th>
+                        <th width="30%">型号(点击查看详情)</th>
+                        <th width="10%">核心代号</th>
+                        <th width="10%">2级/3级缓存</th>
+                        <th width="15px">设计热功耗</th>
+                        <th width="10%">核心速率/睿频(MHz)</th>
+                        <th width="10%">核心数/线程数</th>
+                        <th width="10%">制程<br>(nm)</th>
+                        <th width="5%">性能指标(相对绝对性能)</th>
+                        <th width="5%">3DMark06 CPU</th>
+                        <th width="5%">Cinebench R10 32Bit Single</th>
+                        <th width="5%">Cinebench R10 32Bit Multi</th>
+                        <th width="5%">Cinebench R11.5 CPU Single 64Bit</th>
+                        <th width="5%">Cinebench R11.5 64Bit</th>
+                        <th width="5%">Cinebench R15 CPU Single 64Bit</th>
+                        <th width="5%">Cinebench R15 CPU Multi 64Bit</th>
+                        <th width="5%">wPrime 32(-)</th>
+                        <th width="5%">x264 Pass 1</th>
+                        <th width="5%">x264 Pass 2</th>
+                        <th width="10%">操作</th>
+                    </tr>
+                    </thead>
+                    <%--<div style="height: 35px;"></div>--%>
+                    <tbody>
+                    <c:forEach items="${cpu}" var="list" varStatus="s">
+                        <tr id="table_data">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>${list.id}</td>
+                            <td><a href="javascript:;" onclick="detail(105)" style="color: #0a6999;">${list.model}</a></td>
+                            <td>${list.code_name}</td>
+                            <td>${list.cache}</td>
+                            <td>${list.tdp}</td>
+                            <td>${list.mhz_turbo}</td>
+                            <td>${list.core_thread}</td>
+                            <td>${list.process}</td>
+                            <td>${list.perf_rating}</td>
+                            <td>${list.mark_cpu}</td>
+                            <td>${list.cinbench_single}</td>
+                            <td>${list.cinbench_multi}</td>
+                            <td>${list.cinbench_single_medium}</td>
+                            <td>${list.cinbench_multi_medium}</td>
+                            <td>${list.cinbench_single_large}</td>
+                            <td>${list.cinbench_multi_large}</td>
+                            <td>${list.wprime}</td>
+                            <td>${list.x_pass_one}</td>
+                            <td>${list.x_pass_two}</td>
+                            <td>
+                                    <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
+                            </td>
+                        </tr>
+                    </c:forEach>
+                    </tbody>
+                </table>
+            </div>
 <%--==================================================================table==================================================================--%>
 
 
@@ -343,7 +345,7 @@
 
 <script type="text/javascript">
 
-    function analyse(gpu_id) {
+    function detail(cpu_id) {
         layer.open({
             type: 2,
             title: 'GPU详情',

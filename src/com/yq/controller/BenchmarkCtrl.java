@@ -26,7 +26,11 @@ public class BenchmarkCtrl extends StringUtil{
 	
 	@Autowired
 	private GpuService gpuService;
-	private Gpu gpu= new Gpu();
+	private Gpu gpu = new Gpu();
+
+	@Autowired
+	private CpuService cpuService;
+	private Cpu cpu = new Cpu();
 	
 	Map<String, Object> map = new HashMap<String, Object>();
 	
@@ -66,6 +70,20 @@ public class BenchmarkCtrl extends StringUtil{
 		ModelAndView ml = new ModelAndView();
 //		ml.addObject("gpu", list);
 		ml.setViewName("page/gpu_info");
+		return ml;
+	}
+
+
+	@RequestMapping(value = "/page/cpuBenchmark.html")
+	public ModelAndView cpuBenchmark(
+			HttpServletRequest request
+	) throws UnsupportedEncodingException {
+
+		List<Cpu> list = cpuService.list();
+		ModelAndView ml = new ModelAndView();
+		ml.addObject("cpu", list);
+//		ml.addObject("gpu_name", gpu_name);
+		ml.setViewName("page/cpu_benchmark");
 		return ml;
 	}
 
