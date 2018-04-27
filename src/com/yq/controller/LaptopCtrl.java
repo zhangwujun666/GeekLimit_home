@@ -37,6 +37,21 @@ public class LaptopCtrl extends StringUtil{
 //		return new ModelAndView("main/index");
 //	}
 
+	@RequestMapping(value="/page/laptop.html")
+	public ModelAndView laptop(){
+		return new ModelAndView("page/laptop");
+	}
+
+	@RequestMapping(value = "/page/laptopList.html")
+	public ModelAndView LaptopList(
+								HttpServletRequest request
+	) throws UnsupportedEncodingException {
+		ModelAndView ml = new ModelAndView();
+//		ml.addObject("videoIframe", videoIframe);
+		ml.setViewName("page/laptop_list");
+		return ml;
+	}
+
 	@RequestMapping(value = "/page/laptopVideo.html")
 	public ModelAndView gpuInfo(String id,
 			HttpServletRequest request

@@ -120,10 +120,7 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
-	@RequestMapping(value="/page/laptop.html")
-	public ModelAndView laptop(){
-		return new ModelAndView("page/laptop");
-    }
+
 
 
 
