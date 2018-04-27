@@ -38,6 +38,12 @@ body{
 .kids th{
 	width: 30%;
 }
+.laptop-list th{
+	width: 15%;
+}
+.laptop-list li{
+	border-top:1px solid #ccc
+}
 .wrap{
 	width:80%;
 	margin:0 auto;
@@ -365,7 +371,7 @@ ul.last li a:hover{
 /*--content--*/
 /*  GRID OF Content and sidebar   ============================================================================= */
 .main{
-	margin:2% 0;
+	margin:1% 0;
 }
 .cont{
 	display: block;
