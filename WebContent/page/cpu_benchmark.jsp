@@ -127,6 +127,16 @@
     <%--</div>--%>
     <div style="height: 50px;"></div>
 
+        <div id="top-img" style="height: 210px; background-image: url('images/top_img.jpg'); background-position: center center; background-size: cover;">
+            <div style="height: 40px;"></div>
+            <div class="intro">
+                <center>
+                    <h1 style="color: black"><strong>GeekLimits</strong></h1>
+                    <p style="color: black">可能是最精致的3C数码信息枢纽</p>
+                </center>
+            </div>
+        </div>
+
 <%--==================================================================table==================================================================--%>
         <div class="mt-20">
             <div id="table-head">
