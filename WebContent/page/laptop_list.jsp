@@ -112,13 +112,13 @@
 <div style="height: 50px;"></div>
 <div class="mens">
     <div class="main">
-        <div id="top-img" style="height: 210px; background-image: url('images/top_img.jpg'); background-position: center center; background-size: cover;">
+        <div id="top-img" style="height: 210px; background-image: url('images/laptop_list_top_img.jpg'); background-position: center center; background-size: cover;">
             <div style="height: 40px;"></div>
             <div class="intro">
-            <center>
-                <h1 style="color: black"><strong>GeekLimits</strong></h1>
-                <p style="color: black">可能是最精致的3C数码信息枢纽</p>
-            </center>
+                <center>
+                    <h1 style="color: black"><strong>笔记本数据库</strong></h1>
+                    <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
+                </center>
             </div>
         </div>
         <%--divide line--%>

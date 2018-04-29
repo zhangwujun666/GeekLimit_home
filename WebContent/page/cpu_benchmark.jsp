@@ -118,6 +118,17 @@
 <%--}--%>
 <%--</script>--%>
 <%--</div>--%>
+<div style="height: 60px;"></div>
+
+<div id="top-img" style="height: 210px; background-image: url('images/cpu_list_top_image.jpg'); background-position: center center; background-size: cover;">
+    <div style="height: 40px;"></div>
+    <div class="intro">
+        <center>
+            <h1 style="color: black"><strong>CPU数据库</strong></h1>
+            <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
+        </center>
+    </div>
+</div>
 <div class="pd-20">
     <%--<div class="cl pd-5 bg-1 bk-gray mt-20">--%>
     <%--<span class="l"> <a href="goodsAddjsp.html"--%>
@@ -125,17 +136,8 @@
     <%--添加记录--%>
     <%--</a></span>--%>
     <%--</div>--%>
-    <div style="height: 50px;"></div>
 
-        <div id="top-img" style="height: 210px; background-image: url('images/top_img.jpg'); background-position: center center; background-size: cover;">
-            <div style="height: 40px;"></div>
-            <div class="intro">
-                <center>
-                    <h1 style="color: black"><strong>GeekLimits</strong></h1>
-                    <p style="color: black">可能是最精致的3C数码信息枢纽</p>
-                </center>
-            </div>
-        </div>
+
 
 <%--==================================================================table==================================================================--%>
         <div class="mt-20">
