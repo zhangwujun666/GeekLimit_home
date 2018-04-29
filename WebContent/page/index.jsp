@@ -19,7 +19,8 @@
     <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
+
+
     <script src="js/jquery.nav.js"></script>
     <script src="js/isotope.js"></script>
     <script src="js/imagesloaded.min.js"></script>

@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/js/easing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/js/move-top.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/page/js/wow.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/index.jsp" afterPath="$PROJECT_DIR$/WebContent/page/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" afterPath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +29,7 @@
       <file leaf-file-name="laptop_list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="215">
               <caret line="122" column="14" lean-forward="false" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gpu_benchmark.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="596">
               <caret line="146" column="20" lean-forward="true" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -67,6 +69,58 @@
                 <element signature="n#style#0;n#h1#0;n#center#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#center#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="move-top.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/js/move-top.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav_bar.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="97" column="21" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="97" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wow.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/js/wow.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +210,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rebel.xml" />
-        <option value="$PROJECT_DIR$/WebContent/page/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/src/rebel.xml" />
         <option value="$PROJECT_DIR$/WebContent/main/goods/count.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/footer1.jsp" />
@@ -173,9 +226,7 @@
         <option value="$PROJECT_DIR$/WebContent/page/js/layui.js" />
         <option value="$PROJECT_DIR$/WebContent/page/gpu_info.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
-        <option value="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
         <option value="$PROJECT_DIR$/WebContent/main/css/table.css" />
         <option value="$PROJECT_DIR$/src/com/yq/entity/Video.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/VideoDao.xml" />
@@ -200,6 +251,10 @@
         <option value="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/js/smoothscroll.js" />
+        <option value="$PROJECT_DIR$/WebContent/page/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/index.jsp" />
       </list>
     </option>
   </component>
@@ -373,10 +428,12 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebContent/page/js" />
       <recent name="$PROJECT_DIR$/WebContent/page/lib" />
-      <recent name="$PROJECT_DIR$/WebContent/page/lib/layer/1.9.3" />
+      <recent name="$PROJECT_DIR$/WebContent/page/css" />
+      <recent name="$PROJECT_DIR$/WebContent/main/js" />
+      <recent name="$PROJECT_DIR$/WebContent/main/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yq.service" />
@@ -384,12 +441,10 @@
       <recent name="com.yq.dao" />
       <recent name="com.yq.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebContent/page/js" />
       <recent name="$PROJECT_DIR$/WebContent/page/lib" />
-      <recent name="$PROJECT_DIR$/WebContent/page/css" />
-      <recent name="$PROJECT_DIR$/WebContent/main/js" />
-      <recent name="$PROJECT_DIR$/WebContent/main/lib" />
+      <recent name="$PROJECT_DIR$/WebContent/page/lib/layer/1.9.3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -605,7 +660,7 @@
       <workItem from="1524467023204" duration="11761000" />
       <workItem from="1524490083732" duration="70138000" />
       <workItem from="1524816705236" duration="5174000" />
-      <workItem from="1524916233625" duration="3040000" />
+      <workItem from="1524916233625" duration="5554000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -754,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524921962759</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update laptop list page (add img)">
+      <created>1524987625210</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1524987625210</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116621000" />
+    <option name="totallyTimeSpent" value="119135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +847,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21461716" sideWeight="0.489011" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27494198" sideWeight="0.489011" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -837,7 +899,8 @@
     <MESSAGE value="modified laptop list page" />
     <MESSAGE value="modified and fix laptop list page" />
     <MESSAGE value="update laptop list page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update laptop list page" />
+    <MESSAGE value="update laptop list page (add img)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update laptop list page (add img)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,61 +909,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/page/lib/layer/1.9.3/doc/layer交流.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/OrderCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="251" column="161" lean-forward="false" selection-start-line="251" selection-start-column="133" selection-end-line="251" selection-end-column="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6485" lean-forward="false" selection-start-line="1" selection-start-column="6485" selection-end-line="1" selection-end-column="6485" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="60030" lean-forward="false" selection-start-line="1" selection-start-column="60030" selection-end-line="1" selection-end-column="60030" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/i18n/grid.locale-ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/lib/jquery.jqGrid-4.4.3/js/jquery-1.7.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="6" column="3756" lean-forward="true" selection-start-line="6" selection-start-column="3756" selection-end-line="6" selection-end-column="3756" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,26 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1735">
           <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,9 +1159,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/smoothscroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="97" column="21" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="97" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/laptop_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="215">
           <caret line="122" column="14" lean-forward="false" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1190,17 +1230,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="596">
           <caret line="146" column="20" lean-forward="true" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1209,6 +1241,46 @@
             <element signature="n#style#0;n#h1#0;n#center#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#center#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="2304" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3756" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/js/move-top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

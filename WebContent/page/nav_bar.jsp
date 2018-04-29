@@ -18,8 +18,11 @@
     <link rel="stylesheet" href="css/google_font.css">
     <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
     <script src="js/jquery.min.js"></script>
-    <%--<script src="js/bootstrap.min.js"></script>--%>
-    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"src="js/wow.min.js"></script>
+    <script type="text/javascript"src="js/easing.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+
     <script src="js/jquery.nav.js"></script>
     <script src="js/isotope.js"></script>
     <script src="js/imagesloaded.min.js"></script>
@@ -51,12 +54,12 @@
         </div>
         <nav class="collapse navbar-collapse" id="rock-navigation">
             <ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
-                <li><a href="#home" class="smoothScroll">首页</a></li>
-                <li><a href="#resume" class="smoothScroll">崭新套路</a></li>
-                <li><a href="#portfolio" class="smoothScroll">最近测评</a></li>
-                <li><a href="#work" class="smoothScroll">主要版块</a></li>
-                <li><a href="#about" class="smoothScroll">一日一技</a></li>
-                <li><a href="#contact" class="smoothScroll">来找咱们</a></li>
+                <li><a href="#home" class="scroll">首  页</a></li>
+                <li><a href="#resume" class="scroll">行业报道</a></li>
+                <li><a href="#portfolio" class="scroll">最新测评</a></li>
+                <li><a href="#work" class="scroll">板块分类</a></li>
+                <li><a href="#about" class="scroll">生产力枢纽</a></li>
+                <li><a href="#contact" class="scroll">来找咱们</a></li>
             </ul>
         </nav>
         <div id="login-bar">
@@ -67,6 +70,13 @@
     </div>
 </div>
 <%--==================================================================Nav Start==================================================================--%>
-
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+</script>
 </body>
 </html>
