@@ -59,7 +59,7 @@
                 <li><a href="#portfolio" class="scroll">最新测评</a></li>
                 <li><a href="#work" class="scroll">板块分类</a></li>
                 <li><a href="#about" class="scroll">生产力枢纽</a></li>
-                <li><a href="#contact" class="scroll">来找咱们</a></li>
+                <li><a href="#contact" class="scroll">首页意见</a></li>
             </ul>
         </nav>
         <div id="login-bar">
