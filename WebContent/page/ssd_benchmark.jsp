@@ -51,7 +51,7 @@
     <script src="js/custom.js"></script>
     <%--<script src="http://res.layui.com/layui/dist/layui.js" charset="utf-8"></script>--%>
     <script src="lib/layui/layui.js"></script>
-    <script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>
+    <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>--%>
 
     <script type="text/javascript" src="../main/js/H-ui.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
@@ -59,7 +59,7 @@
     <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
 
-    <title>GeekLimits-GPU数据库</title>
+    <title>GeekLimits-SSD数据库</title>
 
 
 
@@ -69,32 +69,7 @@
 
 
 <%--==================================================================Nav Start==================================================================--%>
-<%--<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">--%>
-    <%--<div class="container">--%>
 
-        <%--<div class="navbar-header">--%>
-            <%--<button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">--%>
-                <%--<span class="icon icon-bar"></span>--%>
-                <%--<span class="icon icon-bar"></span>--%>
-                <%--<span class="icon icon-bar"></span>--%>
-            <%--</button>--%>
-            <%--<a href="#" class="navbar-brand">--%>
-                <%--<img class="logo_img" src="images/GeekLimits_logo_3_transplants.png">--%>
-            <%--</a>--%>
-        <%--</div>--%>
-        <%--<nav class="collapse navbar-collapse" id="rock-navigation">--%>
-            <%--<ul class="nav navbar-nav navbar-right main-navigation text-uppercase">--%>
-                <%--<li><a href="#home" class="smoothScroll">首页</a></li>--%>
-                <%--<li><a href="#resume" class="smoothScroll">崭新套路</a></li>--%>
-                <%--<li><a href="#portfolio" class="smoothScroll">最近测评</a></li>--%>
-                <%--<li><a href="#work" class="smoothScroll">主要版块</a></li>--%>
-                <%--<li><a href="#about" class="smoothScroll">一日一技</a></li>--%>
-                <%--<li><a href="#contact" class="smoothScrol">来找咱们</a></li>--%>
-            <%--</ul>--%>
-        <%--</nav>--%>
-
-    <%--</div>--%>
-<%--</div>--%>
 <%@ include file="nav_bar.jsp" %>
 <%--==================================================================Nav End==================================================================--%>
 
@@ -121,11 +96,11 @@
 <%--</div>--%>
 <div style="height: 60px;"></div>
 
-<div id="top-img" style="height: 210px; background-image: url('images/ssd_list_top_image.jpg'); background-position: center center; background-size: cover;">
+<div id="top-img" style="height: 210px; background-image: url('images/gpu_list_top_image.jpg'); background-position: center center; background-size: cover;">
     <div style="height: 40px;"></div>
     <div class="intro">
         <center>
-            <h1 style="color: black"><strong>GPU数据库</strong></h1>
+            <h1 style="color: black"><strong>SSD数据库</strong></h1>
             <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
         </center>
     </div>
@@ -141,64 +116,70 @@
 <%--==================================================================table==================================================================--%>
     <div class="mt-20">
         <div id="table-head">
-        <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">
-            <colgroup>
-            </colgroup>
-            <thead >
+            <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px" >
+                <colgroup>
+                </colgroup>
+                <thead >
                 <tr id="bar_head">
                     <th width="25px"><input type="checkbox" name="" value=""></th>
                     <th width="20px">排名</th>
-                    <th width="20%">型号(点击查看详情)</th>
-                    <th width="10%">核心架构</th>
-                    <th width="10%">像素/纹理<br>填充率</th>
-                    <th width="10%">核心速率(MHz)</th>
-                    <th width="10%">着色器速率(Mhz)</th>
-                    <th width="5%">超频(MHz)</th>
-                    <th width="5%">显存容量(MB)</th>
-                    <th width="5%">显存位宽(Bit)</th>
-                    <th width="5%">显存类型</th>
-                    <th width="10%">DX API</th>
-                    <th width="10%">OpenGL</th>
-                    <th width="10%">制程<br>(nm)</th>
-                    <th width="10%">性能指标(相对绝对性能)</th>
-                    <th width="10%">3DMark Ice Storm GPU</th>
-                    <th width="10%">3DMark Cloud Gate GPU</th>
-                    <th width="10%">3DMark Fire Strike Graphics</th>
-                    <th width="10%">3DMark11 P GPU</th>
+                    <th width="15%">型号(点击查看详情)</th>
+                    <th width="5%">容量(GB)</th>
+                    <th width="5%">转速</th>
+                    <th width="5%">储存类型</th>
+                    <th width="5%">性能指标(相对绝对性能)</th>
+                    <th width="5%">连续读(MB/s)</th>
+                    <th width="5%">连续写(MB/s)</th>
+                    <th width="5%">4K队列读(MB/s)</th>
+                    <th width="5%">4K队列写(MB/s)</th>
+                    <th width="5%">读分数</th>
+                    <th width="5%">写分数</th>
+                    <th width="5%">读写总分</th>
+                    <th width="5%">DiskMark队列读(MB/s)</th>
+                    <th width="5%">DiskMark队列写(MB/s)</th>
+                    <th width="5%">DiskMark 512K读(MB/s)</th>
+                    <th width="5%">DiskMark 512K写(MB/s)</th>
+                    <th width="5%">DiskMark 4K读(MB/s)</th>
+                    <th width="5%">DiskMark 4K写(MB/s)</th>
+                    <th width="5%">HD Tune读(MB/s)</th>
+                    <th width="5%">HD Tune最大读速度(MB/s)</th>
                     <th width="5%">操作</th>
                 </tr>
-            </thead>
-        <%--<div style="height: 35px;"></div>--%>
-            <tbody>
-            <c:forEach items="${gpu}" var="list" varStatus="s">
-                <tr id="table_data">
-                    <td><input type="checkbox" value="1" name=""></td>
-                    <td>${list.id}</td>
-                    <td><a href="javascript:;" onclick="analyse(105)" style="color: #0a6999;">${list.model}</a></td>
-                    <td title="核心架构">${list.architecture}</td>
-                    <td title="像素/纹理填充率">${list.shaders}</td>
-                    <td title="核心速率(MHz)">${list.core_speed}</td>
-                    <td title="着色器速率(Mhz)">${list.shader_speed}</td>
-                    <td title="超频(MHz)">${list.boost}</td>
-                    <td title="显存容量(MB)">${list.memory_speed}</td>
-                    <td title="显存位宽(Bit)">${list.memory_bus}</td>
-                    <td title="显存类型">${list.memory_type}</td>
-                    <td title="DX API">${list.directx}</td>
-                    <td title="OpenGL">${list.opengl}</td>
-                    <td title="制程(nm)">${list.process}</td>
-                    <td title="性能指标(相对绝对性能)">${list.perf_rating}</td>
-                    <td title="3DMark Ice Storm GPU">${list.perf_ice}</td>
-                    <td title="3DMark Cloud Gate GPU">${list.perf_cloud}</td>
-                    <td title="3DMark Fire Strike Graphics">${list.perf_fire}</td>
-                    <td title="3DMark11 P GPU">${list.perf_p}</td>
-                    <td>
-                        <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
-                    </td>
-                </tr>
-            </c:forEach>
-            </tbody>
-        </table>
-    </div>
+                </thead>
+                <%--<div style="height: 35px;"></div>--%>
+                <tbody>
+                <c:forEach items="${ssd_list}" var="ssd_list" varStatus="s">
+                    <tr id="table_data">
+                        <td><input type="checkbox" value="1" name=""></td>
+                        <td>${ssd_list.id}</td>
+                        <td><a href="javascript:;" onclick="analyse(105)" style="color: #0a6999;">${ssd_list.manufacturer}</a></td>
+                        <td title="容量">${ssd_list.storage_size}</td>
+                        <td title="转速">${ssd_list.rpm}</td>
+                        <td title="储存类型">${ssd_list.hhd_ssd}</td>
+                        <td title="性能指标(相对绝对性能)">${ssd_list.perf_rating}</td>
+                        <td title="连续读(MB/s)">${ssd_list.seq_read}</td>
+                        <td title="连续写(MB/s)">${ssd_list.seq_write}</td>
+                        <td title="4K队列读(MB/s)">${ssd_list.four_k_read}</td>
+                        <td title="4K队列写(MB/s)">${ssd_list.four_k_write}</td>
+                        <td title="读分数">${ssd_list.score_read}</td>
+                        <td title="写分数">${ssd_list.score_write}</td>
+                        <td title="读写总分">${ssd_list.socre_totle}</td>
+                        <td title="DiskMark队列读(MB/s)">${ssd_list.diskmark_seq_read}</td>
+                        <td title="DiskMark队列写(MB/s)">${ssd_list.diskmark_seq_write}</td>
+                        <td title="DiskMark 512K读(MB/s)">${ssd_list.diskmark_half_seq_read}</td>
+                        <td title="DiskMark 512K写(MB/s)">${ssd_list.diskmark_half_seq_write}</td>
+                        <td title="DiskMark 4K读(MB/s)">${ssd_list.diskmark_four_K_seq_read}</td>
+                        <td title="DiskMark 4K写(MB/s)">${ssd_list.diskmark_four_K_seq_write}</td>
+                        <td title="HD Tune读(MB/s)">${ssd_list.hd_tune_read_average}</td>
+                        <td title="HD Tune最大读速度(MB/s)">${ssd_list.hd_tune_read_maximum}</td>
+                        <td>
+                                <%--<a href="javascript:;" onclick="del('${list.id}')">删除</a>--%>
+                        </td>
+                    </tr>
+                </c:forEach>
+                </tbody>
+            </table>
+        </div>
 <%--==================================================================table==================================================================--%>
 
 

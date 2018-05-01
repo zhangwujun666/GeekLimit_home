@@ -142,7 +142,7 @@
 <%--==================================================================table==================================================================--%>
         <div class="mt-20">
             <div id="table-head">
-                <table class="table table-border table-bordered table-hover table-bg table-sort" >
+                <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">
                     <colgroup>
                     </colgroup>
                     <thead >

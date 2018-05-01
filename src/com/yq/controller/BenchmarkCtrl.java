@@ -31,6 +31,10 @@ public class BenchmarkCtrl extends StringUtil{
 	@Autowired
 	private CpuService cpuService;
 	private Cpu cpu = new Cpu();
+
+	@Autowired
+	private SsdService ssdService;
+	private Ssd ssd = new Ssd();
 	
 	Map<String, Object> map = new HashMap<String, Object>();
 	
@@ -84,6 +88,19 @@ public class BenchmarkCtrl extends StringUtil{
 		ml.addObject("cpu", list);
 //		ml.addObject("gpu_name", gpu_name);
 		ml.setViewName("page/cpu_benchmark");
+		return ml;
+	}
+
+	@RequestMapping(value = "/page/ssdBenchmark.html")
+	public ModelAndView ssdBenchmark(
+			HttpServletRequest request
+	) throws UnsupportedEncodingException {
+
+		List<Ssd> list = ssdService.list();
+		ModelAndView ml = new ModelAndView();
+		ml.addObject("ssd_list", list);
+//		ml.addObject("gpu_name", gpu_name);
+		ml.setViewName("page/ssd_benchmark");
 		return ml;
 	}
 
