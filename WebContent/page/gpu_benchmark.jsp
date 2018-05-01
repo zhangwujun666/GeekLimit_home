@@ -121,12 +121,12 @@
 <%--</div>--%>
 <div style="height: 60px;"></div>
 
-<div id="top-img" style="height: 210px; background-image: url('images/ssd_list_top_image.jpg'); background-position: center center; background-size: cover;">
+<div id="top-img" style="height: 210px; background-image: url('images/gpu_list_top_image.jpg'); background-position: center center; background-size: cover;">
     <div style="height: 40px;"></div>
     <div class="intro">
         <center>
-            <h1 style="color: black"><strong>GPU数据库</strong></h1>
-            <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
+            <h1 style="color: white"><strong>GPU数据库</strong></h1>
+            <p style="color: white">GeekLimits-可能是最精致的3C数码信息枢纽</p>
         </center>
     </div>
 </div>

@@ -109,15 +109,15 @@
 <%--Nav Start--%>
     <%@ include file="nav_bar.jsp" %>
 <%--Nav End--%>
-<div style="height: 50px;"></div>
+<div style="height: 60px;"></div>
 <div class="mens">
     <div class="main">
         <div id="top-img" style="height: 210px; background-image: url('images/laptop_list_top_img.jpg'); background-position: center center; background-size: cover;">
             <div style="height: 40px;"></div>
             <div class="intro">
                 <center>
-                    <h1 style="color: black"><strong>笔记本数据库</strong></h1>
-                    <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
+                    <h1 style="color: white"><strong>笔记本数据库</strong></h1>
+                    <p style="color: white">GeekLimits-可能是最精致的3C数码信息枢纽</p>
                 </center>
             </div>
         </div>
@@ -137,26 +137,26 @@
 <%--==================================================================banner==================================================================--%>
                 <div>
                     <ul class="laptop-list">
-                        <div class="device-list">
-                            <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        </div>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
+                        <%--<div class="device-list">--%>
+                            <%--<li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>--%>
+                        <%--</div>--%>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
+                        <li><a href="#"><table><tr><th><img src="images/github_logo.png"></th><td>MacBook Pro<p>$1000,000</p></td></tr></table></a></li>
 
 
                     </ul>

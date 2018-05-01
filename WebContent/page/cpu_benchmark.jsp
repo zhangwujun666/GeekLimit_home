@@ -27,7 +27,7 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <%--<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>--%>
     <script src="js/jquery1.min.js"></script>
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 
     <link rel="stylesheet" href="lib/layui/css/layui.css">
-    <link rel="stylesheet" href="lib/jquery.jqGrid-4.4.3/css/ui.jqgrid.css">
+    <%--<link rel="stylesheet" href="lib/jquery.jqGrid-4.4.3/css/ui.jqgrid.css">--%>
     <%--<link rel="stylesheet" href="http://res.layui.com/lyui/dist/css/layui.css"  media="all">--%>
 
     <script src="js/jquery.min.js"></script>
@@ -51,7 +51,7 @@
     <script src="js/custom.js"></script>
     <%--<script src="http://res.layui.com/layui/dist/layui.js" charset="utf-8"></script>--%>
     <script src="lib/layui/layui.js"></script>
-    <script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>
+    <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>--%>
 
     <script type="text/javascript" src="../main/js/H-ui.js"></script>
     <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
@@ -124,8 +124,8 @@
     <div style="height: 40px;"></div>
     <div class="intro">
         <center>
-            <h1 style="color: black"><strong>CPU数据库</strong></h1>
-            <p style="color: black">GeekLimits-可能是最精致的3C数码信息枢纽</p>
+            <h1 style="color: white"><strong>CPU数据库</strong></h1>
+            <p style="color: white">GeekLimits-可能是最精致的3C数码信息枢纽</p>
         </center>
     </div>
 </div>
