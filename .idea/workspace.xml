@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/style.css" afterPath="$PROJECT_DIR$/WebContent/page/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" afterPath="$PROJECT_DIR$/WebContent/page/css/templatemo-style.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/index.jsp" afterPath="$PROJECT_DIR$/WebContent/page/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" afterPath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -654,7 +649,7 @@
       <workItem from="1524916233625" duration="7212000" />
       <workItem from="1525080908816" duration="98000" />
       <workItem from="1525081076072" duration="8119000" />
-      <workItem from="1525151801774" duration="3018000" />
+      <workItem from="1525151801774" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -824,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525079850786</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modified laptop_list style">
+      <created>1525155664093</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1525155664093</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132028000" />
+    <option name="totallyTimeSpent" value="132081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,7 +912,8 @@
     <MESSAGE value="update laptop list page (add img)" />
     <MESSAGE value="change&amp;replace smooth scroll plugin" />
     <MESSAGE value="modified page style" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified page style" />
+    <MESSAGE value="modified laptop_list style" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified laptop_list style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1152,6 +1155,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
