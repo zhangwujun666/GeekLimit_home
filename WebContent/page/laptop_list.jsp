@@ -63,46 +63,46 @@
     <!-- start menu -->
     <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="js/megamenu.js"></script>
-    <script>
-        $(function(){$(".megamenu").megamenu();});
-    </script>
+    <%--<script>--%>
+        <%--$(function(){$(".megamenu").megamenu();});--%>
+    <%--</script>--%>
     <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-    <script type="text/javascript" id="sourcecode">
-        $(function()
-        {
-            $('.scroll-pane').jScrollPane();
-        });
-    </script>
+    <%--<script type="text/javascript" id="sourcecode">--%>
+        <%--$(function()--%>
+        <%--{--%>
+            <%--$('.scroll-pane').jScrollPane();--%>
+        <%--});--%>
+    <%--</script>--%>
     <%--<!-- start details -->--%>
     <script src="js/slides.min.jquery.js"></script>
-    <script>
-        $(function(){
-            $('#products').slides({
-                preload: true,
-                preloadImage: 'images/MacBook.png',
-                effect: 'slide, fade',
-                crossfade: true,
-                slideSpeed: 350,
-                fadeSpeed: 500,
-                generateNextPrev: true,
-                generatePagination: false
-            });
-        });
-    </script>
+    <%--<script>--%>
+        <%--$(function(){--%>
+            <%--$('#products').slides({--%>
+                <%--preload: true,--%>
+                <%--preloadImage: 'images/MacBook.png',--%>
+                <%--effect: 'slide, fade',--%>
+                <%--crossfade: true,--%>
+                <%--slideSpeed: 350,--%>
+                <%--fadeSpeed: 500,--%>
+                <%--generateNextPrev: true,--%>
+                <%--generatePagination: false--%>
+            <%--});--%>
+        <%--});--%>
+    <%--</script>--%>
     <!-- start zoom -->
     <link rel="stylesheet" href="css/zoome-min.css" />
     <script type="text/javascript" src="js/zoome-e.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $('#img1,#img2,#img3,#img4').zoome({showZoomState:true,magnifierSize:[250,250]});
-        });
-    </script>
+    <%--<script type="text/javascript">--%>
+        <%--$(function(){--%>
+            <%--$('#img1,#img2,#img3,#img4').zoome({showZoomState:true,magnifierSize:[250,250]});--%>
+        <%--});--%>
+    <%--</script>--%>
 
-    <style>
-        #videos iframe{
-            pointer-events: none;
-        }
-    </style>
+    <%--<style>--%>
+        <%--#videos iframe{--%>
+            <%--pointer-events: none;--%>
+        <%--}--%>
+    <%--</style>--%>
 </head>
 <body>
 
@@ -137,7 +137,9 @@
 <%--==================================================================banner==================================================================--%>
                 <div>
                     <ul class="laptop-list">
-                        <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
+                        <div class="device-list">
+                            <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
+                        </div>
                         <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
                         <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>
                         <li><a href="#"><table><tr><th><a href="#"><img src="images/github_logo.png"></a></th><td><a href="#">MacBook Pro</a><p>$1000,000</p></td></tr></table></a></li>

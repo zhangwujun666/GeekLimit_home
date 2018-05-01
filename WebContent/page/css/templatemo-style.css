@@ -155,14 +155,38 @@ hr {
   padding-bottom: 10px;
 }
 .work-wrapper {
-  border: 1px solid #666;
-  border-radius: 2px;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
   text-align: center;
   padding: 80px 40px 80px 40px;
-  -webkit-transition: all 0.6s ease-in;
-          transition: all 0.6s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
-.work-wrapper:hover { border-color: #eb5424; }
+.work-wrapper p{
+  color:  black;
+}
+.work-wrapper1 {
+  border: 0px solid #f3f3f3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 80px 40px 80px 40px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.work-wrapper:hover {
+  /*border-color: #0b0b0b;*/
+  /*margin-top:10px;*/
+  /*margin-left:10px;*/
+  /*width:300px;*/
+  /*height:100px;*/
+  /*background-color:#ff9900;*/
+
+  /*box-shadow:10px 10px 10px 10px #0b0b0b  ;*/
+  box-shadow: 0px 15px 20px  #888888;
+}
+.work-wrapper1:hover {
+  box-shadow: 0px 15px 20px  #888888;
+}
 .work-wrapper .fa {
   color: #888888;
   font-size: 60px;
@@ -182,7 +206,7 @@ hr {
 }
 .tm-portfolio .col-md-3,
  .tm-portfolio .col-sm-3 {
-  padding: 0;
+  padding: 40px;
   margin: 0;
 }
 .tm-portfolio-title {
@@ -191,7 +215,7 @@ hr {
 }
 .portfolio-item-title {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 0px;
   text-transform: uppercase;
 }
 .portfolio-thumb {
@@ -213,7 +237,7 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #eb5424;
+  background: #5c5c5c;
   color: #ffffff;
   top: 0;
   right: 0;

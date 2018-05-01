@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/google_font.css">
     <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <%--<script src="js/bootstrap.min.js"></script>--%>
     <script type="text/javascript"src="js/wow.min.js"></script>
     <script type="text/javascript"src="js/easing.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>

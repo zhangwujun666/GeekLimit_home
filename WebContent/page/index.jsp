@@ -107,7 +107,7 @@
                             <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <h2  class="title"><strong>本周全场最佳</strong>"笔电"</h2>
+                            <h2  class="title"><strong>本周全场最佳</strong></h2>
                             <p>小米宣和佛山灯厂合作，意在提升自家笔记本照明能力。</p>
                             <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
                             <div class="progress tm-progress">
@@ -162,18 +162,18 @@
 
                             <!-- START ISO SECTION -->
                             <div class="iso-section">
-                                <ul class="filter-wrapper clearfix">
-                                    <li><a href="#" class="opc-main-bg selected" data-filter="*">全部</a></li>
-                                    <li><a href="#" class="opc-main-bg" data-filter=".html">常规笔记本</a></li>
-                                    <li><a href="#" class="opc-main-bg" data-filter=".photoshop">游戏笔记本</a></li>
-                                    <li><a href="#" class="opc-main-bg" data-filter=".wordpress">工作站</a></li>
-                                    <li><a href="#" class="opc-main-bg" data-filter=".mobile">超级本</a></li>
-                                </ul>
+                                <%--<ul class="filter-wrapper clearfix">--%>
+                                    <%--<li><a href="#" class="opc-main-bg selected" data-filter="*">全部</a></li>--%>
+                                    <%--<li><a href="#" class="opc-main-bg" data-filter=".html">常规笔记本</a></li>--%>
+                                    <%--<li><a href="#" class="opc-main-bg" data-filter=".photoshop">游戏笔记本</a></li>--%>
+                                    <%--<li><a href="#" class="opc-main-bg" data-filter=".wordpress">工作站</a></li>--%>
+                                    <%--<li><a href="#" class="opc-main-bg" data-filter=".mobile">超级本</a></li>--%>
+                                <%--</ul>--%>
                                 <div class="iso-box-section">
                                     <div class="iso-box-wrapper col4-iso-box">
                                         <div class="iso-box html photoshop wordpress mobile col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img1.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_1.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -182,7 +182,7 @@
                                         </div>
                                         <div class="iso-box html wordpress mobile col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img2.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_2.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -191,7 +191,7 @@
                                         </div>
                                         <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img3.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_3.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -200,7 +200,7 @@
                                         </div>
                                         <div class="iso-box html mobile col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img4.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_4.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -209,7 +209,7 @@
                                         </div>
                                         <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img5.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_5.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -218,7 +218,7 @@
                                         </div>
                                         <div class="iso-box html photoshop col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img6.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_6.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -227,7 +227,7 @@
                                         </div>
                                         <div class="iso-box photoshop col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img7.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_7.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -236,7 +236,7 @@
                                         </div>
                                         <div class="iso-box wordpress col-md-3 col-sm-3 col-xs-12">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio-img8.jpg" class="fluid-img" alt="portfolio img">
+                                                <img src="laptop_images/laptop_8.jpg" class="fluid-img" alt="portfolio img">
                                                 <div class="portfolio-overlay">
                                                     <h3 class="portfolio-item-title">品牌</h3>
                                                     <p>型号</p>
@@ -246,6 +246,16 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="toogle" style="width: 100%; float: left; text-align: center;">
+                                <a href="laptopList.html" target="_blank" style="text-decoration: none;">
+                                    <div>
+                                        <h1>更多...</h1>
+                                    </div>
+                                </a>
+                                <hr style="width: 100%; height: 2px;" />
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -257,42 +267,77 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-1 col-md-11">
-                            <h2 class="title">咱们的主要的<strong>关注领域 </strong></h2>
+                            <h2 class="title">信息枢纽<strong>分类板块 </strong></h2>
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="work-wrapper">
-                                <i class="fa fa-laptop"></i>
-                                <h3 class="text-uppercase tm-work-h3">"笔电"们</h3>
-                                <hr>
-                                <p>极有参考价值的导购信息</p><p> 当然，精准以及清晰的数对比是解决购纠结的最好帮手！</p>
+                        <a href="laptopList.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper">
+                                    <i class="fa fa-laptop"></i>
+                                    <h3 class="text-uppercase tm-work-h3">笔记本数据库</h3>
+                                    <hr>
+                                    <p>极有参考价值的导购信息</p><p> 当然，精准以及清晰的数对比是解决购纠结的最好帮手！</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="work-wrapper">
-                                <i class="fa fa-apple"></i>
-                                <h3 class="text-uppercase tm-work-h3">Mac</h3>
-                                <hr>
-                                <p>iMac . MacBook . MacBook Pro</p><p>买Mac的伙计们，如果你还有梦想的话，请务必猛击这里，谢谢！</p>
+                        </a>
+                        <a href="laptopList.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper">
+                                    <i class="fa fa-apple"></i>
+                                    <h3 class="text-uppercase tm-work-h3">Mac</h3>
+                                    <hr>
+                                    <p>iMac . MacBook . MacBook Pro</p><p>买Mac的伙计们，如果你还有梦想的话，请务必猛击这里！</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="work-wrapper">
-                                <i class="fa fa-wrench"></i>
-                                <h3 class="text-uppercase tm-work-h3">新技能</h3>
-                                <hr>
-                                <p>不论学习还是工作，新技能总是让我们充满安全感</p><p>生产力是远远不够的，远远不够的！</p>
+                        </a>
+                        <a href="laptopList.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper">
+                                    <i class="fa fa-wrench"></i>
+                                    <h3 class="text-uppercase tm-work-h3">新技能</h3>
+                                    <hr>
+                                    <p>不论学习还是工作，新技能总是让我们充满安全感</p><p>生产力是远远不够的！</p>
+                                </div>
                             </div>
+                        </a>
+                        <div class="toogle" style="width: 100%; float: left;">
+                            <hr style="width: 100%; height: 2px;" />
                         </div>
+
+                        <a href="cpuBenchmark.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper1" style="background-color: #0071c5;">
+                                    <h3 class="text-uppercase tm-work-h3" style="color: white">CPU数据库</h3>
+                                    <p style="color: white">CPU Benchmark数据库</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="gpuBenchmark.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper1" style="background-color: #76b900;">
+                                    <h3 class="text-uppercase tm-work-h3" style="color: white">GPU数据库</h3>
+                                    <p style="color: white">GPU Benchmark数据库</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="ssdBenchmark.html" target="_blank">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="work-wrapper1" style="background-color: #808080;">
+                                    <h3 class="text-uppercase tm-work-h3" style="color: white">SSD数据库</h3>
+                                    <p style="color: white">SSD Benchmark数据库</p>
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
             </section>
             <!-- END 主要版块 -->
 
             <!-- START 一日一技 -->
-            <section id="about" class="tm-about" >
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7" style="margin-left: 0%; color: white;">
+            <section id="about" class="tm-about">
+                <div class="container" >
+                    <div class="row" >
+                        <div  class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7" style="margin-left: 0%; color: white;">
                             <div class="title">
                                 <h2 style="color: #e0e0e0">一日一技 <strong>；）</strong></h2>
                                 <h1 class="tm-red-text">学到的，才是自己的</h1>
@@ -390,7 +435,6 @@
 
 <!-- END 首页意见 -->
 <%@ include file="footer_home.jsp" %>
-
 
 </body>
 </html>
