@@ -72,7 +72,7 @@
                             <p>${indexList.head_label_medium}</p>
                             <br >
                             <p>${indexList.head_label_small}</p>
-                            <a href="#resume" class="btn btn-default smoothScroll tm-view-more-btn">点击开始</a>
+                            <a href="#resume" class="btn btn-default scroll tm-view-more-btn">点击开始</a>
                         </div>
                         <div class="col-md-2 col-sm-1"></div>
                     </div>

@@ -1,5 +1,6 @@
 package com.yq.controller;
 
+import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 import javax.servlet.http.HttpSession;
@@ -10,6 +11,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.yq.util.StringUtil;
@@ -43,6 +45,10 @@ public class IndexCtrl extends StringUtil{
 	private IndexService indexService;
 	private Index index;
 
+	@Autowired
+	private CommentService commentService;
+	private Comment comment;
+
 	Map<String, Object> map = new HashMap<String, Object>();
 	
 	@RequestMapping(value="/main/main.html")
@@ -58,6 +64,25 @@ public class IndexCtrl extends StringUtil{
 		ml.setViewName("page/index");
 		return ml;
 	}
+
+	@ResponseBody
+	@RequestMapping(value = "/page/pageComment.html")
+	public Object update(String comment_nickname,
+						 String comment_email,
+						 String comment_where,
+						 String comment_why
+						 ) throws UnsupportedEncodingException {
+		comment_nickname = java.net.URLDecoder.decode(comment_nickname,"utf-8") ;
+		Map<String, String> map = new HashMap<>();
+		map.put("comment_nickname", comment_nickname);
+		map.put("comment_email", comment_email);
+		map.put("comment_where", comment_where);
+		map.put("comment_why", comment_why);
+		commentService.insert(map);
+        return "1";
+	}
+
+
 
 
 
