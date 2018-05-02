@@ -60,7 +60,7 @@
 <%--<jsp:include page="nav_bar.jsp" flush="true"></jsp:include>--%>
 <%--==================================================================Nav End==================================================================--%>
 
-
+<c:forEach items="${indexList}" var="indexList" varStatus="s">
 <!-- START 首页 -->
             <section id="home" class="templatemo-home" >
                 <div class="container">
@@ -68,9 +68,11 @@
                         <div class="col-md-2 col-sm-1"></div>
                         <div class="col-md-8 col-sm-10">
                             <%--<h1 style="color: white;" class="tm-home-title"><strong>GeekLimits</strong></h1>--%>
-                            <h2 class="tm-home-subtitle">可能是最精致，最细节，最客观，最适合大学生的笔记本信息枢纽</h2>
-                            <p>一个神奇的网站 <strong>可以GET很多崭新的技能</strong> 以及！ <strong>一些果粉念念不忘的讯息 </strong> 和这里的伙计们说说自己的特殊属性 <strong>分享</strong> 还有！ <strong>学点东西XD </strong>新技能，新知识。</p> <br ><p> Thank you :D</p>
-                            <a href="#resume" class="btn btn-default smoothScroll tm-view-more-btn">下面开始划重点！</a>
+                            <h2 class="tm-home-subtitle">${indexList.head_label_large}</h2>
+                            <p>${indexList.head_label_medium}</p>
+                            <br >
+                            <p>${indexList.head_label_small}</p>
+                            <a href="#resume" class="btn btn-default smoothScroll tm-view-more-btn">点击开始</a>
                         </div>
                         <div class="col-md-2 col-sm-1"></div>
                     </div>
@@ -86,7 +88,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <h2 class="title">号外号外！</h2>
+                            <h2 class="title">${indexList.news_head}</h2>
                             <p><span class="tm-info-label">最新</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                             <p><span class="tm-info-label">每日早报</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                             <p><span class="tm-info-label">专业评测</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
@@ -107,8 +109,8 @@
                             <p><span class="tm-info-label">Geek范</span> 苹果CEO Tim Cook 宣布出柜。<a>更多...</a></p>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <h2  class="title"><strong>本周全场最佳</strong></h2>
-                            <p>小米宣和佛山灯厂合作，意在提升自家笔记本照明能力。</p>
+                            <h2  class="title"><strong>${indexList.laptop_list_head_large}</strong></h2>
+                            <p>${indexList.laptop_list_head_small}</p>
                             <h4 class="tm-progress-label">Alienware 17 <small class="progress-percent-small">100%</small></h4>
                             <div class="progress tm-progress">
                                 <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
@@ -267,7 +269,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-1 col-md-11">
-                            <h2 class="title">信息枢纽<strong>分类板块 </strong></h2>
+                            <h2 class="title">${indexList.info_list_head}</h2>
                         </div>
                         <a href="laptopList.html" target="_blank">
                             <div class="col-md-4 col-sm-4">
@@ -339,12 +341,10 @@
                     <div class="row" >
                         <div  class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7" style="margin-left: 0%; color: white;">
                             <div class="title">
-                                <h2 style="color: #e0e0e0">一日一技 <strong>；）</strong></h2>
-                                <h1 class="tm-red-text">学到的，才是自己的</h1>
+                                <h2 style="color: #e0e0e0">${indexList.tips_head_large} <strong>；）</strong></h2>
+                                <h1 class="tm-red-text">${indexList.tips_head_medium}</h1>
                             </div>
-                            <p>今日我为大家介绍一个简单又别致的小菜----纸包鸡，家里的小朋友一定很喜欢。材料很简单，我们只需要一个鸡包，我们将鸡包底部的纸撕下来。。。慢慢的撕，就会得到一张鸡包纸，然后将鸡包纸反转，这一味纸包鸡就完成了，很容易是吧？多谢大家收看！  </p>
-                            <p>今日我为大家介绍一个简单又别致的小菜----纸包鸡，家里的小朋友一定很喜欢。材料很简单，我们只需要一个鸡包，我们将鸡包底部的纸撕下来。。。慢慢的撕，就会得到一张鸡包纸，然后将鸡包纸反转，这一味纸包鸡就完成了，很容易是吧？多谢大家收看！  </p>
-                            <p>今日我为大家介绍一个简单又别致的小菜----纸包鸡，家里的小朋友一定很喜欢。材料很简单，我们只需要一个鸡包，我们将鸡包底部的纸撕下来。。。慢慢的撕，就会得到一张鸡包纸，然后将鸡包纸反转，这一味纸包鸡就完成了，很容易是吧？多谢大家收看！  </p>
+                            <p>${indexList.tips_content}</p>
                         </div>
                     </div>
                 </div>
@@ -434,6 +434,7 @@
             </section>
 
 <!-- END 首页意见 -->
+</c:forEach>
 <%@ include file="footer_home.jsp" %>
 
 </body>

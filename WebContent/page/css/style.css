@@ -3162,12 +3162,19 @@ ul.delivery-list li a:hover{
 
 .laptop-list li{
 	border: 1px solid #f3f3f3;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	text-align: center;
-	padding: 10px 10px 10px 10px;
-	-webkit-transition: all 0.2s ease-in;
+	/*padding: 10px 10px 10px 10px;*/
+	-webkit-transition: all 0.1s ease-in;
 	transition: all 0.2s ease-in;
+    margin-bottom: 5px;
 }
 .laptop-list li:hover{
-	box-shadow: 0px 5px 8px  #888888;
+	box-shadow: 0px 5px 5px #888888;
+}
+
+.laptop-list td{
+    line-height: 50px;
+    float: left;
+    text-align: center;
 }

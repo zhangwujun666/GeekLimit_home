@@ -20,7 +20,7 @@
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-10 col-sm-10">
-					<form action="#" method="post">
+					<%--<form action="#" method="post">--%>
 						<div class="col-md-6 col-sm-6">
 							<input class="form-control" type="text" placeholder="昵称">
 						</div>
@@ -32,9 +32,9 @@
 							<textarea class="form-control" placeholder="为什么不对呢？" rows="6"></textarea>
 						</div>
 						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-							<input class="form-control" type="submit" value="猛击传送">
+							<input class="form-control" type="button" onclick="conmments()" value="猛击传送">
 						</div>
-					</form>
+					<%--</form>--%>
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div id="icons" style="margin-top: 50px;">
@@ -78,5 +78,10 @@
 			</div>
 		</div>
 	</section>
+<script>
+	function conmments() {
+		alert("传送中...")
+    }
+</script>
 </body>
 </html>

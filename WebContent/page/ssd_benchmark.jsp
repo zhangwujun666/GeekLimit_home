@@ -27,7 +27,7 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <%--<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>--%>
     <script src="js/jquery1.min.js"></script>
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
