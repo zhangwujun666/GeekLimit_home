@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,member-scalable=no" />
+    <%--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,member-scalable=no" />--%>
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <!--[if lt IE 9]>
     <script type="text/javascript" src="../main/lib/html5.js"></script>
@@ -41,20 +41,20 @@
 
     <script src="js/jquery.min.js"></script>
     <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery-1.7.2.min.js"></script>--%>
+
     <script src="lib/layer/1.9.3/layer.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.nav.js"></script>
+    <%--<script src="lib/layer_mobile/layer.js"></script>--%>
+    <%--<link rel="stylesheet" href="lib/layer_mobile/need/layer.css">--%>
+    <%--<script src="js/bootstrap.min.js"></script>--%>
     <script src="js/isotope.js"></script>
-    <script src="js/imagesloaded.min.js"></script>
-    <script src="js/custom.js"></script>
+    <%--<script src="js/custom.js"></script>--%>
     <%--<script src="http://res.layui.com/layui/dist/layui.js" charset="utf-8"></script>--%>
     <script src="lib/layui/layui.js"></script>
     <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>--%>
 
 
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
-    <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <%--<script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>--%>
 
 
     <link rel="stylesheet" href="css/tablesaw.css">
@@ -130,6 +130,7 @@
         </center>
     </div>
 </div>
+<ul class="breadcrumb breadcrumb__t"><a class="home" href="#">首页</a> /CPU数据库</ul>
 <div class="pd-20">
     <%--<div class="cl pd-5 bg-1 bk-gray mt-20">--%>
     <%--<span class="l"> <a href="goodsAddjsp.html"--%>
@@ -359,16 +360,51 @@
 
 <script type="text/javascript">
 
+    // function detail(cpu_id) {
+    //     layer.open({
+    //         type: 2,
+    //         title: 'GPU详情',
+    //         maxmin: true,
+    //         shadeClose: true, //点击遮罩关闭层
+    //         scrollbar: false,
+    //         area : ['1200px' , '700px'],
+    //         content: '/page/gpuInfo.html'
+    //     });
+    // }
+
+
+</script>
+
+<script type="text/javascript">
+    var ua = navigator.userAgent;
+    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+        isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+        isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+        isMobile = isIphone || isAndroid;
+    //判断
     function detail(cpu_id) {
-        layer.open({
-            type: 2,
-            title: 'GPU详情',
-            maxmin: true,
-            shadeClose: true, //点击遮罩关闭层
-            scrollbar: false,
-            area : ['1200px' , '700px'],
-            content: '/page/gpuInfo.html'
-        });
+        if(isMobile){
+            layer.open({
+                type: 2,
+                title: 'CPU详情',
+                // maxmin: true,
+                shadeClose: true, //点击遮罩关闭层
+                scrollbar: false,
+                area : ['350px' , '500px'],
+                content: '/page/gpuInfo.html'
+            });
+        }else{
+            layer.open({
+                type: 2,
+                title: 'CPU详情',
+                maxmin: true,
+                shadeClose: true, //点击遮罩关闭层
+                scrollbar: false,
+                area : ['1200px' , '700px'],
+                content: '/page/gpuInfo.html'
+            });
+        }
+
     }
 
 

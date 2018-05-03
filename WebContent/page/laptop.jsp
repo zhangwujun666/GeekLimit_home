@@ -4,7 +4,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>GeekLimits</title>
+    <title>GeekLimits-笔记本详情</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
@@ -152,11 +152,11 @@
                 <div class="clients">
 
                     <ul id="flexiselDemo3">
-                        <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 600</p></li>
-                        <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 850</p></li>
-                        <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 900</p></li>
-                        <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 550</p></li>
-                        <li><img src="images/MacBook.png" /><a href="#">品牌</a><p>Rs 750</p></li>
+                        <li><a onclick="bannerImg()"><img src="images/MacBook.png" /></a><p>Rs 600</p></li>
+                        <li><a onclick="bannerImg()"><img src="images/MacBook.png" /></a><p>Rs 850</p></li>
+                        <li><a onclick="bannerImg()"><img src="images/MacBook.png" /></a><p>Rs 900</p></li>
+                        <li><a onclick="bannerImg()"><img src="images/MacBook.png" /></a><p>Rs 550</p></li>
+                        <li><a onclick="bannerImg()"><img src="images/MacBook.png" /></a><p>Rs 750</p></li>
                     </ul>
                     <script type="text/javascript">
                         $(window).load(function() {
@@ -796,7 +796,9 @@
         //     ,content: '/page/laptopVideo.html?id='+id
         // });
     }
-</script>
+    function bannerImg(){
+        alert("banner image clicked!")
+    }</script>
 <%@ include file="footer_home.jsp" %>
 
 </body>

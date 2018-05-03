@@ -12,7 +12,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
     <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
-    <script src="js/jquery1.min.js"></script>
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -23,18 +22,15 @@
     <link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet">
 
 
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery1.min.js"></script>
+    <%--<script src="js/bootstrap.min.js"></script>--%>
     <script src="js/isotope.js"></script>
     <script src="js/imagesloaded.min.js"></script>
-    <script src="js/custom.js"></script>
+    <%--<script src="js/custom.js"></script>--%>
     <script type="text/javascript" src="../main/../main/lib/html5.js"></script>
     <script type="text/javascript" src="../main/lib/respond.min.js"></script>
     <script type="text/javascript" src="../main/lib/PIE_IE678.js"></script>
-    <script type="text/javascript" src="../main/lib/jquery/1.9.1/jquery.min.js"></script>
+    <%--<script type="text/javascript" src="../main/lib/jquery/1.9.1/jquery.min.js"></script>--%>
     <script type="text/javascript" src="../main/lib/layer/1.9.3/layer.js"></script>
     <script type="text/javascript" src="../main/lib/laypage/1.2/laypage.js"></script>
     <script type="text/javascript" src="../main/lib/My97DatePicker/WdatePicker.js"></script>

@@ -131,6 +131,7 @@
         </center>
     </div>
 </div>
+<ul class="breadcrumb breadcrumb__t"><a class="home" href="#">首页</a> /GPU数据库</ul>
 <div class="pd-20">
     <%--<div class="cl pd-5 bg-1 bk-gray mt-20">--%>
     <%--<span class="l"> <a href="goodsAddjsp.html"--%>
