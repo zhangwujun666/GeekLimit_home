@@ -1,8 +1,10 @@
 package com.yq.controller;
 
 import com.yq.entity.Gpu;
+import com.yq.entity.Laptop;
 import com.yq.entity.Video;
 import com.yq.service.GpuService;
+import com.yq.service.LaptopService;
 import com.yq.service.VideoService;
 import com.yq.util.StringUtil;
 import net.sf.json.JSONObject;
@@ -29,6 +31,10 @@ public class LaptopCtrl extends StringUtil{
 	@Autowired
 	private VideoService videoService;
 	private Video video;
+
+	@Autowired
+	private LaptopService laptopService;
+	private Laptop laptop;
 	
 	Map<String, Object> map = new HashMap<String, Object>();
 	
@@ -39,6 +45,8 @@ public class LaptopCtrl extends StringUtil{
 
 	@RequestMapping(value="/page/laptop.html")
 	public ModelAndView laptop(){
+		ModelAndView ml = new ModelAndView();
+		List<Laptop> laptopList = laptopService.list();
 		return new ModelAndView("page/laptop");
 	}
 

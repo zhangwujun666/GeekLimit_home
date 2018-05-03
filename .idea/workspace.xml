@@ -7,13 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/entity/Laptop.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/service/LaptopService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_benchmark.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/gpu_info.jsp" afterPath="$PROJECT_DIR$/WebContent/page/gpu_info.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" afterPath="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/ssd_benchmark.jsp" afterPath="$PROJECT_DIR$/WebContent/page/ssd_benchmark.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,20 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="258" column="34" lean-forward="false" selection-start-line="251" selection-start-column="28" selection-end-line="258" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
+            <state relative-caret-position="0">
               <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
               <folding />
             </state>
@@ -69,13 +58,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="785" column="39" lean-forward="true" selection-start-line="785" selection-start-column="39" selection-end-line="785" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaptopDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaptopService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/service/LaptopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaptopCtrl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaptopDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/dao/LaptopDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <marker date="1525336328130" expanded="true" signature="1576:1599" ph="select * fro... tb_laptop" />
               </folding>
             </state>
           </provider>
@@ -101,36 +132,6 @@
               <folding>
                 <marker date="1525328467779" expanded="false" signature="6528:6543" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tablesaw.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/css/tablesaw.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8295">
-              <caret line="553" column="37" lean-forward="false" selection-start-line="553" selection-start-column="37" selection-end-line="553" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47220">
-              <caret line="3148" column="7" lean-forward="false" selection-start-line="3148" selection-start-column="7" selection-end-line="3148" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="templatemo-style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="210" column="1" lean-forward="false" selection-start-line="210" selection-start-column="1" selection-end-line="210" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,10 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/page/css/layui.css" />
-        <option value="$PROJECT_DIR$/WebContent/page/js/layui.js" />
-        <option value="$PROJECT_DIR$/WebContent/main/css/table.css" />
-        <option value="$PROJECT_DIR$/src/com/yq/entity/Video.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/VideoDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/VideoDao.java" />
         <option value="$PROJECT_DIR$/src/com/yq/service/VideoService.java" />
@@ -227,7 +224,6 @@
         <option value="$PROJECT_DIR$/src/com/yq/service/CpuService.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/CpuDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/entity/Cpu.java" />
-        <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/js/background.js" />
         <option value="$PROJECT_DIR$/WebContent/page/js/demo.js" />
         <option value="$PROJECT_DIR$/WebContent/page/js/jquery.particleground.js" />
@@ -264,6 +260,11 @@
         <option value="$PROJECT_DIR$/WebContent/page/laptop_list.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/cpu_benchmark.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.xml" />
+        <option value="$PROJECT_DIR$/src/com/yq/entity/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/service/LaptopService.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
       </list>
     </option>
   </component>
@@ -454,23 +455,23 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/yq/dao" />
+      <recent name="$PROJECT_DIR$/WebContent/page/css" />
+      <recent name="$PROJECT_DIR$/WebContent/page/js" />
+      <recent name="$PROJECT_DIR$/WebContent/page" />
+      <recent name="$PROJECT_DIR$/WebContent/page/lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yq.service" />
+      <recent name="com.yq.entity" />
+      <recent name="com.yq.dao" />
+      <recent name="com.yq.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebContent/page/js" />
       <recent name="$PROJECT_DIR$/WebContent/page/lib" />
       <recent name="$PROJECT_DIR$/WebContent/page/lib/layer/1.9.3" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yq.service" />
-      <recent name="com.yq.dao" />
-      <recent name="com.yq.entity" />
-      <recent name="com.yq.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/WebContent/page/css" />
-      <recent name="$PROJECT_DIR$/WebContent/page/js" />
-      <recent name="$PROJECT_DIR$/src/com/yq/dao" />
-      <recent name="$PROJECT_DIR$/WebContent/page" />
-      <recent name="$PROJECT_DIR$/WebContent/page/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -693,7 +694,7 @@
       <workItem from="1525310578614" duration="1446000" />
       <workItem from="1525314248779" duration="5206000" />
       <workItem from="1525324304887" duration="682000" />
-      <workItem from="1525325807163" duration="5025000" />
+      <workItem from="1525325807163" duration="5825000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -912,11 +913,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525320751029</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fix benchmark page &amp; fix tableSaw plugin">
+      <created>1525335896036</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1525335896036</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169199000" />
+    <option name="totallyTimeSpent" value="169999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,7 +983,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改GPU_benchmark排版" />
     <MESSAGE value="添加layui插件" />
     <MESSAGE value="GPU详情排版" />
     <MESSAGE value="footer fix" />
@@ -1000,7 +1007,8 @@
     <MESSAGE value="modified homepage style" />
     <MESSAGE value="add comment page" />
     <MESSAGE value="fix benchmark page &amp; add tableSaw plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix benchmark page &amp; add tableSaw plugin" />
+    <MESSAGE value="fix benchmark page &amp; fix tableSaw plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix benchmark page &amp; fix tableSaw plugin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,39 +1017,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/easing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="2304" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="3756" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/js/move-top.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="3" column="16263" lean-forward="true" selection-start-line="3" selection-start-column="16263" selection-end-line="3" selection-end-column="16263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop_images/laptop_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Cpu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1333,7 +1308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
+        <state relative-caret-position="0">
           <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
           <folding />
         </state>
@@ -1400,6 +1375,131 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/LaptopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <marker date="1525336328130" expanded="true" signature="1576:1599" ph="select * fro... tb_laptop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2215">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2212#2213#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2320#2321#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+            <element signature="e#2791#2792#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2894#2895#0" expanded="true" />
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#2997#2998#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3266#3267#0" expanded="true" />
+            <element signature="e#3451#3452#0" expanded="true" />
+            <element signature="e#3496#3497#0" expanded="true" />
+            <element signature="e#3680#3681#0" expanded="true" />
+            <element signature="e#3716#3717#0" expanded="true" />
+            <element signature="e#3774#3775#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+            <element signature="e#3958#3959#0" expanded="true" />
+            <element signature="e#4008#4009#0" expanded="true" />
+            <element signature="e#4047#4048#0" expanded="true" />
+            <element signature="e#4082#4083#0" expanded="true" />
+            <element signature="e#4138#4139#0" expanded="true" />
+            <element signature="e#4186#4187#0" expanded="true" />
+            <element signature="e#4226#4227#0" expanded="true" />
+            <element signature="e#4262#4263#0" expanded="true" />
+            <element signature="e#4320#4321#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
+            <element signature="e#4450#4451#0" expanded="true" />
+            <element signature="e#4512#4513#0" expanded="true" />
+            <element signature="e#4566#4567#0" expanded="true" />
+            <element signature="e#4608#4609#0" expanded="true" />
+            <element signature="e#4646#4647#0" expanded="true" />
+            <element signature="e#4708#4709#0" expanded="true" />
+            <element signature="e#4762#4763#0" expanded="true" />
+            <element signature="e#4803#4804#0" expanded="true" />
+            <element signature="e#4840#4841#0" expanded="true" />
+            <element signature="e#4900#4901#0" expanded="true" />
+            <element signature="e#4952#4953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/service/LaptopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
