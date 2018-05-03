@@ -1,8 +1,10 @@
 package com.yq.controller;
 
+import com.yq.entity.Cpu;
 import com.yq.entity.Gpu;
 import com.yq.entity.Laptop;
 import com.yq.entity.Video;
+import com.yq.service.CpuService;
 import com.yq.service.GpuService;
 import com.yq.service.LaptopService;
 import com.yq.service.VideoService;
@@ -29,6 +31,10 @@ public class LaptopCtrl extends StringUtil{
 	private Gpu gpu= new Gpu();
 
 	@Autowired
+	private CpuService cpuService;
+	private Cpu cpu= new Cpu();
+
+	@Autowired
 	private VideoService videoService;
 	private Video video;
 
@@ -44,10 +50,20 @@ public class LaptopCtrl extends StringUtil{
 //	}
 
 	@RequestMapping(value="/page/laptop.html")
-	public ModelAndView laptop(){
+	public ModelAndView laptop(
+			String id
+	) throws UnsupportedEncodingException {
 		ModelAndView ml = new ModelAndView();
-		List<Laptop> laptopList = laptopService.list();
-		return new ModelAndView("page/laptop");
+		List<Laptop> laptopList = laptopService.findByLaptopId(id);
+		List<Cpu> cpuList = laptopService.fingCpuByLaptopId(id);
+//		Map map = new HashMap();
+//		map.put("laptopList", laptopList);
+//		map.put("cpuList", cpuList);
+		ml.addObject("laptopList", laptopList);
+		ml.addObject("cpuList", cpuList);
+//		ml.addObject("map", map);
+		ml.addObject("page/laptop");
+		return ml;
 	}
 
 	@RequestMapping(value = "/page/laptopList.html")

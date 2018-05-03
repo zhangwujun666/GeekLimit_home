@@ -113,25 +113,26 @@
         <div class="wrap">
             <ul class="breadcrumb breadcrumb__t"><a class="home" href="#">首页</a> / <a href="#">笔记本数据库</a> / MacBook Pro</ul>
             <div class="cont span_2_of_3">
+                <c:forEach items="${laptopList}" var="laptopList" varStatus="s">
                 <div class="grid images_3_of_2">
                     <div id="container">
                         <div id="products_example">
                             <div id="products">
                                 <div class="slides_container">
-                                    <a href="#"><img class="a" id="img1" src="images/MacBook.png" alt="" rel="images/MacBook.png" /></a>
+                                    <a href="#"><img class="a" id="img1" src="${laptopList.laptop_img_large}" alt="" rel="images/MacBook.png" /></a>
                                 </div>
                                 <ul class="pagination">
-                                    <li><a href="#"><img src="images/MacBook.png" width="s-img" alt="1144953 3 2x"></a></li>
-                                    <li><a href="#"><img src="images/MacBook.png" width="s-img1" alt="1144953 3 2x"></a></li>
-                                    <li><a href="#"><img src="images/MacBook.png" width="s-img2" alt="1144953 3 2x"></a></li>
-                                    <li><a href="#"><img src="images/MacBook.png" width="s-img3" alt="1144953 1 2x"></a></li><div class="clear"></div>
+                                    <li><a href="#"><img src="${laptopList.laptop_img_small}" width="s-img" alt="1144953 3 2x"></a></li>
+                                    <li><a href="#"><img src="${laptopList.laptop_img_small}" width="s-img1" alt="1144953 3 2x"></a></li>
+                                    <li><a href="#"><img src="${laptopList.laptop_img_small}" width="s-img2" alt="1144953 3 2x"></a></li>
+                                    <li><a href="#"><img src="${laptopList.laptop_img_small}" width="s-img3" alt="1144953 1 2x"></a></li><div class="clear"></div>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="desc1 span_3_of_2">
-                    <h3>MacBook Pro 15 with Touch Bar</h3>
+                    <h3>${laptopList.laptop_model}</h3>
                     <p class="m_5">官方售价：¥24480  <a href="#">点击前往官网</a></p>
                     <div class="btn_form">
                         <%--<form>--%>
@@ -145,6 +146,7 @@
                     <%--<span class="m_link"><a href="#">登陆以查看更多</a> </span>--%>
 
                 </div>
+                </c:forEach>
                 <div class="clear"></div>
 
 
