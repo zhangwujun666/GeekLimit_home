@@ -16,8 +16,7 @@
     <![endif]-->
 
     <link rel="stylesheet" href="../main/css/person.css">
-    <link href="../main/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-    <link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+
     <link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
     <!--[if IE 6]>
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
@@ -53,11 +52,13 @@
     <script src="lib/layui/layui.js"></script>
     <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>--%>
 
-    <script type="text/javascript" src="../main/js/H-ui.js"></script>
-    <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
+
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
+
+    <link rel="stylesheet" href="css/tablesaw.css">
+    <script src="js/tablesaw.js"></script>
 
     <title>GeekLimits-CPU数据库</title>
 
@@ -141,33 +142,34 @@
 
 <%--==================================================================table==================================================================--%>
         <div class="mt-20">
-            <div id="table-head">
-                <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">
-                    <colgroup>
-                    </colgroup>
+            <div id="table-head" style="width: 100%">
+                <%--<table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">--%>
+                <table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" style="font-size: 12px">
+                    <%--<colgroup>--%>
+                    <%--</colgroup>--%>
                     <thead >
                     <tr id="bar_head">
-                        <th width="25px"><input type="checkbox" name="" value=""></th>
-                        <th width="20px">排名</th>
-                        <th width="30%">型号(点击查看详情)</th>
-                        <th width="10%">核心代号</th>
-                        <th width="10%">2级/3级缓存</th>
-                        <th width="15px">设计热功耗</th>
-                        <th width="10%">核心速率/睿频(MHz)</th>
-                        <th width="10%">核心数/线程数</th>
-                        <th width="10%">制程<br>(nm)</th>
-                        <th width="5%">性能指标(相对绝对性能)</th>
-                        <th width="5%">3DMark06 CPU</th>
-                        <th width="5%">Cinebench R10 32Bit Single</th>
-                        <th width="5%">Cinebench R10 32Bit Multi</th>
-                        <th width="5%">Cinebench R11.5 CPU Single 64Bit</th>
-                        <th width="5%">Cinebench R11.5 64Bit</th>
-                        <th width="5%">Cinebench R15 CPU Single 64Bit</th>
-                        <th width="5%">Cinebench R15 CPU Multi 64Bit</th>
-                        <th width="5%">wPrime 32(-)</th>
-                        <th width="5%">x264 Pass 1</th>
-                        <th width="5%">x264 Pass 2</th>
-                        <th width="10%">操作</th>
+                        <th  width="25px"><input type="checkbox" name="" value=""></th>
+                        <th  width="20px">排名</th>
+                        <th  width="30%">型号(点击查看详情)</th>
+                        <th  width="10%">核心代号</th>
+                        <th  width="10%">2级/3级缓存</th>
+                        <th  width="15px">设计热功耗</th>
+                        <th  width="10%">核心速率/睿频(MHz)</th>
+                        <th  width="10%">核心数/线程数</th>
+                        <th  width="10%">制程<br>(nm)</th>
+                        <th  width="5%">性能指标(相对绝对性能)</th>
+                        <th  width="5%">3DMark06 CPU</th>
+                        <th  width="5%">Cinebench R10 32Bit Single</th>
+                        <th  width="5%">Cinebench R10 32Bit Multi</th>
+                        <th  width="5%">Cinebench R11.5 CPU Single 64Bit</th>
+                        <th  width="5%">Cinebench R11.5 64Bit</th>
+                        <th  width="5%">Cinebench R15 CPU Single 64Bit</th>
+                        <th  width="5%">Cinebench R15 CPU Multi 64Bit</th>
+                        <th  width="5%">wPrime 32(-)</th>
+                        <th  width="5%">x264 Pass 1</th>
+                        <th  width="5%">x264 Pass 2</th>
+                        <th  width="10%">操作</th>
                     </tr>
                     </thead>
                     <%--<div style="height: 35px;"></div>--%>

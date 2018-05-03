@@ -6,7 +6,7 @@
 	<script type="text/javascript" src="js/flyaway.js"></script>
 
 	<link rel="stylesheet" href="css/templatemo-style.css">
-	<link rel="stylesheet" href="css/flyaway.css">
+    <link rel="stylesheet" href="css/flyaway.min.css">
 </head>
 <body>
 <!-- <div style="position:fixed;top:50px;right:0">
@@ -24,8 +24,10 @@
 					<ul class="social list-inline" style="height: 60px;">
 						<li>
 							<i id="demo" class="fa fa-paper-plane fa-3x float shadow"></i>
-							<%--<i id="demo2" style="display: none">谢谢您宝贵的意见！</i>--%>
-						</li>
+                        </li>
+                        <div style="height: 30px; padding-bottom: 10px;">
+							<i id="tips1" style="display: none"> (^o^)」说点什么吧 </i>
+						</div>
 						<%--<button class="animate">Animate</button>--%>
 					</ul>
 					<%--plane plugin--%>
@@ -51,6 +53,11 @@
 
 					<%--</form>--%>
 				</div>
+
+                <div class="toogle" style="width: 100%; float: left; text-align: center;">
+                    <hr style="width: 100%; height: 2px;" />
+                </div>
+
 				<div class="col-md-1 col-sm-1"></div>
 				<div id="icons" style="margin-top: 50px;">
 					<div class="col-md-12 col-sm-12">
@@ -107,7 +114,9 @@
 		var comment_why = $('#comment_why').val();
 
 		if(comment_nickname == "" || comment_enmail == "" || comment_where == "" || comment_why == ""){
-			alert(" ^o^ 说点什么吧 ")
+			// alert(" ^o^ 说点什么吧 ")
+            animate(linearShake);
+            $('#tips1').show();
 		}else{
             $.ajax({
                 url:'pageComment.html',
@@ -119,7 +128,7 @@
                 success:function(rs){
                     var re = /^[0-9]+.?[0-9]*$/;
                     if(re.test(rs)&&rs!=0){
-                        animate("popUp");
+                        animate(popUp);
                         setTimeout(function () {
                            $('#demo').hide();
                            $('.form-control').attr('disabled',true);
@@ -127,6 +136,7 @@
                         			$('#title1').hide();
                         			$('#title2').show();
                         			$('#hit').hide();
+                                    $('#tips1').hide();
                            },200);
                         }, 900);
                     }else{

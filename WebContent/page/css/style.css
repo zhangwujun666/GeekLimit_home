@@ -3178,3 +3178,6 @@ ul.delivery-list li a:hover{
     float: left;
     text-align: center;
 }
+#table-head{
+	overflow-x: scroll;
+}

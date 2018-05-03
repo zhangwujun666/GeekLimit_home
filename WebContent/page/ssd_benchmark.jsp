@@ -16,8 +16,6 @@
     <![endif]-->
 
     <link rel="stylesheet" href="../main/css/person.css">
-    <link href="../main/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-    <link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
     <link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
     <!--[if IE 6]>
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
@@ -53,11 +51,12 @@
     <script src="lib/layui/layui.js"></script>
     <%--<script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>--%>
 
-    <script type="text/javascript" src="../main/js/H-ui.js"></script>
-    <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
+
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
+    <link rel="stylesheet" href="css/tablesaw.css">
+    <script src="js/tablesaw.js"></script>
 
     <title>GeekLimits-SSD数据库</title>
 
@@ -116,7 +115,8 @@
 <%--==================================================================table==================================================================--%>
     <div class="mt-20">
         <div id="table-head">
-            <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px" >
+            <%--<table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px" >--%>
+            <table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" style="font-size: 12px">
                 <colgroup>
                 </colgroup>
                 <thead >
@@ -149,9 +149,38 @@
                 <%--<div style="height: 35px;"></div>--%>
                 <tbody>
                 <c:forEach items="${ssd_list}" var="ssd_list" varStatus="s">
+                    <%--<c:if test="${s.index % 8 eq 0}">--%>
+                        <%--<thead >--%>
+                        <%--<tr id="bar_head">--%>
+                            <%--<th width="25px"><input type="checkbox" name="" value=""></th>--%>
+                            <%--<th width="20px">排名</th>--%>
+                            <%--<th width="15%">型号(点击查看详情)</th>--%>
+                            <%--<th width="5%">容量(GB)</th>--%>
+                            <%--<th width="5%">转速</th>--%>
+                            <%--<th width="5%">储存类型</th>--%>
+                            <%--<th width="5%">性能指标(相对绝对性能)</th>--%>
+                            <%--<th width="5%">连续读(MB/s)</th>--%>
+                            <%--<th width="5%">连续写(MB/s)</th>--%>
+                            <%--<th width="5%">4K队列读(MB/s)</th>--%>
+                            <%--<th width="5%">4K队列写(MB/s)</th>--%>
+                            <%--<th width="5%">读分数</th>--%>
+                            <%--<th width="5%">写分数</th>--%>
+                            <%--<th width="5%">读写总分</th>--%>
+                            <%--<th width="5%">DiskMark队列读(MB/s)</th>--%>
+                            <%--<th width="5%">DiskMark队列写(MB/s)</th>--%>
+                            <%--<th width="5%">DiskMark 512K读(MB/s)</th>--%>
+                            <%--<th width="5%">DiskMark 512K写(MB/s)</th>--%>
+                            <%--<th width="5%">DiskMark 4K读(MB/s)</th>--%>
+                            <%--<th width="5%">DiskMark 4K写(MB/s)</th>--%>
+                            <%--<th width="5%">HD Tune读(MB/s)</th>--%>
+                            <%--<th width="5%">HD Tune最大读速度(MB/s)</th>--%>
+                            <%--<th width="5%">操作</th>--%>
+                        <%--</tr>--%>
+                        <%--</thead>--%>
+                    <%--</c:if>--%>
                     <tr id="table_data">
                         <td><input type="checkbox" value="1" name=""></td>
-                        <td>${ssd_list.id}</td>
+                        <td>${s.index+1}</td>
                         <td><a href="javascript:;" onclick="analyse(105)" style="color: #0a6999;">${ssd_list.manufacturer}</a></td>
                         <td title="容量">${ssd_list.storage_size}</td>
                         <td title="转速">${ssd_list.rpm}</td>

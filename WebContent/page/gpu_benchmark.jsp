@@ -16,8 +16,7 @@
     <![endif]-->
 
     <link rel="stylesheet" href="../main/css/person.css">
-    <link href="../main/css/H-ui.min.css" rel="stylesheet" type="text/css" />
-    <link href="../main/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+
     <link href="../main/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
     <!--[if IE 6]>
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
@@ -37,7 +36,7 @@
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 
     <link rel="stylesheet" href="lib/layui/css/layui.css">
-    <link rel="stylesheet" href="lib/jquery.jqGrid-4.4.3/css/ui.jqgrid.css">
+    <%--<link rel="stylesheet" href="lib/jquery.jqGrid-4.4.3/css/ui.jqgrid.css">--%>
     <%--<link rel="stylesheet" href="http://res.layui.com/lyui/dist/css/layui.css"  media="all">--%>
 
     <script src="js/jquery.min.js"></script>
@@ -53,11 +52,13 @@
     <script src="lib/layui/layui.js"></script>
     <script src="lib/jquery.jqGrid-4.4.3/js/jquery.jqGrid.min.js"></script>
 
-    <script type="text/javascript" src="../main/js/H-ui.js"></script>
-    <script type="text/javascript" src="../main/js/H-ui.admin.js"></script>
+
     <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
     <script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 
+
+    <link rel="stylesheet" href="css/tablesaw.css">
+    <script src="js/tablesaw.js"></script>
 
     <title>GeekLimits-GPU数据库</title>
 
@@ -141,7 +142,8 @@
 <%--==================================================================table==================================================================--%>
     <div class="mt-20">
         <div id="table-head">
-        <table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">
+        <%--<table class="table table-border table-bordered table-hover table-bg table-sort" style="font-size: 12px">--%>
+        <table class="tablesaw tablesaw-stack" data-tablesaw-mode="stack" style="font-size: 12px">
             <colgroup>
             </colgroup>
             <thead >
