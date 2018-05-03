@@ -55,9 +55,16 @@ public class IndexCtrl extends StringUtil{
 	public ModelAndView mainindex(){
 		return new ModelAndView("main/index");
 	}
-	
-	@RequestMapping(value="/page/index.html")
+
+	@RequestMapping(value="index.html")
 	public ModelAndView index(HttpSession session){
+		ModelAndView ml = new ModelAndView();
+		ml.setViewName("redirect:page/index.html");
+		return  ml;
+	}
+
+	@RequestMapping(value="page/index.html")
+	public ModelAndView pageIndex(HttpSession session){
 		ModelAndView ml = new ModelAndView();
 		List<Index> indexList = indexService.list();
 		ml.addObject("indexList",indexList);
