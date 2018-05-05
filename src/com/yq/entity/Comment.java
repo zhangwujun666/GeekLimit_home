@@ -6,6 +6,8 @@ public class Comment extends Page{
     String comment_email;
     String comment_where;
     String comment_why;
+    String ip_address;
+    String os_info;
 
     public Integer getId() {
         return id;
@@ -45,5 +47,21 @@ public class Comment extends Page{
 
     public void setComment_why(String comment_why) {
         this.comment_why = comment_why;
+    }
+
+    public String getIp_address() {
+        return ip_address;
+    }
+
+    public void setIp_address(String ip_address) {
+        this.ip_address = ip_address;
+    }
+
+    public String getOs_info() {
+        return os_info;
+    }
+
+    public void setOs_info(String os_info) {
+        this.os_info = os_info;
     }
 }

@@ -9,6 +9,9 @@
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" afterPath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml" afterPath="$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/entity/Comment.java" afterPath="$PROJECT_DIR$/src/com/yq/entity/Comment.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,25 +37,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <file leaf-file-name="IndexCtrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="125" column="33" lean-forward="false" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+            <state relative-caret-position="520">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#i#1;n#div#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1330#1346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexCtrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
+      <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+            <state relative-caret-position="267">
+              <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
               <folding>
-                <element signature="e#1330#1346#0" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#div#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,16 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
               <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaptopDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -234,8 +227,6 @@
         <option value="$PROJECT_DIR$/src/com/yq/service/IndexService.java" />
         <option value="$PROJECT_DIR$/WebContent/page/css/flyaway.css" />
         <option value="$PROJECT_DIR$/WebContent/page/js/flyaway.js" />
-        <option value="$PROJECT_DIR$/src/com/yq/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/CommentDao.java" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
@@ -255,6 +246,8 @@
         <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/yq/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
       </list>
@@ -642,7 +635,7 @@
       <workItem from="1525324304887" duration="682000" />
       <workItem from="1525325807163" duration="8427000" />
       <workItem from="1525340158494" duration="1814000" />
-      <workItem from="1525356016916" duration="6469000" />
+      <workItem from="1525356016916" duration="10090000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -896,11 +889,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525441622847</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix repeat comments bug">
+      <created>1525490144963</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1525490144963</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180884000" />
+    <option name="totallyTimeSpent" value="184505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,7 +927,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18329467" sideWeight="0.489011" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16241299" sideWeight="0.489011" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830626" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -959,7 +959,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="footer add details" />
     <MESSAGE value="navbar fix" />
     <MESSAGE value="laptop info add radar and video plugin" />
     <MESSAGE value="fix video plugin" />
@@ -984,11 +983,12 @@
     <MESSAGE value="add laptop list class" />
     <MESSAGE value="modified laptop info page" />
     <MESSAGE value="redirect index" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirect index" />
+    <MESSAGE value="fix repeat comments bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix repeat comments bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="51" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1086,24 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/js/flyaway.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="72" lean-forward="false" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1118,16 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-760">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <marker date="1525246672590" expanded="true" signature="1357:1386" ph="select * fro... tb_page_comment" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,6 +1236,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2215">
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="false" />
+            <element signature="e#1072#1073#0" expanded="false" />
+            <element signature="e#1136#1137#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <element signature="e#1266#1267#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1370#1371#0" expanded="false" />
+            <element signature="e#1412#1413#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#1512#1513#0" expanded="false" />
+            <element signature="e#1566#1567#0" expanded="false" />
+            <element signature="e#1606#1607#0" expanded="false" />
+            <element signature="e#1642#1643#0" expanded="false" />
+            <element signature="e#1700#1701#0" expanded="false" />
+            <element signature="e#1750#1751#0" expanded="false" />
+            <element signature="e#1790#1791#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1884#1885#0" expanded="false" />
+            <element signature="e#1934#1935#0" expanded="false" />
+            <element signature="e#1977#1978#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+            <element signature="e#2080#2081#0" expanded="false" />
+            <element signature="e#2136#2137#0" expanded="false" />
+            <element signature="e#2176#2177#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2270#2271#0" expanded="false" />
+            <element signature="e#2320#2321#0" expanded="false" />
+            <element signature="e#2364#2365#0" expanded="false" />
+            <element signature="e#2404#2405#0" expanded="false" />
+            <element signature="e#2470#2471#0" expanded="false" />
+            <element signature="e#2528#2529#0" expanded="false" />
+            <element signature="e#2574#2575#0" expanded="false" />
+            <element signature="e#2616#2617#0" expanded="false" />
+            <element signature="e#2686#2687#0" expanded="false" />
+            <element signature="e#2748#2749#0" expanded="false" />
+            <element signature="e#2791#2792#0" expanded="false" />
+            <element signature="e#2830#2831#0" expanded="false" />
+            <element signature="e#2894#2895#0" expanded="false" />
+            <element signature="e#2950#2951#0" expanded="false" />
+            <element signature="e#2997#2998#0" expanded="false" />
+            <element signature="e#3040#3041#0" expanded="false" />
+            <element signature="e#3223#3224#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
+            <element signature="e#3451#3452#0" expanded="false" />
+            <element signature="e#3496#3497#0" expanded="false" />
+            <element signature="e#3680#3681#0" expanded="false" />
+            <element signature="e#3716#3717#0" expanded="false" />
+            <element signature="e#3774#3775#0" expanded="false" />
+            <element signature="e#3824#3825#0" expanded="false" />
+            <element signature="e#3864#3865#0" expanded="false" />
+            <element signature="e#3900#3901#0" expanded="false" />
+            <element signature="e#3958#3959#0" expanded="false" />
+            <element signature="e#4008#4009#0" expanded="false" />
+            <element signature="e#4047#4048#0" expanded="false" />
+            <element signature="e#4082#4083#0" expanded="false" />
+            <element signature="e#4138#4139#0" expanded="false" />
+            <element signature="e#4186#4187#0" expanded="false" />
+            <element signature="e#4226#4227#0" expanded="false" />
+            <element signature="e#4262#4263#0" expanded="false" />
+            <element signature="e#4320#4321#0" expanded="false" />
+            <element signature="e#4370#4371#0" expanded="false" />
+            <element signature="e#4412#4413#0" expanded="false" />
+            <element signature="e#4450#4451#0" expanded="false" />
+            <element signature="e#4512#4513#0" expanded="false" />
+            <element signature="e#4566#4567#0" expanded="false" />
+            <element signature="e#4608#4609#0" expanded="false" />
+            <element signature="e#4646#4647#0" expanded="false" />
+            <element signature="e#4708#4709#0" expanded="false" />
+            <element signature="e#4762#4763#0" expanded="false" />
+            <element signature="e#4803#4804#0" expanded="false" />
+            <element signature="e#4840#4841#0" expanded="false" />
+            <element signature="e#4900#4901#0" expanded="false" />
+            <element signature="e#4952#4953#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,16 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="e#1330#1346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1379,10 +1429,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1249#1250#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+            <element signature="e#1359#1360#0" expanded="false" />
+            <element signature="e#1397#1398#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/CommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <marker date="1525490341856" expanded="true" signature="1403:1432" ph="select * fro... tb_page_comment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#1330#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="125" column="33" lean-forward="false" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        <state relative-caret-position="267">
+          <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#i#1;n#div#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

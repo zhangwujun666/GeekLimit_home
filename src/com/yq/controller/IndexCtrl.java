@@ -77,7 +77,9 @@ public class IndexCtrl extends StringUtil{
 	public Object update(String comment_nickname,
 						 String comment_email,
 						 String comment_where,
-						 String comment_why
+						 String comment_why,
+						 String ipInfo,
+						 String osInfo
 						 ) throws UnsupportedEncodingException {
 		comment_nickname = java.net.URLDecoder.decode(comment_nickname,"utf-8") ;
 		Map<String, String> map = new HashMap<>();
@@ -85,6 +87,8 @@ public class IndexCtrl extends StringUtil{
 		map.put("comment_email", comment_email);
 		map.put("comment_where", comment_where);
 		map.put("comment_why", comment_why);
+		map.put("ip_address", ipInfo);
+		map.put("os_info", osInfo);
 		commentService.insert(map);
         return "1";
 	}

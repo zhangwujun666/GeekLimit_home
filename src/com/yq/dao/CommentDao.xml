@@ -3,10 +3,10 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yq.dao.CommentDao">
     <insert id="insert" parameterType="java.util.Map">
-	insert tb_page_comment(comment_nickname, comment_email, comment_where, comment_why)
+	insert tb_page_comment(comment_nickname, comment_email, comment_where, comment_why, ip_address, os_info)
 	values
 	(
-      #{comment_nickname},#{comment_email},#{comment_where},#{comment_why}
+      #{comment_nickname},#{comment_email},#{comment_where},#{comment_why},#{ip_address},#{os_info}
 	)
     </insert>
     

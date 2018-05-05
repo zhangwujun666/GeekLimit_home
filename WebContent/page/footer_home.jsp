@@ -4,6 +4,8 @@
 <html>
 <head>
 	<script type="text/javascript" src="js/flyaway.js"></script>
+	<script type="text/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+
 
 	<link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/flyaway.min.css">
@@ -19,15 +21,15 @@
 			<div class="row">
 				<div class="col-md-12">
 				<h1 class="title" id="title1">页面意见</h1>
-				<h1 class="title" id="title2" style="display: none">谢谢您宝贵的意见! <strong>: )</strong></h1>
+				<h1 class="title" id="title2" style="display: none">谢谢您宝贵的意见! <strong>╭(⌐■_■)╯</strong></h1>
 					<%--plane plugin--%>
 					<ul class="social list-inline" style="height: 60px;">
 						<li>
 							<i id="demo" class="fa fa-paper-plane fa-3x float shadow"></i>
                         </li>
                         <div style="height: 30px; padding-bottom: 10px;">
-							<i id="tips1" style="display: none"> (^o^)」说点什么吧 </i>
-							<i id="tips_email" style="display: none; color: red"> 请输入正确的邮箱地址</i>
+							<i id="tips1" style="display: none"> (•_•)说点什么吧 </i>
+							<i id="tips_email" style="display: none; color: red">( •_•)>⌐■-■ 请输入正确的邮箱地址</i>
 						</div>
 						<%--<button class="animate">Animate</button>--%>
 					</ul>
@@ -118,13 +120,17 @@
 		var emailTest =  /^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
         var isEmail = emailTest.test(comment_enmail);
 
+        var ipInfo = returnCitySN.cip + "/" + returnCitySN.cid + "/" + returnCitySN.cname;
+		var osinfo = detectOS();
+
 		if(comment_nickname == "" || comment_enmail == "" || comment_where == "" || comment_why == ""){
 			// alert(" ^o^ 说点什么吧 ")
             animate(linearShake);
             $('#tips1').show();
         }else if( isEmail == false){
             animate(linearShake);
-			$('#tips_email').show();
+            $('#tips1').hide();
+            $('#tips_email').show();
 		}else{
             $('#hit').attr('disabled',"true");//添加disabled属性
             $.ajax({
@@ -133,8 +139,10 @@
 				data:'comment_nickname=' + comment_nickname
 				+ "&comment_email=" + comment_enmail
 				+ "&comment_where=" + comment_where
-				+ "&comment_why=" + comment_why,
-				success:function(rs){
+				+ "&comment_why=" + comment_why
+				+ "&ipInfo=" + ipInfo
+				+ "&osInfo=" + osinfo
+                ,success:function(rs){
 					var re = /^[0-9]+.?[0-9]*$/;
 					if(re.test(rs)&&rs!=0){
 						animate(popUp);
@@ -146,6 +154,7 @@
 								$('#title2').show();
                                 $('#hit').attr('disabled',"true");//添加disabled属性
 								$('#tips1').hide();
+                                $('#tips_email').hide();
 							},200);
 						}, 900);
 					}else{
@@ -165,6 +174,40 @@
          //    },200);
 		// }, 900);
     }
+</script>
+<%--<script type="text/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>--%>
+<script type="text/javascript">
+    function detectOS() {
+        var sUserAgent = navigator.userAgent;
+
+        var isWin = (navigator.platform == "Win32") || (navigator.platform == "Windows");
+        var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+        if (isMac) return "macOS";
+        var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
+        if (isUnix) return "Unix";
+        var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+
+        var bIsAndroid = sUserAgent.toLowerCase().match(/android/i) == "android";
+        if (isLinux) {
+            if(bIsAndroid) return "Android";
+            else return "Linux";
+        }
+        if (isWin) {
+            var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
+            if (isWin2K) return "Win2000";
+            var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 ||
+                sUserAgent.indexOf("Windows XP") > -1;
+            if (isWinXP) return "WinXP";
+            var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
+            if (isWin2003) return "Win2003";
+            var isWinVista= sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
+            if (isWinVista) return "WinVista";
+            var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
+            if (isWin7) return "Win7";
+        }
+        return "other";
+    }
+    // document.writeln("您的操作系统是：" + detectOS());
 </script>
 </body>
 </html>
