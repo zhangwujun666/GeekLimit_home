@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-md-12">
 				<h1 class="title" id="title1">页面意见</h1>
-				<h1 class="title" id="title2" style="display: none">谢谢您宝贵的意见! <strong>:)</strong></h1>
+				<h1 class="title" id="title2" style="display: none">谢谢您宝贵的意见! <strong>: )</strong></h1>
 					<%--plane plugin--%>
 					<ul class="social list-inline" style="height: 60px;">
 						<li>
@@ -27,6 +27,7 @@
                         </li>
                         <div style="height: 30px; padding-bottom: 10px;">
 							<i id="tips1" style="display: none"> (^o^)」说点什么吧 </i>
+							<i id="tips_email" style="display: none; color: red"> 请输入正确的邮箱地址</i>
 						</div>
 						<%--<button class="animate">Animate</button>--%>
 					</ul>
@@ -47,7 +48,8 @@
 							<textarea id="comment_why" class="form-control" placeholder="为什么不对呢？" rows="6"></textarea>
 						</div>
 						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-							<div id="hit" class="form-control" type="button" onclick="conmments()" >猛击传送！</div>
+							<%--<div id="hit" class="form-control" type="button" onclick="conmments()">猛击传送！</div>--%>
+							<button id="hit" class="form-control" onclick="conmments()" type="submit">猛击传送！</button>
 						</div>
 
 
@@ -113,37 +115,44 @@
 		var comment_where = $('#comment_where').val();
 		var comment_why = $('#comment_why').val();
 
+		var emailTest =  /^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
+        var isEmail = emailTest.test(comment_enmail);
+
 		if(comment_nickname == "" || comment_enmail == "" || comment_where == "" || comment_why == ""){
 			// alert(" ^o^ 说点什么吧 ")
             animate(linearShake);
             $('#tips1').show();
+        }else if( isEmail == false){
+            animate(linearShake);
+			$('#tips_email').show();
 		}else{
+            $('#hit').attr('disabled',"true");//添加disabled属性
             $.ajax({
-                url:'pageComment.html',
-                type:'post',
-                data:'comment_nickname=' + comment_nickname
+				url:'pageComment.html',
+				type:'post',
+				data:'comment_nickname=' + comment_nickname
 				+ "&comment_email=" + comment_enmail
 				+ "&comment_where=" + comment_where
 				+ "&comment_why=" + comment_why,
-                success:function(rs){
-                    var re = /^[0-9]+.?[0-9]*$/;
-                    if(re.test(rs)&&rs!=0){
-                        animate(popUp);
-                        setTimeout(function () {
-                           $('#demo').hide();
-                           $('.form-control').attr('disabled',true);
-                           setTimeout(function () {
-                        			$('#title1').hide();
-                        			$('#title2').show();
-                        			$('#hit').hide();
-                                    $('#tips1').hide();
-                           },200);
-                        }, 900);
-                    }else{
-                        alert(" >_< 系统抽风，正在前往运维人员住所路上...");
-                    }
-                }
-             });
+				success:function(rs){
+					var re = /^[0-9]+.?[0-9]*$/;
+					if(re.test(rs)&&rs!=0){
+						animate(popUp);
+						setTimeout(function () {
+							$('#demo').hide();
+							$('.form-control').attr('disabled',true);
+							setTimeout(function () {
+								$('#title1').hide();
+								$('#title2').show();
+                                $('#hit').attr('disabled',"true");//添加disabled属性
+								$('#tips1').hide();
+							},200);
+						}, 900);
+					}else{
+						alert(" >_< 系统抽风，正在前往运维人员住所路上...");
+					}
+				}
+			});
 		}
 
 		// animate("popUp");
