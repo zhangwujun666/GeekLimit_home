@@ -1,11 +1,12 @@
 GeekLimits CMS Beta
 
-
+Update until May 2018
 
 Software Open Source License By 
 
-JSON、EChart、JQuery、Mybatis、Java
+JSON. EChart. JQuery. Mybatis. Java. Apache. Google Thumbles. Bootstrap
 
 
-GeekLimits@John Zhang
+@MIT License 
+GeekLimits.lnc 2018. @John Zhang
 
