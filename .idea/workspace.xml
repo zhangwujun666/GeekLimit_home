@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/images/about-bg.jpg" afterPath="$PROJECT_DIR$/WebContent/page/images/about-bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/images/about-bg_bk.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/images/home-bg.jpg" afterPath="$PROJECT_DIR$/WebContent/page/images/home-bg.jpg" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" afterPath="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +36,8 @@
       <file leaf-file-name="LaptopCtrl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -655,7 +650,7 @@
       <workItem from="1525325807163" duration="8427000" />
       <workItem from="1525340158494" duration="1814000" />
       <workItem from="1525356016916" duration="10529000" />
-      <workItem from="1525591498656" duration="3156000" />
+      <workItem from="1525591498656" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -923,11 +918,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525522736196</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="fix nav_bar css">
+      <created>1525599518656</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1525599518657</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188100000" />
+    <option name="totallyTimeSpent" value="188141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +988,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="laptop info add radar and video plugin" />
     <MESSAGE value="fix video plugin" />
     <MESSAGE value="fix link css" />
     <MESSAGE value="remove unsupported layer-mobile plugin" />
@@ -1011,7 +1012,8 @@
     <MESSAGE value="redirect index" />
     <MESSAGE value="fix repeat comments bug" />
     <MESSAGE value="add ip &amp; os information fetching system" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ip &amp; os information fetching system" />
+    <MESSAGE value="fix nav_bar css" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix nav_bar css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1406,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
           <folding />
         </state>
       </provider>
