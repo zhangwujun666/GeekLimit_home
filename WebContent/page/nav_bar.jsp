@@ -30,9 +30,28 @@
     <style>
         #login-bar{
             position: absolute;
-            right: 5%;
-            top: 27px;
+            right: 2%;
+            top: 15px;
+            color: white;
+            background-color: #202020;
+            border-radius: 5px;
+            padding: 5px;
         }
+        .login-a{
+            color: #bfbfbf;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .login-a:hover{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .login-span{
+            color: white;
+            font-size: 22px;
+        }
+
     </style>
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
@@ -63,9 +82,9 @@
             </ul>
         </nav>
         <div id="login-bar">
-            <a href="#" id="navbar-login">登陆</a>
-            <span>|</span>
-            <a href="#" id="navbar-register">注册</a>
+            <a class="login-a" href="#" id="navbar-login"> 登陆 </a>
+            <span class="login-span"> | </span>
+            <a class="login-a" href="#" id="navbar-register"> 注册 </a>
         </div>
     </div>
 </div>
