@@ -27,13 +27,15 @@
     <script src="js/isotope.js"></script>
     <script src="js/imagesloaded.min.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript" src="../main/lib/layer/1.9.3/layer.js"></script>
+
     <style>
         #login-bar{
             position: absolute;
             right: 2%;
-            top: 15px;
+            top: 8px;
             color: white;
-            background-color: #202020;
+            /*background-color: #202020;*/
             border-radius: 5px;
             padding: 5px;
         }
@@ -41,6 +43,8 @@
             color: #bfbfbf;
             font-size: 20px;
             text-decoration: none;
+            background-color: black;
+            border-radius: 15px;
         }
         .login-a:hover{
             color: white;
@@ -50,6 +54,11 @@
         .login-span{
             color: white;
             font-size: 22px;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
         }
 
     </style>
@@ -82,20 +91,41 @@
             </ul>
         </nav>
         <div id="login-bar">
-            <a class="login-a" href="#" id="navbar-login"> 登陆 </a>
-            <span class="login-span"> | </span>
-            <a class="login-a" href="#" id="navbar-register"> 注册 </a>
+            <a href="#" onclick="login()" >
+                <input  class="login-a" id="navbar-login" target="_blank" type="button" value="登录"></input>
+            </a>
+            <%--<span class="login-span"> | </span>--%>
+            <%--<a class="login-a" href="#" id="navbar-register"> 注册 </a>--%>
         </div>
     </div>
 </div>
 <%--==================================================================Nav Start==================================================================--%>
 <script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){
-            event.preventDefault();
-            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    // jQuery(document).ready(function($) {
+    //     $(".scroll").click(function(event){
+    //         event.preventDefault();
+    //         $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    //     });
+    // });
+
+    function login() {
+        layer.open({
+            type: 2,
+            title: 'GeekLimits',
+            maxmin: true,
+            shadeClose: true, //点击遮罩关闭层
+            scrollbar: false,
+            area : ['1000px' , '900px'],
+            content: '/page/login.html'
         });
-    });
+        // layer.open({
+        //     type: 1
+        //     ,content: '可传入任何内容，支持html。一般用于手机页面中'
+        //     ,anim: 'up'
+        //     ,style: 'position:fixed; bottom:0; left:0; width: 100%; height: 200px; padding:10px 0; border:none;'
+        //     ,content: '/page/laptopVideo.html?id='+id
+        // });
+    }
 </script>
 </body>
 </html>

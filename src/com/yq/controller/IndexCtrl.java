@@ -96,6 +96,36 @@ public class IndexCtrl extends StringUtil{
 
 
 
+	@RequestMapping(value="page/login.html")
+	public ModelAndView login(HttpSession session){
+		ModelAndView ml = new ModelAndView();
+		List<Index> indexList = indexService.list();
+//		ml.addObject("indexList",indexList);
+		ml.setViewName("page/login_register");
+		return ml;
+	}
+
+	@RequestMapping(value="page/register.html")
+	public ModelAndView register(HttpSession session){
+		ModelAndView ml = new ModelAndView();
+		List<Index> indexList = indexService.list();
+//		ml.addObject("indexList",indexList);
+		ml.setViewName("page/register");
+		return ml;
+	}
+
+	@RequestMapping(value="page/forgot.html")
+	public ModelAndView forget(HttpSession session){
+		ModelAndView ml = new ModelAndView();
+		List<Index> indexList = indexService.list();
+//		ml.addObject("indexList",indexList);
+		ml.setViewName("page/forgot");
+		return ml;
+	}
+
+
+
+
 
 
 
