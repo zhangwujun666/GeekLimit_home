@@ -6,8 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
+    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="fix nav_bar css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" afterPath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LaptopCtrl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LaptopCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="420">
+              <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -46,8 +48,8 @@
       <file leaf-file-name="laptop.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+            <state relative-caret-position="3735">
+              <caret line="249" column="30" lean-forward="false" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -56,7 +58,7 @@
       <file leaf-file-name="IndexCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
+            <state relative-caret-position="1140">
               <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
@@ -66,11 +68,9 @@
       <file leaf-file-name="footer_home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="139" column="52" lean-forward="true" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="52" />
-              <folding>
-                <element signature="e#4216#4222#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="2085">
+              <caret line="139" column="52" lean-forward="false" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +98,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="870">
+              <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -108,18 +108,18 @@
       <file leaf-file-name="nav_bar.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="4" column="117843" lean-forward="true" selection-start-line="4" selection-start-column="117843" selection-end-line="4" selection-end-column="117843" />
+            <state relative-caret-position="319">
+              <caret line="4" column="115013" lean-forward="true" selection-start-line="4" selection-start-column="115013" selection-end-line="4" selection-end-column="115013" />
               <folding />
             </state>
           </provider>
@@ -147,7 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>width:80,</find>
       <find>title</find>
       <find>msie</find>
       <find>&lt;td</find>
@@ -177,6 +176,7 @@
       <find>linearShake</find>
       <find>scope=&quot;col&quot;</find>
       <find>class=&quot;title&quot;</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace>首页</replace>
@@ -255,15 +255,15 @@
         <option value="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/service/LaptopService.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java" />
-        <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/entity/Comment.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/CommentDao.xml" />
         <option value="$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/WebContent/page/nav_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -281,9 +281,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="882" />
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="981" />
+    <option name="width" value="1678" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -301,8 +302,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,7 +390,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -650,7 +651,10 @@
       <workItem from="1525325807163" duration="8427000" />
       <workItem from="1525340158494" duration="1814000" />
       <workItem from="1525356016916" duration="10529000" />
-      <workItem from="1525591498656" duration="3197000" />
+      <workItem from="1525591498656" duration="3569000" />
+      <workItem from="1528356352802" duration="181000" />
+      <workItem from="1528419628556" duration="2561000" />
+      <workItem from="1528512864964" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -925,11 +929,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525599518657</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix nav_bar css">
+      <created>1525599543081</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1525599543081</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188141000" />
+    <option name="totallyTimeSpent" value="192915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -941,12 +952,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="981" extended-state="6" />
+    <frame x="882" y="22" width="1678" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32482597" sideWeight="0.510989" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24017957" sideWeight="0.51591593" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.4978979" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42093024" sideWeight="0.507326" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -956,19 +967,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24046242" sideWeight="0.489011" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21548821" sideWeight="0.48408407" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830626" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.4978979" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27325583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17643468" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27272728" sideWeight="0.49069068" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12224939" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971917" sideWeight="0.50680274" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1146,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="85" column="50" lean-forward="false" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,14 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,14 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5805">
           <caret line="387" column="24" lean-forward="false" selection-start-line="387" selection-start-column="24" selection-end-line="387" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1319,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="188" column="30" lean-forward="true" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,60 +1346,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="139" column="52" lean-forward="true" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="52" />
-          <folding>
-            <element signature="e#4216#4222#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="4" column="117843" lean-forward="true" selection-start-line="4" selection-start-column="117843" selection-end-line="4" selection-end-column="117843" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/controller/IndexCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="1140">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="420">
+          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="249" column="30" lean-forward="false" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="52" lean-forward="false" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/laptop_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/nav_bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="4" column="115013" lean-forward="true" selection-start-line="4" selection-start-column="115013" selection-end-line="4" selection-end-column="115013" />
           <folding />
         </state>
       </provider>
