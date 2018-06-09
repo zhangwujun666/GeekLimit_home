@@ -123,6 +123,15 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	@RequestMapping(value="page/profile.html")
+	public ModelAndView profile(HttpSession session){
+		ModelAndView ml = new ModelAndView();
+		List<Index> indexList = indexService.list();
+//		ml.addObject("indexList",indexList);
+		ml.setViewName("page/profile");
+		return ml;
+	}
+
 
 
 

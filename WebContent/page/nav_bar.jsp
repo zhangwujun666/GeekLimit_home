@@ -114,7 +114,7 @@
             title: 'GeekLimits',
             maxmin: true,
             shadeClose: true, //点击遮罩关闭层
-            scrollbar: false,
+            // scrollbar: false,
             area : ['1000px' , '900px'],
             content: '/page/login.html'
         });
