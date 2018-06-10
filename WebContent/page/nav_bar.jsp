@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/google_font.css">
+
+    <link rel="stylesheet" href="lib/layui/css/layui.css">
     <!--<link href='http://fonts.useso.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>-->
     <script src="js/jquery.min.js"></script>
     <%--<script src="js/bootstrap.min.js"></script>--%>
@@ -28,6 +30,7 @@
     <script src="js/imagesloaded.min.js"></script>
     <script src="js/custom.js"></script>
     <script type="text/javascript" src="../main/lib/layer/1.9.3/layer.js"></script>
+    <script type="text/javascript" src="lib/layui/layui.js"></script>
 
     <style>
         #login-bar{
@@ -91,9 +94,22 @@
             </ul>
         </nav>
         <div id="login-bar">
-            <a href="#" onclick="login()" >
-                <input  class="login-a" id="navbar-login" target="_blank" type="button" value="登录"></input>
-            </a>
+            <%--<a href="#" onclick="login()" >--%>
+                <%--<input  class="login-a" id="navbar-login" target="_blank" type="button" value="登录"></input>--%>
+            <%--</a>--%>
+            <ul class="layui-nav">
+                <li class="layui-nav-item layui-this">
+                    <a href="javascript:;">
+                        <img style="width: 55px" src="images/apple_logo.png">
+                    </a>
+                    <dl class="layui-nav-child">
+                    <dd style="width: 80px" ><a style="margin-left: 10px; font-size: 20px" href="">John</a></dd>
+                    <dd><a style="margin-left: 10px" href="profile.html" target="_blank">用户信息</a></dd>
+                    <dd><a style="margin-left: 10px" href="">退出登录</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            </dl>
             <%--<span class="login-span"> | </span>--%>
             <%--<a class="login-a" href="#" id="navbar-register"> 注册 </a>--%>
         </div>
@@ -101,12 +117,12 @@
 </div>
 <%--==================================================================Nav Start==================================================================--%>
 <script type="text/javascript">
-    // jQuery(document).ready(function($) {
-    //     $(".scroll").click(function(event){
-    //         event.preventDefault();
-    //         $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-    //     });
-    // });
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
 
     function login() {
         layer.open({
@@ -126,6 +142,30 @@
         //     ,content: '/page/laptopVideo.html?id='+id
         // });
     }
+
+    function userInfo() {
+        layer.open({
+            type: 2,
+            title: 'GeekLimits',
+            maxmin: true,
+            shadeClose: true, //点击遮罩关闭层
+            // scrollbar: false,
+            area : ['1000px' , '900px'],
+            content: '/page/profile.html'
+        });
+    }
+
+    layui.use('element', function(){
+        var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+        //监听导航点击
+        element.on('nav(demo)', function(elem){
+            //console.log(elem)
+            layer.msg(elem.text());
+        });
+    });
+
+
 </script>
 </body>
 </html>

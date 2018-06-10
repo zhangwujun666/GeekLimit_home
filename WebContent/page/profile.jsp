@@ -52,7 +52,7 @@
             line-height: 1.5;
             font-size: 16px;
             color: #848484;
-            background-color: #333236;
+            /*background-color: #333236;*/
             background-image: url(images/profile_bg.png);
             background-position: 50% 0%;
             background-size: 55%;
@@ -237,12 +237,12 @@
         }
         #profile_frame{
             /*background-color: yellow;*/
-            width: 34%;
+            width: 32%;
             height: 45%;
             position: absolute;
             top: 6%;
             z-index: -1;
-            left: 33%;
+            left: 34%;
         }
         .img_frame{
             text-align: center;
@@ -257,16 +257,30 @@
             top: 10%;
         }
         .tips_bar{
-            background-color: #0a6999;
+            /*background-color: #333236;*/
         }
         #user_info{
             width: 50%;
             height: 200px;
             background-color: white;
+            /*border: black 1px solid;*/
+            border-radius: 10px;
         }
         li{
             float: left;
             margin-left: 10px;
+        }
+        .info-bar{
+            float: left;
+        }
+        .sub-title{
+            color: black;
+            left: 20px;
+        }
+        #info_bar{
+            border: black 1px solid;
+            border-radius: 10px;
+            height: 230px;
         }
     </style>
 </head>
@@ -283,11 +297,12 @@
         <div class="img_frame">
             <img id="profile_icon" class="div_center" src="images/apple_logo.png">
             <div class="tips_bar div_center">
-                <p style="font-size: 50px;">John</p>
+                <p style="font-size: 30px;">John</p>
             </div>
             <div id="info_bar" class="tips_bar div_center">
-                <div id="user_info">
+                <div id="user_info" class="info-bar">
                     <table>
+                        <p class="sub-title">活跃概况</p>
                         <div>
                             <li>
                                 管理组：高层
@@ -339,6 +354,35 @@
 
                     </table>
                 </div>
+                <div id="user_count">
+                    <table>
+                        <p class="sub-title">统计信息</p>
+                        <div>
+                            <li>
+                                已用空间: 0 B
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                积分: 96139
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                邪恶指数: 7566
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                门户文章: 0
+                            </li>
+                            <br>
+                        </div>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -360,6 +404,7 @@
 
 <script type="text/javascript">
     var x = 0 ;
+    var y = 0;
     var percentage = 5500 ;
     var width = document.all.profile_frame.offsetWidth;
     var left = document.all.profile_frame.offsetLeft;
@@ -374,6 +419,7 @@
         if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
             if (e.wheelDelta > 0) { //当滑轮向上滚动时
                 x = x - e.wheelDelta;
+                y = y - e.wheelDelta;
                 percentage = percentage - e.wheelDelta;
                 $("#demo").val(x);
                 $("#demo1").val(percentage);
@@ -381,6 +427,10 @@
                     x = 0 ;
                     percentage = 5500 ;
                 }
+                if(y < 0){
+                    y = 0;
+                }
+                $("body").css("background-image", "url(images/profile_bg.png)");
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
 
@@ -391,17 +441,23 @@
 
                 $("#profile_icon").css("width", imgWidth + x/300 + "px");
 
-                $("#info_bar").css("height", infoBarHeight + x/18 + "px");
+                $("#info_bar").css("height", infoBarHeight + y/18 + "px");
 
             }
             if (e.wheelDelta < 0) { //当滑轮向下滚动时
                 x = x - e.wheelDelta;
+                y = y - e.wheelDelta;
                 percentage = percentage - e.wheelDelta;
                 $("#demo").val(x);
                 $("#demo1").val(percentage);
                 if(x > 9000){
                     x = 9000 ;
-                    percentage = 16600 ;
+                    percentage = 14500 ;
+                    // alert(percentage);
+                    // $("body").css("background-image", "none");
+                }
+                if(y > 8000){
+                    y = 8000 ;
                 }
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
@@ -413,7 +469,7 @@
 
                 $("#profile_icon").css("width", imgWidth + x/300 + "px");
 
-                $("#info_bar").css("height", infoBarHeight + x/18 + "px");
+                $("#info_bar").css("height", infoBarHeight + y/18 + "px");
 
             }
         } else if (e.detail) {  //Firefox滑轮事件
