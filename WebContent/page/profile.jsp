@@ -54,7 +54,7 @@
             color: #848484;
             background-color: #333236;
             background-image: url(images/profile_bg.png);
-            background-position: 50% -2%;
+            background-position: 50% 0%;
             background-size: 55%;
             background-repeat: no-repeat;
         }
@@ -224,7 +224,50 @@
             margin-top: 4%;
             height: 405px;
         }
-
+        #profile_bg{
+            vertical-align:middle;
+        }
+        #bg_frame{
+            text-align:center;
+        }
+        .tiptop{
+            height:100%;
+            display:inline-block;
+            vertical-align:middle;
+        }
+        #profile_frame{
+            /*background-color: yellow;*/
+            width: 34%;
+            height: 45%;
+            position: absolute;
+            top: 6%;
+            z-index: -1;
+            left: 33%;
+        }
+        .img_frame{
+            text-align: center;
+            width: 100%;
+            top: 10%;
+            position: absolute;
+        }
+        .div_center{
+            vertical-align:middle;
+        }
+        #profile_icon{
+            top: 10%;
+        }
+        .tips_bar{
+            background-color: #0a6999;
+        }
+        #user_info{
+            width: 50%;
+            height: 200px;
+            background-color: white;
+        }
+        li{
+            float: left;
+            margin-left: 10px;
+        }
     </style>
 </head>
 <body data-spy="scroll" data-target="#rock-navigation">
@@ -232,10 +275,78 @@
 <%--<jsp:include page="nav_bar.jsp"></jsp:include>--%>
 <%--==================================================================login Start==================================================================--%>
 <%--<iframe id="profile" src="gpu_info.jsp">--%>
+<div id="bg_frame">
+    <span class="tiptop"></span>
+    <%--<img id="profile_bg" src="images/profile_bg.png">--%>
+    <div id="profile_frame">
+        <span class="tiptop"></span>
+        <div class="img_frame">
+            <img id="profile_icon" class="div_center" src="images/apple_logo.png">
+            <div class="tips_bar div_center">
+                <p style="font-size: 50px;">John</p>
+            </div>
+            <div id="info_bar" class="tips_bar div_center">
+                <div id="user_info">
+                    <table>
+                        <div>
+                            <li>
+                                管理组：高层
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                用户组：管理员
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                在线时间：13339 小时
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                注册时间：2007-1-15 15:27
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                最后访问：2018-6-10 10:18
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                上次活动时间: 2018-6-10 10:18
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                上次发表时间: 2018-6-9 15:47
+                            </li>
+                            <br>
+                        </div>
+                        <div>
+                            <li>
+                                所在时区: (GMT +08:00)
+                            </li>
+                            <br>
+                        </div>
 
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <%--</iframe>--%>
 <div class="container">
     <div class="row" style="padding-top: 100px; clear: both;">
+
         <%--<input id="demo" value="0">--%>
         <%--<input id="demo1" value="0">--%>
         <%--<div style="color: #e0e0e0;" class="col-md-12 text-center"><p><small>Copyright &copy; 2018. GeekLimits All rights reserved.    GeekLimits</small></p></div>--%>
@@ -250,7 +361,13 @@
 <script type="text/javascript">
     var x = 0 ;
     var percentage = 5500 ;
-    var left = $("#profile").css("margin-left");
+    var width = document.all.profile_frame.offsetWidth;
+    var left = document.all.profile_frame.offsetLeft;
+    var height = document.all.profile_frame.offsetHeight;
+    var top = document.all.profile_frame.offsetTop;
+    var imgWidth = document.all.profile_icon.offsetWidth;
+    var infoBarHeight = document.all.info_bar.offsetHeight;
+
     var scrollFunc = function (e) {
         // var direct = 0;
         e = e || window.event;
@@ -267,10 +384,15 @@
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
 
-                // $("#profile").css("width", 34 + x/220 + "%");
-                // $("#profile").css("margin-left", left + x/300 + "%");
-                // // $("#profile").css("margin-top", 4 - x/1000 + "px");
-                // $("#profile").css("height", 412 + x/20 + "px");
+                $("#profile_frame").css("width", width + x/10 + "px");
+                $("#profile_frame").css("left", left - x/20 + "px");
+                $("#profile_frame").css("height", height + x/15 + "px");
+                $("#profile_frame").css("top", top + x/15 + "px");
+
+                $("#profile_icon").css("width", imgWidth + x/300 + "px");
+
+                $("#info_bar").css("height", infoBarHeight + x/18 + "px");
+
             }
             if (e.wheelDelta < 0) { //当滑轮向下滚动时
                 x = x - e.wheelDelta;
@@ -284,10 +406,14 @@
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
 
-                // $("#profile").css("width", 34 + x/220 + "%");
-                // $("#profile").css("margin-left", 33 - x/350 + "%");
-                // // $("#profile").css("margin-top", 4 - x/1000 + "px");
-                // $("#profile").css("height", 412 + x/20 + "px");
+                $("#profile_frame").css("width", width + x/10 + "px");
+                $("#profile_frame").css("left", left - x/20 + "px");
+                $("#profile_frame").css("height", height + x/15 + "px");
+                $("#profile_frame").css("top", top + x/15 + "px");
+
+                $("#profile_icon").css("width", imgWidth + x/300 + "px");
+
+                $("#info_bar").css("height", infoBarHeight + x/18 + "px");
 
             }
         } else if (e.detail) {  //Firefox滑轮事件

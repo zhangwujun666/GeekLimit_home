@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/yq/service/UserInfoService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebContent/page/images/profile_bg.png" afterPath="$PROJECT_DIR$/WebContent/page/images/profile_bg.png" />
       <change beforePath="$PROJECT_DIR$/WebContent/page/profile.jsp" afterPath="$PROJECT_DIR$/WebContent/page/profile.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.java" afterPath="$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,8 +144,8 @@
       <file leaf-file-name="login_register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/page/login_register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1105">
-              <caret line="162" column="38" lean-forward="false" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+            <state relative-caret-position="635">
+              <caret line="265" column="10" lean-forward="true" selection-start-line="237" selection-start-column="4" selection-end-line="265" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -157,9 +154,11 @@
       <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/page/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="285" column="0" lean-forward="true" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="291">
+              <caret line="396" column="41" lean-forward="false" selection-start-line="396" selection-start-column="41" selection-end-line="396" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -742,7 +741,7 @@
       <workItem from="1525591498656" duration="3569000" />
       <workItem from="1528356352802" duration="181000" />
       <workItem from="1528419628556" duration="2561000" />
-      <workItem from="1528512864964" duration="29581000" />
+      <workItem from="1528512864964" duration="37584000" />
     </task>
     <task id="LOCAL-00001" summary="拆分项目">
       <created>1523845356470</created>
@@ -1045,11 +1044,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528556284305</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add profile page">
+      <created>1528617317251</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1528617317251</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220836000" />
+    <option name="totallyTimeSpent" value="228839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,7 +1114,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update ant" />
     <MESSAGE value="add cpu list&amp;detail" />
     <MESSAGE value="fix cpu&amp;gpu list" />
     <MESSAGE value="modified laptop list page" />
@@ -1133,7 +1138,8 @@
     <MESSAGE value="fix nav_bar css (button css fixed)" />
     <MESSAGE value="add login frame module" />
     <MESSAGE value="add main frame (powerbook )" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main frame (powerbook )" />
+    <MESSAGE value="add profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add profile page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1419,14 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13193">
-          <caret line="4" column="25943" lean-forward="false" selection-start-line="4" selection-start-column="25943" selection-end-line="4" selection-end-column="25943" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/css/templatemo-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -1579,6 +1577,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/login_register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="265" column="10" lean-forward="true" selection-start-line="237" selection-start-column="4" selection-end-line="265" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="4" column="26152" lean-forward="false" selection-start-line="4" selection-start-column="26152" selection-end-line="4" selection-end-column="26152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1599,35 +1629,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/login_register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="162" column="38" lean-forward="false" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/page/profile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="285" column="0" lean-forward="true" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="291">
+          <caret line="396" column="41" lean-forward="false" selection-start-line="396" selection-start-column="41" selection-end-line="396" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
