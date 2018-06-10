@@ -54,8 +54,8 @@
             color: #848484;
             background-color: #333236;
             background-image: url(images/profile_bg.png);
-            background-position: 50% 0%;
-            background-size: 64%;
+            background-position: 50% -2%;
+            background-size: 55%;
             background-repeat: no-repeat;
         }
 
@@ -217,7 +217,13 @@
         .fh5co-form{
             box-shadow: 0px 30px 60px #0b0b0b;
         }
-
+        #profile{
+            /*background-color: yellow;*/
+            width: 34%;
+            margin-left: 33%;
+            margin-top: 4%;
+            height: 405px;
+        }
 
     </style>
 </head>
@@ -225,48 +231,13 @@
 
 <%--<jsp:include page="nav_bar.jsp"></jsp:include>--%>
 <%--==================================================================login Start==================================================================--%>
+<%--<iframe id="profile" src="gpu_info.jsp">--%>
+
+<%--</iframe>--%>
 <div class="container">
-    <%--<div class="row">--%>
-        <%--<div class="col-md-12 text-center">--%>
-            <%--<ul class="menu">--%>
-                <%--<li class="active"><a href="index.html">Style 1</a></li>--%>
-                <%--<li><a href="index2.html">Style 2</a></li>--%>
-                <%--<li><a href="index3.html">Style 3</a></li>--%>
-            <%--</ul>--%>
-        <%--</div>--%>
-    <%--</div>--%>
-    <%--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>--%>
-    <%--<div class="row">--%>
-        <%--<div class="col-md-4 col-md-offset-4">--%>
-
-
-            <%--<!-- Start Sign In Form -->--%>
-            <%--<form action="#" class="fh5co-form animate-box" data-animate-effect="fadeIn">--%>
-                <%--<h2>登录</h2>--%>
-                <%--<div class="form-group">--%>
-                    <%--<label for="username" class="sr-only">用户名</label>--%>
-                    <%--<input type="text" class="form-control" id="username" placeholder="用户名" autocomplete="off">--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<label for="password" class="sr-only">密码</label>--%>
-                    <%--<input type="password" class="form-control" id="password" placeholder="用户名" autocomplete="off">--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<label for="remember"><input type="checkbox" id="remember"> 记住我</label>--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<p>没有账号? <a href="register.html">点击注册</a> | <a href="forgot.html">忘记密码?</a></p>--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<input type="submit" value="登录" class="btn btn-primary">--%>
-                <%--</div>--%>
-            <%--</form>--%>
-            <%--<!-- END Sign In Form -->--%>
-
-        <%--</div>--%>
-    <%--</div>--%>
     <div class="row" style="padding-top: 100px; clear: both;">
         <%--<input id="demo" value="0">--%>
+        <%--<input id="demo1" value="0">--%>
         <%--<div style="color: #e0e0e0;" class="col-md-12 text-center"><p><small>Copyright &copy; 2018. GeekLimits All rights reserved.    GeekLimits</small></p></div>--%>
     </div>
 </div>
@@ -278,24 +249,46 @@
 
 <script type="text/javascript">
     var x = 0 ;
-    var percentage = 6400 ;
+    var percentage = 5500 ;
+    var left = $("#profile").css("margin-left");
     var scrollFunc = function (e) {
-        var direct = 0;
+        // var direct = 0;
         e = e || window.event;
         if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
             if (e.wheelDelta > 0) { //当滑轮向上滚动时
                 x = x - e.wheelDelta;
                 percentage = percentage - e.wheelDelta;
                 $("#demo").val(x);
+                $("#demo1").val(percentage);
+                if(x < 0){
+                    x = 0 ;
+                    percentage = 5500 ;
+                }
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
+
+                // $("#profile").css("width", 34 + x/220 + "%");
+                // $("#profile").css("margin-left", left + x/300 + "%");
+                // // $("#profile").css("margin-top", 4 - x/1000 + "px");
+                // $("#profile").css("height", 412 + x/20 + "px");
             }
             if (e.wheelDelta < 0) { //当滑轮向下滚动时
                 x = x - e.wheelDelta;
                 percentage = percentage - e.wheelDelta;
                 $("#demo").val(x);
+                $("#demo1").val(percentage);
+                if(x > 9000){
+                    x = 9000 ;
+                    percentage = 16600 ;
+                }
                 $("body").css("background-position", "50%"+ x/650 + "%");
                 $("body").css("background-size", percentage/100 + "%");
+
+                // $("#profile").css("width", 34 + x/220 + "%");
+                // $("#profile").css("margin-left", 33 - x/350 + "%");
+                // // $("#profile").css("margin-top", 4 - x/1000 + "px");
+                // $("#profile").css("height", 412 + x/20 + "px");
+
             }
         } else if (e.detail) {  //Firefox滑轮事件
             if (e.detail> 0) { //当滑轮向上滚动时
@@ -305,7 +298,7 @@
                 alert("滑轮向下滚动");
             }
         }
-        ScrollText(direct);
+        // ScrollText(direct);
     }
     //给页面绑定滑轮滚动事件
     if (document.addEventListener) {
