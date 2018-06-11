@@ -97,6 +97,7 @@
             <%--<a href="#" onclick="login()" >--%>
                 <%--<input  class="login-a" id="navbar-login" target="_blank" type="button" value="登录"></input>--%>
             <%--</a>--%>
+<%--==================================================================用户头像==================================================================--%>
             <ul class="layui-nav">
                 <li class="layui-nav-item layui-this">
                     <a href="javascript:;">
@@ -109,9 +110,10 @@
                     </dl>
                 </li>
             </ul>
-            </dl>
-            <%--<span class="login-span"> | </span>--%>
-            <%--<a class="login-a" href="#" id="navbar-register"> 注册 </a>--%>
+<%--==================================================================用户头像==================================================================--%>
+
+                <%--<span class="login-span"> | </span>--%>
+            <%--<a class="login-a" href="" id="navbar-register"> 注册 </a>--%>
         </div>
     </div>
 </div>
