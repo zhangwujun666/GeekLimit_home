@@ -455,6 +455,7 @@
                     percentage = 14500 ;
                     // alert(percentage);
                     // $("body").css("background-image", "none");
+                    $("#info_bar").css("height", "650px");
                 }
                 if(y > 8000){
                     y = 8000 ;

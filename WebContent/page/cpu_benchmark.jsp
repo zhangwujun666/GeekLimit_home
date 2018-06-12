@@ -122,7 +122,7 @@
 <div style="height: 60px;"></div>
 
 <div id="top-img" style="height: 210px; background-image: url('images/cpu_list_top_image.jpg'); background-position: center center; background-size: cover;">
-    <div style="height: 40px;"></div>
+    <div style="height: 70px;"></div>
     <div class="intro">
         <center>
             <h1 style="color: white"><strong>CPU数据库</strong></h1>
