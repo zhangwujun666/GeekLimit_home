@@ -113,7 +113,7 @@
 <div class="mens">
     <div class="main">
         <div id="top-img" style="height: 210px; background-image: url('images/laptop_list_top_img.jpg'); background-position: center center; background-size: cover;">
-            <div style="height: 40px;"></div>
+            <div style="height: 70px;"></div>
             <div class="intro">
                 <center>
                     <h1 style="color: white"><strong>笔记本数据库</strong></h1>
@@ -129,109 +129,109 @@
         <div class="wrap">
             <ul class="breadcrumb breadcrumb__t"><a class="home" href="#">首页</a> /笔记本数据库</ul>
 <%--==================================================================search-option==================================================================--%>
-            <div class="search-option">
-                <section  class="sky-form">
-                    <h4>价格区间</h4>
-                    <div class="row row1 scroll-pane">
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>¥ 500 - ¥ 700</label>
-                        </div>
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 700 - ¥ 1000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 1000 - ¥ 1500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 1500 - ¥ 2000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 2000 - ¥ 2500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>¥ 2500 - ¥ 3000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 3500 - ¥ 4000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 4000 - ¥ 4500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 4500 - ¥ 5000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 5000 - ¥ 5500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 5500 - ¥ 6000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 6000 - ¥ 6500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 6500 - ¥ 7000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 7000 - ¥ 7500</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 7500 - ¥ 8000</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 8000 - ¥ 8500</label>
-                        </div>
-                    </div>
-                </section>
-                <section  class="sky-form">
-                    <h4>品牌</h4>
-                    <div class="row row1 scroll-pane">
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Apple</label>
-                        </div>
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Msi</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Dell</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>HP</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Alienware</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>ASUS</label>
-                        </div>
-                    </div>
-                </section>
-                <section  class="sky-form">
-                    <h4>CPU</h4>
-                    <div class="row row1 scroll-pane">
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Intel Xeon</label>
-                        </div>
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>8th Intel Core i7</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>8th Intel Core i5</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>7th Intel Core i7</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>7th Intel Core i5</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>7th Intel Core i3</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>6th Intel Core i7</label>
-                        </div>
-                    </div>
-                </section>
-                <section  class="sky-form">
-                    <h4>尺寸</h4>
-                    <div class="row row1 scroll-pane">
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>11英寸</label>
-                        </div>
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>13英寸</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>14英寸</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>15英寸</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>17英寸</label>
-                        </div>
-                    </div>
-                </section>
-                <section  class="sky-form">
-                    <h4>GPU</h4>
-                    <div class="row row1 scroll-pane">
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>NVIDIA GeForce GTX-1080</label>
-                        </div>
-                        <div class="col col-4">
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1070</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1060</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050Ti</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 560</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 550</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 460</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 455</label>
-                            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 450</label>
-                        </div>
-                    </div>
-                </section>
-                <section  class="sky-form">
-                    <h4>机身颜色</h4>
-                    <ul class="color-list">
-                        <li><a href="#"> <span class="color1"> </span><p class="red">Red</p></a></li>
-                        <li><a href="#"> <span class="color2"> </span><p class="red">Green</p></a></li>
-                        <li><a href="#"> <span class="color3"> </span><p class="red">Blue</p></a></li>
-                        <li><a href="#"> <span class="color4"> </span><p class="red">Yellow</p></a></li>
-                        <li><a href="#"> <span class="color5"> </span><p class="red">Violet</p></a></li>
-                        <li><a href="#"> <span class="color6"> </span><p class="red">Orange</p></a></li>
-                        <li><a href="#"> <span class="color7"> </span><p class="red">Gray</p></a></li>
-                    </ul>
-                </section>
-            </div>
+            <%--<div class="search-option">--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>价格区间</h4>--%>
+                    <%--<div class="row row1 scroll-pane">--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>¥ 500 - ¥ 700</label>--%>
+                        <%--</div>--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 700 - ¥ 1000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 1000 - ¥ 1500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 1500 - ¥ 2000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 2000 - ¥ 2500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>¥ 2500 - ¥ 3000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 3500 - ¥ 4000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 4000 - ¥ 4500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 4500 - ¥ 5000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 5000 - ¥ 5500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 5500 - ¥ 6000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 6000 - ¥ 6500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 6500 - ¥ 7000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 7000 - ¥ 7500</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 7500 - ¥ 8000</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>¥ 8000 - ¥ 8500</label>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</section>--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>品牌</h4>--%>
+                    <%--<div class="row row1 scroll-pane">--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Apple</label>--%>
+                        <%--</div>--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Msi</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Dell</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>HP</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Alienware</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>ASUS</label>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</section>--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>CPU</h4>--%>
+                    <%--<div class="row row1 scroll-pane">--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Intel Xeon</label>--%>
+                        <%--</div>--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>8th Intel Core i7</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>8th Intel Core i5</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>7th Intel Core i7</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>7th Intel Core i5</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>7th Intel Core i3</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>6th Intel Core i7</label>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</section>--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>尺寸</h4>--%>
+                    <%--<div class="row row1 scroll-pane">--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>11英寸</label>--%>
+                        <%--</div>--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>13英寸</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>14英寸</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>15英寸</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>17英寸</label>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</section>--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>GPU</h4>--%>
+                    <%--<div class="row row1 scroll-pane">--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>NVIDIA GeForce GTX-1080</label>--%>
+                        <%--</div>--%>
+                        <%--<div class="col col-4">--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1070</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1060</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050Ti</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>NVIDIA GeForce GTX-1050</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 560</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 550</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 460</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 455</label>--%>
+                            <%--<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>AMD Radon Pro 450</label>--%>
+                        <%--</div>--%>
+                    <%--</div>--%>
+                <%--</section>--%>
+                <%--<section  class="sky-form">--%>
+                    <%--<h4>机身颜色</h4>--%>
+                    <%--<ul class="color-list">--%>
+                        <%--<li><a href="#"> <span class="color1"> </span><p class="red">Red</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color2"> </span><p class="red">Green</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color3"> </span><p class="red">Blue</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color4"> </span><p class="red">Yellow</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color5"> </span><p class="red">Violet</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color6"> </span><p class="red">Orange</p></a></li>--%>
+                        <%--<li><a href="#"> <span class="color7"> </span><p class="red">Gray</p></a></li>--%>
+                    <%--</ul>--%>
+                <%--</section>--%>
+            <%--</div>--%>
 <%--==================================================================search option==================================================================--%>
 
             <div class="cont span_2_of_3">
