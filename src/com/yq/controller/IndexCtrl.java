@@ -56,6 +56,11 @@ public class IndexCtrl extends StringUtil{
 		return new ModelAndView("main/index");
 	}
 
+	/**
+	 * 主页重定向
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="index.html")
 	public ModelAndView index(HttpSession session){
 		ModelAndView ml = new ModelAndView();
@@ -63,6 +68,11 @@ public class IndexCtrl extends StringUtil{
 		return  ml;
 	}
 
+	/**
+	 * 主页controller
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="page/index.html")
 	public ModelAndView pageIndex(HttpSession session){
 		ModelAndView ml = new ModelAndView();
@@ -72,6 +82,17 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	/**
+	 * 页面建议controller
+	 * @param comment_nickname
+	 * @param comment_email
+	 * @param comment_where
+	 * @param comment_why
+	 * @param ipInfo
+	 * @param osInfo
+	 * @return
+	 * @throws UnsupportedEncodingException
+	 */
 	@ResponseBody
 	@RequestMapping(value = "/page/pageComment.html")
 	public Object update(String comment_nickname,
@@ -94,8 +115,11 @@ public class IndexCtrl extends StringUtil{
 	}
 
 
-
-
+	/**
+	 * 登录controller
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="page/login.html")
 	public ModelAndView login(HttpSession session){
 		ModelAndView ml = new ModelAndView();
@@ -105,6 +129,11 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	/**
+	 * 注册controller
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="page/register.html")
 	public ModelAndView register(HttpSession session){
 		ModelAndView ml = new ModelAndView();
@@ -114,6 +143,11 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	/**
+	 * 忘记密码controller
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="page/forgot.html")
 	public ModelAndView forget(HttpSession session){
 		ModelAndView ml = new ModelAndView();
@@ -123,6 +157,11 @@ public class IndexCtrl extends StringUtil{
 		return ml;
 	}
 
+	/**
+	 * 个人信息页面controller
+	 * @param session
+	 * @return
+	 */
 	@RequestMapping(value="page/profile.html")
 	public ModelAndView profile(HttpSession session){
 		ModelAndView ml = new ModelAndView();
