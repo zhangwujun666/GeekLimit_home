@@ -8,6 +8,7 @@ public class Comment extends Page{
     String comment_why;
     String ip_address;
     String os_info;
+    String add_time;
 
     public Integer getId() {
         return id;
@@ -63,5 +64,13 @@ public class Comment extends Page{
 
     public void setOs_info(String os_info) {
         this.os_info = os_info;
+    }
+
+    public String getAdd_time() {
+        return add_time;
+    }
+
+    public void setAdd_time(String add_time) {
+        this.add_time = add_time;
     }
 }

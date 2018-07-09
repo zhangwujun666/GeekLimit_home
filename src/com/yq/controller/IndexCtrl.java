@@ -1,6 +1,7 @@
 package com.yq.controller;
 
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 import javax.servlet.http.HttpSession;
@@ -50,7 +51,9 @@ public class IndexCtrl extends StringUtil{
 	private Comment comment;
 
 	Map<String, Object> map = new HashMap<String, Object>();
-	
+
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
 	@RequestMapping(value="/main/main.html")
 	public ModelAndView mainindex(){
 		return new ModelAndView("main/index");
@@ -103,6 +106,7 @@ public class IndexCtrl extends StringUtil{
 						 String osInfo
 						 ) throws UnsupportedEncodingException {
 		comment_nickname = java.net.URLDecoder.decode(comment_nickname,"utf-8") ;
+		String add_time = sdf.format(new Date());
 		Map<String, String> map = new HashMap<>();
 		map.put("comment_nickname", comment_nickname);
 		map.put("comment_email", comment_email);
@@ -110,6 +114,7 @@ public class IndexCtrl extends StringUtil{
 		map.put("comment_why", comment_why);
 		map.put("ip_address", ipInfo);
 		map.put("os_info", osInfo);
+		map.put("add_time", add_time);
 		commentService.insert(map);
         return "1";
 	}
