@@ -1,13 +1,7 @@
 package com.yq.controller;
 
-import com.yq.entity.Cpu;
-import com.yq.entity.Gpu;
-import com.yq.entity.Laptop;
-import com.yq.entity.Video;
-import com.yq.service.CpuService;
-import com.yq.service.GpuService;
-import com.yq.service.LaptopService;
-import com.yq.service.VideoService;
+import com.yq.entity.*;
+import com.yq.service.*;
 import com.yq.util.StringUtil;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +12,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,8 +37,14 @@ public class LaptopCtrl extends StringUtil{
 	@Autowired
 	private LaptopService laptopService;
 	private Laptop laptop;
+
+	@Autowired
+	private CategoryService categoryService;
+	private Goods goods = new Goods();
+	private Category category = new Category();
 	
 	Map<String, Object> map = new HashMap<String, Object>();
+	SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
 	
 //	@RequestMapping(value="/main/main.html")
 //	public ModelAndView mainindex(){
@@ -88,6 +90,18 @@ public class LaptopCtrl extends StringUtil{
 		ml.setViewName("page/laptop_video");
 		return ml;
 	}
+
+	@RequestMapping(value = "/main/addLaptops.html")
+	public ModelAndView addjsp() {
+		ModelAndView ml = new ModelAndView();
+		category.setStatus(1);
+		List<Category> list = categoryService.list(category);
+		ml.addObject("category", list);
+		ml.setViewName("main/laptops/add");
+		return ml;
+	}
+
+
 
 
 //	@ResponseBody
