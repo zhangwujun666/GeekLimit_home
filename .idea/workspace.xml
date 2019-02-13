@@ -6,14 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="modified css">
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/count.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/countAll.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/countDate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/main/laptops/list.jsp" afterDir="false" />
+    <list default="true" id="8d4503ee-3b32-47bc-8a4c-5ce4d292e857" name="Default" comment="modified the front web pages. Internal api fixed, pre-writing core animation script.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/main/laptops/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/main/laptops/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/page/footer_home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,20 +37,44 @@
     <session id="-2047594164">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="jsp" value="86" />
+          <entry key="txt" value="160" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSP" value="86" />
+          <entry key="PLAIN_TEXT" value="160" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/main/laptops/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            <state relative-caret-position="216">
+              <caret line="200" column="36" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -62,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="1290">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -177,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/com/yq/service/LaptopService.java" />
         <option value="$PROJECT_DIR$/src/com/yq/dao/LaptopDao.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/laptop.jsp" />
         <option value="$PROJECT_DIR$/WebContent/page/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/WebContent/page/forget.jsp" />
@@ -201,6 +220,7 @@
         <option value="$PROJECT_DIR$/WebContent/page/lib/layui/css/layui.css" />
         <option value="$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java" />
         <option value="$PROJECT_DIR$/WebContent/main/laptops/add.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/page/footer_home.jsp" />
       </list>
     </option>
   </component>
@@ -217,17 +237,17 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="977" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,6 +372,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,13 +606,9 @@
       <workItem from="1539509695463" duration="102000" />
       <workItem from="1539509843443" duration="287000" />
       <workItem from="1539514933760" duration="155000" />
-    </task>
-    <task id="LOCAL-00005" summary="修改GPU_benchmark排版">
-      <created>1524476652872</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1524476652872</updated>
+      <workItem from="1543932516628" duration="1874000" />
+      <workItem from="1543938703186" duration="18000" />
+      <workItem from="1550071223287" duration="961000" />
     </task>
     <task id="LOCAL-00006" summary="添加layui插件">
       <created>1524533120538</created>
@@ -929,11 +946,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531139854852</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="modified the front web pages. Internal api fixed, pre-writing core animation script.">
+      <created>1543935981113</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1543935981117</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260276000" />
+    <option name="totallyTimeSpent" value="263129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,10 +969,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="976" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4931973" visible="true" weight="0.18131869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4931973" visible="true" weight="0.18681319" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -957,7 +981,6 @@
       <window_info id="JRebel" order="6" sideWeight="0.50680274" side_tool="true" weight="0.1971917" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Designer" order="8" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.51591593" side_tool="true" weight="0.24017957" />
       <window_info anchor="bottom" id="JRebel Console" order="1" sideWeight="0.51648355" side_tool="true" weight="0.29384437" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.48351648" weight="0.28687572" />
@@ -975,6 +998,7 @@
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.32884398" />
+      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -993,7 +1017,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modified laptop_list style" />
     <MESSAGE value="modified ssd_list style" />
     <MESSAGE value="modified list style" />
     <MESSAGE value="modified homepage style" />
@@ -1018,7 +1041,8 @@
     <MESSAGE value="comments some code function" />
     <MESSAGE value="add comments add time key" />
     <MESSAGE value="modified css" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified css" />
+    <MESSAGE value="modified the front web pages. Internal api fixed, pre-writing core animation script." />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the front web pages. Internal api fixed, pre-writing core animation script." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/yq/dao/UserInfoDao.java">
@@ -1094,13 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1240,20 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="34" column="47" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yq/entity/Laptop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1270,8 +1273,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/main/laptops/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        <state relative-caret-position="216">
+          <caret line="200" column="36" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/LaptopCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yq/controller/GoodsCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="47" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/page/footer_home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
         </state>
       </provider>
     </entry>

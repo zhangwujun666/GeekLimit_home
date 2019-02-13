@@ -185,7 +185,37 @@
         if (isMac) return "macOS";
         var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
         if (isUnix) return "Unix";
-        var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+		var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+		
+		/*mobile deteted*/
+		var isMobile = (navigator.platform == "Mobile");
+		if (isMobile) return "Mobile";
+
+		/*
+			mobile function start
+		*/
+			function detectmob() { 
+			if( navigator.userAgent.match(/Android/i)
+			|| navigator.userAgent.match(/webOS/i)
+			|| navigator.userAgent.match(/iPhone/i)
+			|| navigator.userAgent.match(/iPad/i)
+			|| navigator.userAgent.match(/iPod/i)
+			|| navigator.userAgent.match(/BlackBerry/i)
+			|| navigator.userAgent.match(/Windows Phone/i)
+			){
+                return "Mobile";	//Mobile detected successful;
+			}
+			else {
+				return false;
+			}
+			}
+		/*
+			mobile function end
+		*/
+
+		/*mobile deteted*/
+
+
 
         var bIsAndroid = sUserAgent.toLowerCase().match(/android/i) == "android";
         if (isLinux) {

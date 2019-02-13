@@ -101,9 +101,6 @@ public class LaptopCtrl extends StringUtil{
 		return ml;
 	}
 
-
-
-
 //	@ResponseBody
 //	@RequestMapping(value = "/page/gpuList.html")Î
 //	public Object gpuList(HttpServletRequest request) throws UnsupportedEncodingException {
